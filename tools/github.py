@@ -89,8 +89,8 @@ def release(ver, zpath, notes_path, publish):
         call('POST', up, open(zpath, 'rb').read(), 'application/zip')
         print('上げた:', name, size, 'bytes')
     if publish:
-        call('PATCH', f'/repos/{REPO}/releases/{rel["id"]}', {'body': notes, 'draft': False, 'make_latest': 'true'})
-        print('公開した:', rel['html_url'].replace('/untagged-', '/tag/'))
+        r = call('PATCH', f'/repos/{REPO}/releases/{rel["id"]}', {'body': notes, 'draft': False, 'make_latest': 'true'})
+        print('公開した:', r['html_url'])
 
 
 def status():
