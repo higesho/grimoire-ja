@@ -1,0 +1,666 @@
+<p>Grimoire の呪文は 12 の系統に分かれている。
+</p><p>1) <b>火炎</b>、
+2) <b>氷結</b>、
+3) <b>風</b>、
+4) <b>水</b>、
+5) <b>大地</b>、
+6) <b>霊魂</b>、
+7) <b>精神</b>、
+8) <b>星幽</b>、
+9) <b>地獄</b>、
+10) <b>死霊</b>、
+11) <b>秘術</b>、
+12) <b>異界</b>（これは最初は隠されている。<a href="Spells.html#All_Eldritch_Spells_.28complete.29" title="Spells">後述</a>）
+</p>
+<div id="toc" class="toc"><div id="toctitle" class="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#All_Spells_by_Class_.28complete.29"><span class="tocnumber">1</span> <span class="toctext">職業別の全呪文（完全）</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Necromancer"><span class="tocnumber">1.1</span> <span class="toctext">死霊術師</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Sage"><span class="tocnumber">1.2</span> <span class="toctext">賢者</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Wizard"><span class="tocnumber">1.3</span> <span class="toctext">魔術師</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Thaumaturge"><span class="tocnumber">1.4</span> <span class="toctext">奇跡術師</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Cleric"><span class="tocnumber">1.5</span> <span class="toctext">僧侶</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#All_Arcanum_Spells_.28complete.29"><span class="tocnumber">2</span> <span class="toctext">秘術の全呪文（完全）</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#All_Eldritch_Spells_.28complete.29"><span class="tocnumber">3</span> <span class="toctext">異界の全呪文（完全）</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Spell_Descriptions_.28incomplete.29"><span class="tocnumber">4</span> <span class="toctext">呪文の説明（未完成）</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#Fire_Spells"><span class="tocnumber">4.1</span> <span class="toctext">火炎の呪文</span></a>
+<ul>
+<li class="toclevel-3 tocsection-11"><a href="#Biophosphor"><span class="tocnumber">4.1.1</span> <span class="toctext">生物発光</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#Blinding_Flash"><span class="tocnumber">4.1.2</span> <span class="toctext">閃光</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#Energy_Bolt"><span class="tocnumber">4.1.3</span> <span class="toctext">電撃</span></a></li>
+<li class="toclevel-3 tocsection-14"><a href="#Fire_Shield"><span class="tocnumber">4.1.4</span> <span class="toctext">耐火の盾</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="#Fireball"><span class="tocnumber">4.1.5</span> <span class="toctext">火球</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="#Leaping_Sparks"><span class="tocnumber">4.1.6</span> <span class="toctext">跳ね火花</span></a></li>
+<li class="toclevel-3 tocsection-17"><a href="#Magic_Missile"><span class="tocnumber">4.1.7</span> <span class="toctext">魔法の矢</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-18"><a href="#Frost_Spells"><span class="tocnumber">4.2</span> <span class="toctext">氷結の呪文</span></a>
+<ul>
+<li class="toclevel-3 tocsection-19"><a href="#Chilling_Touch"><span class="tocnumber">4.2.1</span> <span class="toctext">凍える手</span></a></li>
+<li class="toclevel-3 tocsection-20"><a href="#Iceball"><span class="tocnumber">4.2.2</span> <span class="toctext">氷球</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-21"><a href="#Air_Spells"><span class="tocnumber">4.3</span> <span class="toctext">風の呪文</span></a>
+<ul>
+<li class="toclevel-3 tocsection-22"><a href="#Silence"><span class="tocnumber">4.3.1</span> <span class="toctext">沈黙</span></a></li>
+<li class="toclevel-3 tocsection-23"><a href="#Sleep"><span class="tocnumber">4.3.2</span> <span class="toctext">眠り</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-24"><a href="#Water_Spells"><span class="tocnumber">4.4</span> <span class="toctext">水の呪文</span></a>
+<ul>
+<li class="toclevel-3 tocsection-25"><a href="#Haste"><span class="tocnumber">4.4.1</span> <span class="toctext">加速</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-26"><a href="#Earth_Spells"><span class="tocnumber">4.5</span> <span class="toctext">大地の呪文</span></a>
+<ul>
+<li class="toclevel-3 tocsection-27"><a href="#Direction"><span class="tocnumber">4.5.1</span> <span class="toctext">羅針盤</span></a></li>
+<li class="toclevel-3 tocsection-28"><a href="#Knock_Knock"><span class="tocnumber">4.5.2</span> <span class="toctext">開けゴマ</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-29"><a href="#Spirit_Spells"><span class="tocnumber">4.6</span> <span class="toctext">霊魂の呪文</span></a>
+<ul>
+<li class="toclevel-3 tocsection-30"><a href="#Bless"><span class="tocnumber">4.6.1</span> <span class="toctext">祝福</span></a></li>
+<li class="toclevel-3 tocsection-31"><a href="#Cure_Light_Wounds"><span class="tocnumber">4.6.2</span> <span class="toctext">軽傷治癒</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-32"><a href="#Psyche_Spells"><span class="tocnumber">4.7</span> <span class="toctext">精神の呪文</span></a>
+<ul>
+<li class="toclevel-3 tocsection-33"><a href="#Charm"><span class="tocnumber">4.7.1</span> <span class="toctext">魅了</span></a></li>
+<li class="toclevel-3 tocsection-34"><a href="#Detect_Secret"><span class="tocnumber">4.7.2</span> <span class="toctext">秘密探知</span></a></li>
+<li class="toclevel-3 tocsection-35"><a href="#Identify"><span class="tocnumber">4.7.3</span> <span class="toctext">鑑定</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-36"><a href="#Astral_Spells"><span class="tocnumber">4.8</span> <span class="toctext">星幽の呪文</span></a>
+<ul>
+<li class="toclevel-3 tocsection-37"><a href="#Wizard_Eye"><span class="tocnumber">4.8.1</span> <span class="toctext">千里眼</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-38"><a href="#Infernal_Spells"><span class="tocnumber">4.9</span> <span class="toctext">地獄の呪文</span></a>
+<ul>
+<li class="toclevel-3 tocsection-39"><a href="#Crushing_Hand"><span class="tocnumber">4.9.1</span> <span class="toctext">粉砕の手</span></a></li>
+<li class="toclevel-3 tocsection-40"><a href="#Remove_Curse"><span class="tocnumber">4.9.2</span> <span class="toctext">解呪</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-41"><a href="#Necromantic_Spells"><span class="tocnumber">4.10</span> <span class="toctext">死霊の呪文</span></a>
+<ul>
+<li class="toclevel-3 tocsection-42"><a href="#Raise_Dead"><span class="tocnumber">4.10.1</span> <span class="toctext">死者復活</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="All_Spells_by_Class_.28complete.29">職業別の全呪文（完全）</span></h1>
+<hr />
+<h3><span class="mw-headline" id="Necromancer">死霊術師</span></h3>
+<hr />
+<p><b>氷結</b>
+</p>
+<ul><li>凍える手 Lv2</li>
+<li>悪寒 Lv3</li>
+<li>凍結球 Lv8</li></ul>
+<p><b> 風 </b>
+</p>
+<ul><li>悪臭の雲 Lv5</li>
+<li>窒息 Lv8</li></ul>
+<p><b> 水 </b>
+</p>
+<ul><li>痒み Lv1</li>
+<li>枯らし Lv2</li>
+<li>水疱 Lv3</li></ul>
+<p><b> 大地 </b>
+</p>
+<ul><li>毒 Lv1</li>
+<li>毒霧 Lv3</li>
+<li>鎧腐食 Lv7</li></ul>
+<p><b> 精神 </b>
+</p>
+<ul><li>心の盾 Lv12</li></ul>
+<p><b> 星幽 </b>
+</p>
+<ul><li>魔力吸収 Lv5</li>
+<li>反魔法 Lv7</li></ul>
+<p><b> 地獄 </b>
+</p>
+<ul><li>戦慄 Lv1</li>
+<li>虫の大群 Lv1</li>
+<li>魔女の呪い Lv1</li>
+<li>おでき Lv3</li>
+<li>悪魔封じ Lv3</li>
+<li>粉砕の手 Lv4</li>
+<li>悪夢 Lv4</li>
+<li>宇宙の門 Lv6</li>
+<li>魔風 Lv6</li>
+<li>地獄召喚 Lv10</li></ul>
+<p><b> 死霊 </b>
+</p>
+<ul><li>脳腐れ Lv1</li>
+<li>不死束縛 Lv2</li>
+<li>不死封じ Lv2</li>
+<li>不死召喚 Lv4</li>
+<li>不死退散 Lv5</li>
+<li>死の指 Lv8</li>
+<li>墓場のラッパ Lv9</li>
+<li>死の雲 Lv12</li>
+<li>死の凝視 Lv12</li>
+<li>生命吸収 Lv13</li>
+<li>死の願い Lv21</li></ul>
+<p><br />
+</p>
+<hr />
+<h3><span class="mw-headline" id="Sage">賢者</span></h3>
+<hr />
+<p><b> 火炎 </b>
+</p>
+<ul><li>生物発光 Lv1</li></ul>
+<p><b> 氷結 </b>
+</p>
+<ul><li>麻痺 Lv7</li>
+<li>破滅の彗星 Lv12</li></ul>
+<p><b> 風 </b>
+</p>
+<ul><li>眠り Lv2</li>
+<li>金切り音 Lv2</li>
+<li>耐音の盾 Lv2</li>
+<li>矢避けの盾 Lv3</li>
+<li>羽毛落下 Lv4</li>
+<li>腹話術 Lv4</li>
+<li>沈黙 Lv7</li>
+<li>凝視反射 Lv7</li>
+<li>空気浄化 Lv10</li></ul>
+<p><b> 水 </b>
+</p>
+<ul><li>加速 Lv4</li></ul>
+<p><b> 大地 </b>
+</p>
+<ul><li>毒 Lv1</li>
+<li>羅針盤 Lv1</li>
+<li>開けゴマ Lv5</li></ul>
+<p><b> 霊魂 </b>
+</p>
+<ul><li>軽異常治癒 Lv1</li>
+<li>軽傷治癒 Lv2</li>
+<li>病気治癒 Lv4</li>
+<li>解毒 Lv4</li>
+<li>正気回復 Lv4</li>
+<li>重傷治癒 Lv6</li>
+<li>蘇生 Lv8</li></ul>
+<p><b> 精神 </b>
+</p>
+<ul><li>魅了 Lv1</li>
+<li>秘密探知 Lv1</li>
+<li>鑑定 Lv1</li>
+<li>混乱 Lv2</li>
+<li>精神衝撃 Lv2</li>
+<li>心の盾 Lv3</li>
+<li>読心 Lv4</li>
+<li>上級鑑定 Lv4</li>
+<li>真実の目 Lv4</li>
+<li>物品探索 Lv5</li>
+<li>占術 Lv6</li>
+<li>人物探索 Lv7</li></ul>
+<p><b> 星幽 </b>
+</p>
+<ul><li>魔法解読 Lv1</li>
+<li>魔力探知 Lv2</li>
+<li>危険察知 Lv3</li>
+<li>魔法の鈴 Lv3</li></ul>
+<p><b> 地獄 </b>
+</p>
+<ul><li>戦慄 Lv2</li></ul>
+<p><b> 死霊 </b>
+</p>
+<ul><li>脳腐れ Lv2</li></ul>
+<hr />
+<h3><span class="mw-headline" id="Wizard">魔術師</span></h3>
+<hr />
+<p><b> 火炎 </b>
+</p>
+<ul><li>電撃 Lv1</li>
+<li>閃光 Lv1</li>
+<li>踊る光 Lv2</li>
+<li>魔法の矢 Lv2</li>
+<li>火球 Lv4</li>
+<li>耐火の盾 Lv5</li>
+<li>雷撃 Lv8</li>
+<li>火炎嵐 Lv12</li>
+<li>太陽閃光 Lv18</li></ul>
+<p><b> 氷結 </b>
+</p>
+<ul><li>凍える手 Lv1</li>
+<li>耐冷の盾 Lv4</li>
+<li>氷球 Lv4</li>
+<li>急速冷凍 Lv6</li>
+<li>冷気円錐 Lv6</li>
+<li>麻痺 Lv6</li>
+<li>霜の霧 Lv8</li>
+<li>雹の嵐 Lv8</li>
+<li>氷塊爆裂 Lv11</li>
+<li>凍結球 Lv14</li></ul>
+<p><b> 風 </b>
+</p>
+<ul><li>眠り Lv1</li>
+<li>沈黙 Lv4</li>
+<li>矢避けの盾 Lv4</li>
+<li>金切り音 Lv5</li>
+<li>悪臭の雲 Lv6</li>
+<li>偏向障壁 Lv7</li>
+<li>窒息 Lv9</li></ul>
+<p><b> 水 </b>
+</p>
+<ul><li>痒み Lv1</li>
+<li>鈍足 Lv2</li>
+<li>加速 Lv4</li>
+<li>枯らし Lv5</li>
+<li>渇きの雲 Lv6</li>
+<li>活力吸収 Lv6</li>
+<li>暴風 Lv14</li></ul>
+<p><b> 大地 </b>
+</p>
+<ul><li>羅針盤 Lv1</li>
+<li>開けゴマ Lv4</li>
+<li>鎧腐食 Lv7</li>
+<li>地震 Lv8</li></ul>
+<p><b> 霊魂 </b>
+</p>
+<ul><li>明かり Lv2</li>
+<li>蘇生 Lv10</li></ul>
+<p><b> 精神 </b>
+</p>
+<ul><li>魅了 Lv1</li>
+<li>鑑定 Lv1</li>
+<li>混乱 Lv3</li>
+<li>物品探索 Lv6（地図全体を、地図上のアイテムも含めて明らかにする。レベル VII で唱えると、そのすべてが地図に書き込まれる）</li>
+<li>真実の目 Lv7</li>
+<li>読心 Lv8</li>
+<li>心の盾 Lv10</li>
+<li>人物探索 Lv10</li></ul>
+<p><b> 星幽 </b>
+</p>
+<ul><li>秘密探知 Lv1</li>
+<li>魔力探知 Lv1</li>
+<li>羅針盤 Lv1</li>
+<li>魔法解読 Lv3</li>
+<li>魔法の鈴 Lv3</li>
+<li>千里眼 Lv5</li>
+<li>魔物束縛 Lv5</li>
+<li>魔法障壁 Lv6</li>
+<li>不発の場 Lv8</li>
+<li>魔法解除 Lv8</li>
+<li>魔力吸収 Lv10</li>
+<li>反魔法 Lv13</li></ul>
+<p><b> 地獄 </b>
+</p>
+<ul><li>粉砕の手 Lv5</li>
+<li>宇宙の門 Lv9</li></ul>
+<p><br />
+</p>
+<hr />
+<h3><span class="mw-headline" id="Thaumaturge">奇跡術師</span></h3>
+<hr />
+<p><b> 火炎 </b>
+</p>
+<ul><li>跳ね火花 Lv1</li>
+<li>閃光 Lv1</li>
+<li>火球 Lv3</li>
+<li>耐火の盾 Lv4</li>
+<li>雷撃 Lv6</li>
+<li>火炎嵐 Lv16</li></ul>
+<p><b> 氷結 </b>
+</p>
+<ul><li>凍える手 Lv1</li>
+<li>耐冷の盾 Lv3</li>
+<li>悪寒 Lv3</li>
+<li>氷球 Lv4</li>
+<li>急速冷凍 Lv6</li>
+<li>雹の嵐 Lv6</li>
+<li>冷気円錐 Lv8</li>
+<li>氷塊爆裂 Lv9</li>
+<li>霜の霧 Lv10</li></ul>
+<p><b> 風 </b>
+</p>
+<ul><li>空気浄化 Lv4</li>
+<li>羽毛落下 Lv5</li>
+<li>悪臭の雲 Lv6</li>
+<li>窒息 Lv11</li></ul>
+<p><b> 水 </b>
+</p>
+<ul><li>痒み Lv2</li>
+<li>剛力 Lv2</li>
+<li>枯らし Lv3</li>
+<li>活力吸収 Lv5</li>
+<li>渇きの雲 Lv7</li>
+<li>アクア創世 Lv9</li>
+<li>暴風 Lv12</li></ul>
+<p><b> 大地 </b>
+</p>
+<ul><li>毒 Lv1</li>
+<li>羅針盤 Lv1</li>
+<li>毒霧 Lv5</li>
+<li>酸の雲 Lv5</li>
+<li>ゴーレム創造 Lv8</li>
+<li>鎧腐食 Lv10</li>
+<li>ヴィヴォ創世 Lv16</li></ul>
+<p><b> 霊魂 </b>
+</p>
+<ul><li>軽傷治癒 Lv1</li>
+<li>軽異常治癒 Lv1</li>
+<li>重傷治癒 Lv4</li>
+<li>病気治癒 Lv5</li>
+<li>解毒 Lv7</li></ul>
+<p><b> 地獄 </b>
+</p>
+<ul><li>魔女の呪い Lv1</li>
+<li>虫の大群 Lv5</li>
+<li>五芒星 Lv14</li></ul>
+<p><b> 死霊 </b>
+</p>
+<ul><li>不死封じ Lv7</li>
+<li>死の指 Lv12</li>
+<li>死の凝視 Lv16</li></ul>
+<p><br />
+</p>
+<hr />
+<h3><span class="mw-headline" id="Cleric">僧侶</span></h3>
+<hr />
+<p><b>火炎</b>
+</p>
+<ul><li>耐火の盾 Lv3</li>
+<li>雷撃 Lv6</li>
+<li>火渡り Lv&#160;??</li></ul>
+<p><b>氷結</b>
+</p>
+<ul><li>耐冷の盾 Lv5</li>
+<li>麻痺 Lv5</li></ul>
+<p><b>風</b>
+</p>
+<ul><li>沈黙 Lv2</li>
+<li>眠り Lv2</li>
+<li>矢避けの盾 Lv3</li>
+<li>羽毛落下 Lv5</li>
+<li>空気浄化 Lv6</li></ul>
+<p><b>水</b>
+</p>
+<ul><li>活力回復 Lv1</li>
+<li>加速 Lv2</li>
+<li>剛力 Lv2</li>
+<li>暴風 Lv8</li>
+<li>水渡り Lv10</li></ul>
+<p><b>大地</b>
+</p>
+<ul><li>装甲強化 Lv4</li>
+<li>石化 Lv7</li>
+<li>ヴィヴォ創世 Lv8</li>
+<li>地震 Lv10</li></ul>
+<p><b>霊魂</b>
+</p>
+<ul><li>祝福 Lv1</li>
+<li>軽傷治癒 Lv1</li>
+<li>軽異常治癒 Lv1</li>
+<li>明かり Lv1</li>
+<li>重傷治癒 Lv3</li>
+<li>正気回復 Lv3</li>
+<li>病気治癒 Lv4</li>
+<li>解毒 Lv4</li>
+<li>蘇生 Lv6</li>
+<li>石化解除 Lv7</li>
+<li>麻痺治癒 Lv12</li>
+<li>奇跡 Lv14</li>
+<li>聖言 Lv&#160;??</li></ul>
+<p><b>精神</b>
+</p>
+<ul><li>心の盾 Lv6</li>
+<li>真実の目 Lv7</li></ul>
+<p><b>星幽</b>
+</p>
+<ul><li>魔法の鈴 Lv3</li>
+<li>魔法の刃 Lv4</li></ul>
+<p><b>地獄</b>
+</p>
+<ul><li>虫の大群 Lv3</li>
+<li>解呪 Lv4</li>
+<li>粉砕の手 Lv6</li>
+<li>宇宙の門 Lv8</li>
+<li>五芒星 Lv9</li></ul>
+<p><b>死霊</b>
+</p>
+<ul><li>不死束縛 Lv3</li>
+<li>不死封じ Lv4</li>
+<li>不死退散 Lv7</li>
+<li>死者復活 Lv10</li></ul>
+<h1><span class="mw-headline" id="All_Arcanum_Spells_.28complete.29"><div class="floatleft"><a href="File_SPICON11.html" class="image"><img alt="SPICON11.png" src="../images/c/c6/SPICON11.png" width="28" height="28" /></a></div> 秘術の全呪文（完全）</span></h1>
+<table class="wikitable mw-collapsible mw-collapsed">
+<tr>
+<th> ネタバレ
+</th></tr>
+<tr>
+<td> 秘術の呪文はかなり強力で、効き目は秘術の技能しだいだ。覚えるには魔道書を見つけなければならず、レベルアップでは習得できない。秘術や異界の魔道書を書き写すと、書き写した者が発狂することがある。これは正気回復の呪文で治せるし、そのあと十分に眠っても治る。
+</td></tr>
+<tr>
+<td> <b>虹の光線:</b> 最大6体の敵1グループに、呪文レベルごとに3d6のダメージとランダムな効果を与える。
+</td></tr>
+<tr>
+<td> <b>再充填:</b> アイテムの回数を補充する。魔法の短杖の使用回数など。
+</td></tr>
+<tr>
+<td> <b>物質複製:</b> 重ねて持てるアイテムを増やす。
+</td></tr>
+<tr>
+<td> <b>鏡の幻:</b> 凝視攻撃や、術者と対象のあいだに視線が通っていなければならないほかの魔法を吸収し、跳ね返すこともある。
+</td></tr>
+<tr>
+<td> <b>透明化:</b> 仲間ひとりを透明にする。「敵の誰もその者を見ることができないため、攻撃をほぼ受けなくなる」。
+</td></tr>
+<tr>
+<td> <b>幻像:</b> 強大な存在の幻を作り出し、戦闘で一行を助けさせる。効果を出すには、魔物の大半がだまされなければならない。
+</td></tr>
+<tr>
+<td> <b>猿ぐつわ:</b> 最大6体の魔物の詠唱（巻物を読むこと）を封じる。
+</td></tr>
+<tr>
+<td> <b>力の光輪:</b> 一行全員の体力、生命力、士気を回復する。
+</td></tr>
+<tr>
+<td> <b>星界旅行:</b> 一行を別の次元へ運ぶ。自分が唱えたときは何も起きなかった。
+</td></tr>
+<tr>
+<td> <b>次元の扉:</b> 転移の呪文と対になる。転移の呪文で戻ってくる場所を決める。
+</td></tr>
+<tr>
+<td> <b>転移:</b> 次元の扉の呪文と対になる。次元の扉の呪文で決めた場所へ一行を転移させる。
+</td></tr></table>
+<h1><span class="mw-headline" id="All_Eldritch_Spells_.28complete.29"><div class="floatleft"><a href="File_SPICON12.html" class="image"><img alt="SPICON12.png" src="../images/5/50/SPICON12.png" width="28" height="28" /></a></div> 異界の全呪文（完全）</span></h1>
+<table class="wikitable mw-collapsible mw-collapsed">
+<tr>
+<th> ネタバレ
+</th></tr>
+<tr>
+<td> この隠された呪文の頁は、出会った魔術師たちに尋ねると解禁できる。異界や秘術の魔道書を書き写すと、書き写した者が発狂することがある。これは正気回復の呪文で治せるし、そのあと十分に眠っても治る。異界の呪文は、ゲーム全体でいちばん強力な攻撃呪文だ。
+</td></tr>
+<tr>
+<td> <b>死の刃嵐:</b> 敵全体に、呪文レベルごとに10D8の斬撃ダメージ（たぶん最強の攻撃呪文）
+</td></tr>
+<tr>
+<td> <b>分解:</b> 敵1体を即死させる（強い敵にはたいてい抵抗される）
+</td></tr>
+<tr>
+<td> <b>破壊の渦:</b> 敵全体に、呪文レベルごとに6d8のダメージとランダムな効果。
+</td></tr>
+<tr>
+<td> <b>召喚I:</b> 小規模な魔物の一団を呼び出し、一行のために戦わせる
+</td></tr>
+<tr>
+<td> <b>召喚II:</b> 強力な魔物の大きな一団を呼び出し、一行のために戦わせる（銀竜、大地の巨神、瞬き猫など）
+</td></tr>
+<tr>
+<td> <b>時間停止:</b> 時を止め、敵が凍りついているあいだに一行が攻撃できるようにする
+</td></tr>
+<tr>
+<td> <b>透明探知:</b> 戦闘中、透明な敵を見えるようにする（もっとも、透明な敵が問題になることはまずない）
+</td></tr>
+<tr>
+<td> <b>エーテル歪曲:</b> 星界の敵全体に、呪文レベルごとに4D8のダメージ
+</td></tr>
+<tr>
+<td> <b>月光:</b> すべての動物をまとめて発狂させる。人狼は仲間同士で戦い始める
+</td></tr>
+<tr>
+<td> <b>対植物防御:</b> あらゆる植物を寄せつけない場を張る
+</td></tr>
+</table>
+<h1><span class="mw-headline" id="Spell_Descriptions_.28incomplete.29">呪文の説明（未完成）</span></h1>
+<p><b>注: この節は未完成だ。すべての呪文と、それぞれを何レベルで覚えるかは、上の<a href="Spells.html#Spells_by_Class" title="Spells">職業別の全呪文</a>を見てほしい。秘術と異界の呪文（上記）は魔道書からしか覚えられない。</b>
+</p>
+<h2><span class="mw-headline" id="Fire_Spells"><div class="floatleft"><a href="File_SPICON01.html" class="image"><img alt="SPICON01.png" src="../images/c/c7/SPICON01.png" width="28" height="28" /></a></div> 火炎の呪文</span></h2>
+<h3><span class="mw-headline" id="Biophosphor">生物発光</span></h3>
+<p><i>この呪文で、魔術師は葉や木片など、ほとんどどんな小さな有機物でも光らせられる。術の強さに応じて数時間ほのかに光り続ける。暗い場所や、ある程度の明かりが必要な場所で役立つ。</i>
+</p><p><b>効果:</b> 明かり。<br />
+<b>対象:</b> 一行。<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 2<br />
+</p>
+<h3><span class="mw-headline" id="Blinding_Flash">閃光</span></h3>
+<p><i>まばゆい閃光が、戦闘中の敵を盲目にする。目のない生き物や、反響定位で見る生き物には効かない。ひとつの魔物の群れに作用し、持続時間は呪文レベルで決まる。</i>
+</p><p><b>効果:</b> 敵を盲目にする。<br />
+<b>対象:</b> 敵1グループ。<br />
+<b>消費魔力（呪文レベル1あたり）</b> 4<br />
+</p>
+<h3><span class="mw-headline" id="Energy_Bolt">電撃</span></h3>
+<p><i>ひとすじの波打つ電撃が、呪文レベルごとに1D4のダメージを与える。対象は魔物ひとり。電気の精霊はこのエネルギーで力を増す。一方、液体や水でできた生き物は電撃を地面へ逃がし、その効果を術者に跳ね返すこともある。泳ぎながらこの呪文を唱えることは勧められない。</i>
+</p><p><b>効果:</b> 呪文レベルごとに1D4のダメージ。<br />
+<b>対象:</b> 敵1体。<br />
+<b>消費魔力（呪文レベル1あたり）</b> 4<br />
+</p>
+<h3><span class="mw-headline" id="Fire_Shield">耐火の盾</span></h3>
+<p><i>術者の仲間ひとりの、火炎に対する耐性を高める。火炎系の攻撃に対する抵抗判定が大きく上がる。</i>
+</p><p><b>効果:</b> 熱への耐性が上がる。<br />
+<b>対象:</b> 味方1人。<br />
+<b>消費魔力（呪文レベル1あたり）</b> 8<br />
+</p>
+<h3><span class="mw-headline" id="Fireball">火球</span></h3>
+<p><i>燃え盛る火球が敵へ飛んでいき、接触と同時に爆発する。呪文レベルごとに3D4の体力ダメージを与える。唱えた呪文レベルの数だけ魔物に作用する。炎の次元の生き物や炎でできた生き物には、逆に体力を回復させることもある。</i>
+</p><p><b>効果:</b> 呪文レベルごとに3D4のダメージ。<br />
+<b>対象:</b> 敵1体＋呪文レベルごとに1体。<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 12<br />
+</p>
+<h3><span class="mw-headline" id="Leaping_Sparks">跳ね火花</span></h3>
+<p><i>危険なはじける火花が空中から現れて魔物1体を取り囲み、威力1につき2D2の体力ダメージを与える。電気の精霊はこの呪文の効果で強化される。</i>
+</p><p><b>効果:</b> 呪文レベルごとに2D2のダメージ。<br />
+<b>対象:</b> 敵1体。<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 6<br />
+</p>
+<h3><span class="mw-headline" id="Magic_Missile">魔法の矢</span></h3>
+<p><i>魔術師の古典的な呪文で、失敗することも、外れることも、抵抗判定もない。威力1につき1D6のダメージを与える。この矢は必ず1体の魔物を狙う。魔法をかけられた一部の生き物は、この呪文の魔力を吸収し、ダメージを回復することがある。</i>
+</p><p><b>効果:</b> 呪文レベルごとに1D6のダメージ。<br />
+<b>対象:</b> 敵1体。<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 4<br />
+</p>
+<h2><span class="mw-headline" id="Frost_Spells"><div class="floatleft"><a href="File_SPICON02.html" class="image"><img alt="SPICON02.png" src="../images/1/10/SPICON02.png" width="28" height="28" /></a></div> 氷結の呪文</span></h2>
+<h3><span class="mw-headline" id="Chilling_Touch">凍える手</span></h3>
+<p><i>凍てつくガスの奔流が魔物1体を襲い、術の強さ1段階につき1D6の体力ダメージを与える。水晶やガラスでできた魔物は脆くなり、鎧による防護が下がる。</i>
+</p><p><b>効果:</b> 呪文レベルごとに1D6のダメージ。<br />
+<b>対象:</b> 敵1体。<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 2<br />
+</p>
+<h3><span class="mw-headline" id="Iceball">氷球</span></h3>
+<p><i>氷の球が命中すると砕け散る。威力1につき3D4の体力ダメージを与える。術の威力1ごとに、魔物1体に効果が及ぶ。</i>
+</p><p><b>効果:</b> 呪文レベルごとに3D4のダメージ。<br />
+<b>対象:</b> 敵1体＋呪文レベルごとに1体。<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 12<br />
+</p>
+<h2><span class="mw-headline" id="Air_Spells"><div class="floatleft"><a href="File_SPICON03.html" class="image"><img alt="SPICON03.png" src="../images/1/10/SPICON03.png" width="28" height="28" /></a></div> 風の呪文</span></h2>
+<h3><span class="mw-headline" id="Silence">沈黙</span></h3>
+<p><i>魔物の頭の周りに音を吸収するエネルギーの泡を作り、呪文の詠唱を封じる。持続時間と効果は威力に比例する。</i>
+</p><p><b>効果:</b> 沈黙。呪文レベルが上がるほど持続時間と強さが増す。<br />
+<b>対象:</b> 敵1体。<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 9<br />
+</p>
+<h3><span class="mw-headline" id="Sleep">眠り</span></h3>
+<p><i>一見無害だが役に立つこの呪文は、成功すると魔物をそっと子守歌の国へ送り、次に敵が仕掛けることへの備えとして弱らせる。成功するかどうかは、唱えたときの術の威力と、対象の魔物の催眠への耐性による。</i>
+</p><p><b>効果:</b> 眠り<br />
+<b>対象:</b> 敵1体（?）<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 4<br />
+</p>
+<h2><span class="mw-headline" id="Water_Spells"><div class="floatleft"><a href="File_SPICON04.html" class="image"><img alt="SPICON04.png" src="../images/2/25/SPICON04.png" width="28" height="28" /></a></div> 水の呪文</span></h2>
+<h3><span class="mw-headline" id="Haste">加速</span></h3>
+<p><i>一行の一人にこの呪文を唱えると、術の威力で決まる一定時間、その者の速さが魔法で高まる。</i>
+</p><p><b>効果:</b> 速さが上がる。呪文レベルが上がるほど効果が増す。<br />
+<b>対象:</b> 味方1人<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 6<br />
+</p>
+<h2><span class="mw-headline" id="Earth_Spells"><div class="floatleft"><a href="File_SPICON05.html" class="image"><img alt="SPICON05.png" src="../images/f/f9/SPICON05.png" width="28" height="28" /></a></div> 大地の呪文</span></h2>
+<h3><span class="mw-headline" id="Direction">羅針盤</span></h3>
+<p><i>一行の前に浮かぶ魔法の羅針盤を作り、一行が今どちらを向いているかを知らせる。羅針盤が続く時間は威力で決まる。</i>
+</p><p><b>効果:</b> メインの画面に羅針盤を表示する。<br />
+<b>対象:</b> なし<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 4<br />
+</p>
+<h3><span class="mw-headline" id="Knock_Knock">開けゴマ</span></h3>
+<p><i>宝箱や扉の木材を歪め、魔法の力で開けようとする。熟練していない術者が唱えると、宝箱に仕掛けられた罠を作動させることがある。効果は威力に比例する。</i>
+</p><p><b>効果:</b> 宝箱や扉の鍵を開ける。呪文レベルが上がるほど効果が増す。<br />
+<b>対象:</b> 宝箱・扉<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 6<br />
+</p>
+<h2><span class="mw-headline" id="Spirit_Spells"><div class="floatleft"><a href="File_SPICON06.html" class="image"><img alt="SPICON06.png" src="../images/e/e4/SPICON06.png" width="28" height="28" /></a></div> 霊魂の呪文</span></h2>
+<h3><span class="mw-headline" id="Bless">祝福</span></h3>
+<p><i>対象に神の祈りを授け、攻撃と防御の両面で戦闘能力を高め、戦いで成功しやすくする。効果は呪文レベルによる。</i>
+</p><p><b>効果:</b> 攻撃と防御の成功率を上げる。呪文レベルが上がるほど上がり幅が大きくなる。<br />
+<b>対象:</b> 味方1人。<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 2<br />
+</p>
+<h3><span class="mw-headline" id="Cure_Light_Wounds">軽傷治癒</span></h3>
+<p><i>仲間ひとりの体力を、呪文レベルにつき1D6回復する。この呪文では死者を蘇生させることも、対象の状態異常を治すこともできない。</i>
+</p><p><b>効果:</b> 呪文レベルごとに体力を1D6回復する。<br />
+<b>対象:</b> 味方1人。<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 2<br />
+</p>
+<h2><span class="mw-headline" id="Psyche_Spells"><div class="floatleft"><a href="File_SPICON07.html" class="image"><img alt="SPICON07.png" src="../images/b/be/SPICON07.png" width="28" height="28" /></a></div> 精神の呪文</span></h2>
+<h3><span class="mw-headline" id="Charm">魅了</span></h3>
+<p><i>敵の心を、好意と親しみに満ちた心地よい感覚で惑わせ、味方に変える。この呪文に抗えなければ、その魔物は喜び勇んで自分の仲間を襲い始める。効果が切れるまで続く。持続時間は呪文レベルによる。</i>
+</p><p><b>効果:</b> 混乱。呪文レベルが上がるほど持続時間が延びる。<br />
+<b>対象:</b> 敵1体。<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 2<br />
+</p>
+<h3><span class="mw-headline" id="Detect_Secret">秘密探知</span></h3>
+<p><i>この呪文を唱えると、頭上に神秘の目が浮かび、近くに隠されたものや秘密があると、疑問符を光らせる。アイテム、隠し壁、扉など、隠された仕掛けを見つけるのに欠かせない。持続時間は呪文レベルによる。</i>
+</p><p><b>効果:</b> 隠されたものを見つける。呪文レベルが上がるほど持続時間が延びる。<br />
+<b>対象:</b> なし<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 4<br />
+</p>
+<h3><span class="mw-headline" id="Identify">鑑定</span></h3>
+<p><i>品物と魔物の正体を暴くことができる、便利な魔法の呪文。成功するまで効果が続く。的中率は術の威力に左右される。</i>
+</p><p><b>効果:</b> アイテムと魔物を鑑定する。呪文レベルが上がるほど的中率が上がる。<br />
+<b>対象:</b> アイテムと魔物<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 4<br />
+</p>
+<h2><span class="mw-headline" id="Astral_Spells"><div class="floatleft"><a href="File_SPICON08.html" class="image"><img alt="SPICON08.png" src="../images/8/89/SPICON08.png" width="28" height="28" /></a></div> 星幽の呪文</span></h2>
+<h3><span class="mw-headline" id="Wizard_Eye">千里眼</span></h3>
+<p><i>便利な精神投射で、術者は心の目を集中させ、周囲の地形をすべて見て取れる。見渡せる範囲は術の威力に比例する。</i>
+</p><p><b>効果:</b> 地形を明らかにする（地図に?）。呪文レベルが上がるほど見える範囲が広がる。<br />
+<b>対象:</b> なし。<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 16<br />
+</p>
+<h2><span class="mw-headline" id="Infernal_Spells"><div class="floatleft"><a href="File_SPICON09.html" class="image"><img alt="SPICON09.png" src="../images/9/90/SPICON09.png" width="28" height="28" /></a></div> 地獄の呪文</span></h2>
+<h3><span class="mw-headline" id="Crushing_Hand">粉砕の手</span></h3>
+<p><i>術者の操る亡霊のような巨大な手が虚空から現れ、狙った魔物ひとりを叩き潰す。呪文レベルにつき6D8のダメージを与える。</i>
+</p><p><b>効果:</b> 呪文レベルごとに6D8のダメージ。<br />
+<b>対象:</b> 敵1体。<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 12<br />
+</p>
+<h3><span class="mw-headline" id="Remove_Curse">解呪</span></h3>
+<p><i>一行の一人の身体にかけられた呪いを取り除くとともに、身に着けている呪われた品も解放しようとする。成功率は術の威力に比例する。</i>
+</p><p><b>効果:</b> 味方とその装備品の呪いを解く。呪文レベルが上がるほど成功率が上がる。<br />
+<b>対象:</b> 味方1人。<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 20<br />
+</p>
+<h2><span class="mw-headline" id="Necromantic_Spells"><div class="floatleft"><a href="File_SPICON10.html" class="image"><img alt="SPICON10.png" src="../images/5/55/SPICON10.png" width="28" height="28" /></a></div> 死霊の呪文</span></h2>
+<h3><span class="mw-headline" id="Raise_Dead">死者復活</span></h3>
+<p><i>この呪文は、通常の魔法では蘇生できない多くの種族や、死後7日以上たった冒険者を生き返らせられる。古い骨を蘇らせて、古代からの味方を呼び出すこともできる。成否は術の強さによる。</i>
+</p><p><b>効果:</b> 死者を生き返らせる（不死の種族）。呪文レベルが上がるほど成功率が上がる。<br />
+<b>対象:</b> 対象1人（死者）。<br />
+<b>消費魔力（呪文レベル1あたり）:</b> 36<br />
+</p>

@@ -1,0 +1,153 @@
+/* Grimoire 日本語化のサイト。DCSS スポイラー（dcss.css）の土台・入口・wiki 翻訳の部分を使う。 */
+:root{
+  color-scheme:dark;
+  --ink:#0b0e13; --stone:#141924; --rule:#28313f; --rule-soft:#1b222d;
+  --parchment:#e9e4da; --dim:#96a0b0; --faint:#616b7b;
+  --torch:#e8a24a; --torch-dim:#9a6b2c;
+  --serif:"Yu Mincho","YuMincho","Hiragino Mincho ProN","Noto Serif JP",serif;
+  --sans:"Hiragino Kaku Gothic ProN","Yu Gothic","YuGothic","Noto Sans JP","Meiryo",system-ui,sans-serif;
+  --mono:ui-monospace,"SFMono-Regular","Consolas","Menlo",monospace;
+  /* ゲームの文の表は全角を 2 桁で揃えてあるので、和文の等幅を先に置く */
+  --game:"BIZ UDGothic","MS Gothic","Osaka-Mono","Noto Sans Mono CJK JP",monospace;
+  --band:1080px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--ink)}
+body{margin:0;background:var(--ink);color:var(--parchment);
+  font-family:var(--sans);font-size:16px;line-height:1.85;
+  -webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:var(--torch);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:#ffbe74}
+code{font-family:var(--mono);font-size:.9em;color:var(--dim)}
+:focus-visible{outline:2px solid var(--torch);outline-offset:3px}
+
+.band{max-width:var(--band);margin-inline:auto;padding-inline:clamp(16px,4vw,32px)}
+main.band{padding-block:36px 72px}
+main.wide{max-width:1320px}
+
+/* -------------------------------------------------------------- 上の帯 */
+.top{position:sticky;top:0;z-index:30;background:rgba(11,14,19,.94);
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--rule)}
+.top .band{display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+  padding-block:11px}
+.brand{font-family:var(--serif);font-size:18px;letter-spacing:.06em;
+  color:var(--parchment);text-decoration:none;white-space:nowrap}
+.top nav{display:flex;gap:2px;flex-wrap:wrap}
+.top nav a{font-size:13.5px;padding:4px 11px;color:var(--dim);
+  text-decoration:none;border:1px solid transparent;white-space:nowrap}
+.top nav a:hover{color:var(--parchment);background:var(--stone)}
+.top nav a.here{color:#150c02;background:var(--torch)}
+
+h1{font-family:var(--serif);font-size:clamp(26px,4vw,36px);font-weight:400;
+  letter-spacing:.05em;margin:0 0 .5em}
+h2{font-family:var(--serif);font-size:22px;font-weight:400;letter-spacing:.04em;
+  margin:2.2em 0 .7em;padding-bottom:.3em;border-bottom:1px solid var(--rule)}
+h3{font-size:16.5px;margin:0 0 .35em;font-weight:600}
+p{margin:0 0 1.1em}
+.lead{color:var(--dim);max-width:64em}
+.jump{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.4em}
+.jump a{font-size:13.5px;padding:3px 11px;border:1px solid var(--rule);
+  text-decoration:none}
+
+/* -------------------------------------------------------------- 入口 */
+.hero{padding:30px 0 10px;border-bottom:1px solid var(--rule)}
+.hero .tag{font-family:var(--serif);font-size:17px;color:var(--dim);
+  line-height:2.1;max-width:40em}
+.facts{margin:0 0 1.3em;padding-left:1.3em}
+.facts li{margin-bottom:.45em}
+.tiles{display:grid;gap:11px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.tiles .t{display:block;padding:15px 17px;background:var(--stone);
+  border:1px solid var(--rule-soft);text-decoration:none;color:var(--parchment)}
+.tiles .t:hover{border-color:var(--torch-dim);background:#182031}
+.tiles .t b{display:block;font-family:var(--serif);font-size:18px;font-weight:400;
+  margin-bottom:.3em;letter-spacing:.04em}
+.tiles .t span{display:block;font-size:13.5px;color:var(--dim);line-height:1.7}
+
+/* -------------------------------------------------------------- マニュアル */
+.manual{max-width:44em}
+.manual h2{font-size:24px;margin-top:2.6em}
+.manual h3{font-family:var(--serif);font-size:19px;font-weight:400;
+  letter-spacing:.03em;margin:2em 0 .6em;color:var(--parchment)}
+.manual p{line-height:2.0}
+.manual ul{margin:0 0 1.2em;padding-left:1.3em}
+.manual li{margin-bottom:.4em;line-height:1.95}
+.manual b{color:#fff}
+.manual pre{font-family:var(--mono);font-size:12.5px;line-height:1.65;
+  color:var(--dim);background:var(--stone);border-left:2px solid var(--torch-dim);
+  padding:13px 15px;margin:0 0 1.4em;overflow-x:auto;white-space:pre}
+.toc{background:var(--stone);border:1px solid var(--rule-soft);
+  padding:16px 20px;margin-bottom:2.4em}
+.toc ol{list-style:none;margin:0;padding:0;
+  columns:2;column-gap:26px}
+.toc li{break-inside:avoid;line-height:1.9}
+.toc li.l2{padding-left:1.2em;font-size:14px}
+.toc a{text-decoration:none;color:var(--dim)}
+.toc a:hover{color:var(--torch)}
+.toc li.l1 a{color:var(--parchment)}
+
+/* -------------------------------------------------------------- 下の帯 */
+.foot{border-top:1px solid var(--rule);margin-top:64px;padding-block:26px 40px}
+.foot p{font-size:12.5px;color:var(--faint);line-height:1.85;margin-bottom:.7em;
+  max-width:60em}
+/* wiki 翻訳 */
+.wnote{font-size:13.5px;color:var(--dim);background:var(--stone);
+  border-left:2px solid var(--torch-dim);padding:8px 13px;margin:0 0 1.6em}
+.wiki{max-width:52em}
+.wiki h2{font-size:21px}
+.wiki h3{font-family:var(--serif);font-size:18px;font-weight:400;margin:1.6em 0 .5em}
+.wiki h4{font-size:15.5px;margin:1.3em 0 .4em}
+.wiki p,.wiki li{line-height:1.95}
+.wiki ul,.wiki ol{padding-left:1.4em;margin:0 0 1.1em}
+.wiki dl{margin:0 0 1.1em}
+.wiki dt{font-weight:600}
+.wiki dd{margin:0 0 .5em 1.4em}
+.wiki img{display:inline-block;vertical-align:middle;image-rendering:pixelated}
+.wiki table{border-collapse:collapse;margin:0 0 1.3em;background:var(--stone);
+  font-size:14px;display:inline-block;vertical-align:top;overflow-x:auto;max-width:100%}
+h1 .en{font-family:var(--mono);font-size:15px;color:var(--faint);letter-spacing:.02em;
+  margin-left:8px}
+.wiki th,.wiki td{border:1px solid var(--rule);padding:4px 9px;vertical-align:top}
+.wiki th{color:var(--dim);font-weight:600;text-align:left}
+.wiki .toc{background:var(--stone);border:1px solid var(--rule-soft);
+  padding:10px 18px;margin:0 0 1.6em;display:inline-block}
+.wiki .toc h2{font-size:15px;border:0;margin:0 0 .3em;padding:0}
+.wiki .toc ul{list-style:none;padding-left:1em;margin:0}
+.wiki .toc .tocnumber{color:var(--faint);margin-right:6px}
+.wiki .toc a{text-decoration:none}
+.wiki pre,.wiki code{font-family:var(--mono)}
+.wiki pre{background:var(--stone);padding:10px 13px;overflow-x:auto}
+.wiki sup.reference{font-size:11px}
+.wiki .references{font-size:13px;color:var(--dim)}
+.wiki a[data-untr]{color:var(--dim);text-decoration-style:dotted}
+.wiki a[data-untr]::after,.untr-mark{content:"(英)";font-size:11px;color:var(--faint);
+  margin-left:2px}
+.wiki.main{max-width:none}
+.wiki.main table{display:table;width:100%;background:none;border:0}
+.wiki.main td,.wiki.main th{border:0;padding:4px 12px 4px 0}
+.wlist{columns:2;column-gap:28px;padding-left:1.2em}
+.wlist li{break-inside:avoid;line-height:2}
+pre.license{font-family:var(--mono);font-size:12.5px;white-space:pre-wrap;color:var(--dim);
+  background:var(--stone);padding:14px 16px}
+
+/* Grimoire で足したもの */
+.wiki .floatleft{float:left;margin:0 12px 6px 0}
+.wiki .floatright{float:right;margin:0 0 6px 12px}
+.wiki .thumb{margin:0 0 1em}
+.wiki h2,.wiki h3,.wiki pre,.wiki table{clear:both}
+.wiki img{image-rendering:auto}
+.shots{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));margin:0 0 1.6em}
+.shots figure{margin:0}
+.shots img{width:100%;height:auto;border:1px solid var(--rule)}
+.shots figcaption{font-size:13px;color:var(--dim);margin-top:4px}
+.dl{display:inline-block;padding:9px 20px;margin:0 8px 10px 0;background:var(--torch);color:#150c02;
+  text-decoration:none;font-weight:600}
+.dl:hover{background:#ffbe74;color:#150c02}
+.dl.sub{background:none;color:var(--torch);border:1px solid var(--torch-dim);font-weight:400}
+.manual ol{margin:0 0 1.2em;padding-left:1.5em}
+.manual ol li{margin-bottom:.4em;line-height:1.95}
+@media (max-width:640px){
+  .wlist{columns:1}
+  .wiki .floatleft,.wiki .floatright{float:none}
+}

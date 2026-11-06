@@ -1,0 +1,3766 @@
+cat	en	ja	count	note
+race	Human	人間	1	MASTER 04241
+race	Drow	ドラウ	8	闇エルフの種族
+race	Barrower	バロワー	2	地下に住む坑夫・工兵の種族
+race	Wolfin	ウルフィン	2	狼と人の混血種族。本文のWolfenも同訳
+race	Feyfolk	妖精族	2	フェイ・妖精の種族
+race	Saurian	蜥蜴人	2	単純な爬虫類人
+race	Naga	ナーガ	35	蛇人。Naga'an=ナーガアン(民族名)
+race	Drake	竜人	2	竜の種族。火を吐く
+race	Rhattu	ラットゥ	69	鼠人の種族
+race	Leonar	レオナー	5	獅子人。本文ではLeonineとも
+race	Aeorb	エオーブ	2	精神感応の異種族
+race	Durendil	デュレンディル	2	MASTER 04252
+race	Vamphyr	ヴァンピル	3	吸血種族(Vamphyri)。幅制限のため短縮
+race	Giant	巨人	19	MASTER 04254
+vocation	Warrior	戦士	10	MONSTYPE / GPC
+vocation	Wizard	魔術師	28	MONSTYPE / GPC
+vocation	Cleric	僧侶	4	MONSTYPE / GPC
+vocation	Thaumaturge	奇跡術師	5	自然と元素の力を操る職(原義:奇跡を行う者)
+vocation	Necromancer	死霊術師	7	MONSTYPE / GPC
+vocation	Ranger	レンジャー	9	MONSTYPE / GPC
+vocation	Thief	盗賊	8	MONSTYPE / GPC
+vocation	Templar	聖堂騎士	7	MONSTYPE / GPC
+vocation	Berserker	狂戦士	8	MONSTYPE / GPC
+vocation	Jester	道化師	3	MONSTYPE / GPC
+vocation	Bard	吟遊詩人	11	MONSTYPE / GPC
+vocation	Metalsmith	鍛冶師	6	MONSTYPE / GPC
+vocation	Pirate	海賊	9	MONSTYPE / GPC
+vocation	Assassin	暗殺者	8	MONSTYPE / GPC
+vocation	Sage	賢者	4	MONSTYPE / GPC
+title	Duelist	決闘士	0	戦士1
+title	Guardsman	衛兵	0	戦士2
+title	Mercenary	傭兵	0	戦士3
+title	Gladiator	剣闘士	0	戦士4
+title	Swordsman	剣豪	0	戦士5
+title	Conqueror	征服者	2	戦士6・狂戦士8(共通)
+title	Tyrant	暴君	1	戦士7
+title	Warlord	大将軍	0	戦士8
+title	Overlord	覇王	0	戦士9
+title	Magician	魔術士	1	魔術師1
+title	Conjuror	召喚士	0	魔術師2
+title	Enchanter	付与術師	3	魔術師3
+title	Halomancer	光輪術師	0	魔術師4
+title	Sorcerer	妖術師	0	魔術師5
+title	ArchMage	大魔術師	0	魔術師6
+title	Magus	魔導師	8	魔術師7。Magus Trimestes=魔導師トリメステス
+title	ArchMagus	大魔導師	0	魔術師8
+title	Magus King	魔導王	0	魔術師9
+title	Acolyte	侍祭	1	僧侶1
+title	Disciple	修道士	0	僧侶2
+title	Martinet	戒律僧	0	僧侶3(規律にうるさい者)
+title	Priest	司祭	2	僧侶4
+title	Apostle	使徒	0	僧侶5
+title	Saint	聖人	29	僧侶6。人名の前では「聖〜」(Saint George=聖ジョージ)
+title	Prophet	預言者	0	僧侶7
+title	Patriarch	総主教	0	僧侶8
+title	Archangel	大天使	0	僧侶9
+title	Devotee	信奉者	0	奇跡術師1
+title	Adept	熟達者	0	奇跡術師2
+title	Medicist	医術師	0	奇跡術師3
+title	Herbalist	薬草師	0	奇跡術師4
+title	Shaman	呪術師	3	奇跡術師5
+title	Cabalist	秘法師	0	奇跡術師6
+title	Elementalist	精霊術師	0	奇跡術師7
+title	Druid	ドルイド	7	奇跡術師8
+title	ArchDruid	森羅王	0	奇跡術師9(大ドルイドは5字で不可)
+title	Vatic	卜占師	0	死霊術師1
+title	Medium	霊媒師	6	死霊術師2
+title	Mystic	神秘家	4	死霊術師3
+title	AntiCleric	背教者	0	死霊術師4
+title	Spiritist	降霊術師	0	死霊術師5
+title	Occultist	邪術師	0	死霊術師6
+title	Warlock	黒魔術師	1	死霊術師7
+title	Nemesis	ネメシス	2	死霊術師8
+title	Hell Baron	魔界男爵	0	死霊術師9
+title	Scout	斥候	1	レンジャー1
+title	Tracker	追跡者	0	レンジャー2
+title	Bowman	弓兵	1	レンジャー3
+title	Archer	弓術士	2	レンジャー4
+title	Pathfinder	先導者	0	レンジャー5
+title	Woodsman	森人	1	レンジャー6
+title	Huntsman	狩猟頭	1	レンジャー7
+title	Yeoman	郷士	0	レンジャー8
+title	MountainKing	山の王	0	レンジャー9
+title	Rake	遊び人	0	盗賊1
+title	Pickpocket	スリ	0	盗賊2
+title	Padfoot	忍び足	0	盗賊3
+title	Swindler	詐欺師	0	盗賊4
+title	Prowler	夜盗	0	盗賊5
+title	Burglar	怪盗	0	盗賊6
+title	Robber	大盗賊	1	盗賊7
+title	Malefictor	大悪党	0	盗賊8(malefactor)
+title	Shadowlord	影の王	0	盗賊9
+title	Squire	従士	0	聖堂騎士1
+title	Gallant	勇士	1	聖堂騎士2
+title	Lancer	槍騎兵	0	聖堂騎士3
+title	Chevalier	騎士	0	聖堂騎士4
+title	KnightErrant	遍歴騎士	0	聖堂騎士5
+title	Lionheart	獅子心	0	聖堂騎士6
+title	Paladin	聖騎士	0	聖堂騎士7
+title	Prince	王子	0	聖堂騎士8
+title	Monarch	君主	2	聖堂騎士9
+title	Kinsman	同胞	0	狂戦士1
+title	Clansman	氏族兵	0	狂戦士2
+title	Dervish	旋舞戦士	0	狂戦士3
+title	Marauder	略奪者	0	狂戦士4
+title	Raider	襲撃者	0	狂戦士5
+title	Ravager	蹂躙者	0	狂戦士6
+title	Avenger	復讐者	1	狂戦士7(8はConqueror=征服者)
+title	SkullKing	髑髏王	0	狂戦士9
+title	Imp	小悪魔	0	道化師1
+title	Fool	愚者	1	道化師2
+title	Buffoon	おどけ者	0	道化師3
+title	Joker	剽軽者	0	道化師4
+title	Trickster	ペテン師	0	道化師5
+title	Prankster	悪戯師	0	道化師6
+title	Juggernaut	猛進者	2	道化師7
+title	Harlequin	道化役者	0	道化師8
+title	Deathgrin	死の微笑	0	道化師9
+title	Cantor	聖歌手	0	吟遊詩人1
+title	Talebearer	語り部	0	吟遊詩人2
+title	Minstrel	楽士	0	吟遊詩人3
+title	Sonneteer	詩人	0	吟遊詩人4
+title	Troubadour	吟唱詩人	0	吟遊詩人5
+title	Lyricist	作詞家	0	吟遊詩人6
+title	Lute Poet	琵琶法師	0	吟遊詩人7(和風のもじり)
+title	Skald	スカルド	3	吟遊詩人8
+title	Seraph	熾天使	0	吟遊詩人9
+title	Footman	従僕	0	鍛冶師1
+title	Shieldbearer	盾持ち	0	鍛冶師2
+title	Armsman	武具番	0	鍛冶師3
+title	Equipper	装備係	0	鍛冶師4
+title	Outrigger	艤装工	1	鍛冶師5
+title	Craftsman	職人	0	鍛冶師6
+title	Blacksmith	鍛冶頭	3	鍛冶師7
+title	Armourer	甲冑師	0	鍛冶師8
+title	ArmsMaster	武具の匠	0	鍛冶師9
+title	Scallywag	ごろつき	0	海賊1
+title	Mutineer	反乱水夫	1	海賊2
+title	Captain	船長	20	海賊3。Captain Krone=クローネ船長
+title	Commodore	准将	0	海賊4
+title	Brigand	匪賊	1	海賊5
+title	Blackguard	悪漢	0	海賊6
+title	Buccaneer	大海賊	1	海賊7
+title	Swashbuckler	快傑	0	海賊8
+title	Corsair	海賊王	0	海賊9
+title	Thuggee	凶徒	0	暗殺者1
+title	Stalker	尾行者	7	暗殺者2
+title	Cutthroat	人斬り	0	暗殺者3
+title	Strangler	絞殺者	0	暗殺者4
+title	Murderer	殺人鬼	0	暗殺者5
+title	Executioner	処刑人	1	暗殺者6
+title	Reaver	殺戮者	1	暗殺者7
+title	Slayer	殲滅者	0	暗殺者8
+title	Revenant	冥府帰り	1	暗殺者9
+title	Pedagogue	衒学者	0	賢者1
+title	Scholar	学者	0	賢者2
+title	Teacher	教師	0	賢者3
+title	Professor	教授	0	賢者4
+title	Doctor	博士	1	賢者5
+title	Master	巨匠	52	賢者6
+title	Savant	賢人	0	賢者7
+title	Oracle	託宣者	5	賢者8
+title	Illuminati	啓明者	0	賢者9
+npc	Junga Din	ジュンガ・ディン	7	男。盗賊の親方。陽気で豪快、べらんめえ調
+npc	Little Rosy	リトル・ロージー	12	女。小さな妖精。魔法店の宣伝係、元気な客引き口調
+npc	Magus Trimestes	魔導師トリメステス	8	男。老魔術師、魔法店ブロンズ大釜の主。大仰で胡散臭い商人口調
+npc	Gorlo	ゴーロ	14	男。神殿の書記僧。穏やかで丁寧
+npc	Sir Coffergus	コファーガス卿	6	男。80歳近い老騎士(遍歴騎士団)。古風で礼儀正しい騎士口調
+npc	Argosyre	アルゴサイア	16	男。十字軍神殿の大司祭。尊大で偽善的、後に敵対
+npc	Raghilda	ラグヒルダ	9	女。旅籠の女主人。妹クララを捜す。優しく丁寧
+npc	Black Lich	黒きリッチ	25	男。不死の大魔術師(霊廟の主)。尊大で不気味
+npc	Captain Krone	クローネ船長	13	男。ヴァンガードの士官。横柄で高圧的な軍人口調
+npc	Mordecai	モルデカイ	3	男。黒装束の謎の請負人(暗殺者)。慇懃で探りを入れる口調
+npc	Smithers	スミザーズ	10	男。村の鍛冶屋クランドル・スミザーズ。素朴で感謝深い
+npc	Krellspar	クレルスパー	6	男。獅子人(レオナー)の元奴隷。怯え、うわ言のように嘆く
+npc	Philchit	フィルチット	10	男。旅の盗賊兼商人。気さくで抜け目ない
+npc	Elias Conachur	イライアス・コナカー	24	男。呪われた隠者。陰鬱で人嫌い、ぶっきらぼう
+npc	Knok-Knok	ノック・ノック	12	男。歩く樫の木。片言でなまった幼い話し方
+npc	Greech	グリーチ	7	男。ウルフィンのレンジャー「Greech the Leech」。軽いノリ(「ブラザー」)
+npc	Morgana LeFey	モルガン・ル・フェ	4	女。ドルイド、ウィッカーマン教団の首領。妖艶で高慢
+npc	Q'Orl	クォール	6	男。幽界の竜(Astral Dragon)。囚われていた高貴な竜。重々しく礼儀正しい
+npc	Medea	メデイア	9	女。蘇った大魔女。古風で気位の高い口調
+npc	Lieutenant Shrike	シュライク中尉	20	男。ヴァンガードの募兵士官。怒鳴り散らす鬼軍曹口調
+npc	Drak Serat	ドラク・セラト	13	男。緑の官吏に雇われた暗殺者。冷静で簡潔
+npc	GlibGlub	グリブグラブ	1	男。蜥蜴人の戦士(生贄)。片言(「グリブグラブ、まずい!」)
+npc	Jaqque Nefarge	ジャック・ネファージュ	4	男。海賊。荒っぽい海賊なまり
+npc	Paladar	パラダー	7	男。蘇った騎士。古風で律儀
+npc	Lysandra	リサンドラ	8	女。生きている竪琴「竪琴の貴婦人」。優雅で古風
+npc	Prophetess	女預言者	7	女。ナーガアンの蛇人の預言者。神秘的で厳か
+npc	Little Daisy	リトル・デイジー	6	女。海賊船に捕まっていた妖精。早口で毒舌、皮肉屋
+npc	Olaf Gigunda	オラフ・ギガンダ	5	男。人のよい巨人。片言でなまった陽気な話し方
+npc	Neriad	ネリアド	8	女。人魚。サーファー風に陽気
+npc	Kraken	クラーケン	47	海の怪物。台詞なし
+npc	Nick'O'The'Deep	深海のニック	5	男。大海亀。気のいい田舎なまり
+npc	Black Pierre	ブラック・ピエール	53	男。不潔な海賊船長。下品で荒っぽい海賊なまり
+npc	Admiral Boondoggle	ブーンドグル提督	11	男。遭難した提督テルリウス。気取り屋で臆病、大げさ
+npc	Chuckles	チャックルズ	6	男。正気を失った道化。寒いギャグを連発
+npc	Morraha	モラーハ	7	女。カーンの側室。怯えてひそひそ話す、丁寧
+npc	Green Mandarin	緑の官吏	34	男。仏塔に籠る賢者・予言者。落ち着いた知識人口調
+npc	Khan Raji	ラジ・カーン	44	男。クビライ枢軸の老王。威厳があるが憔悴。Khan単独=カーン
+npc	Lord Ahriman	アーリマン卿	79	男。ヴァンガードの暗黒の主。冷酷で尊大
+npc	Balderdash	バルダーダッシュ	49	男。ハイパーボリア最高の魔法使い。陽気でおしゃべり、自虐的
+npc	Diabla	ディアブラ	6	女。バザールの店主。明るく愛想がよい
+npc	Chiang	チャン	9	男。老いたディブク(霊)の骨董店主。愛想よく商売熱心
+npc	Snivels	スニベルズ	6	男。ラットゥの臆病な盗賊。どもる(「ぼ、ぼくは」)
+npc	Vermint	ヴァーミント	5	男。ラットゥの石工頭。高慢で威圧的
+npc	Renfeeld	レンフィールド	6	男。女王蛇に仕える狂人(Renfieldのもじり)。卑屈で狂った笑い
+npc	Princess Dahlia	ダリア姫	22	女。カーンの娘で王位継承者。気高く尊大
+npc	Count Orloch	オルロック伯爵	17	男。孤独な吸血鬼の伯爵。古風で物憂げ
+npc	Lilith	リリス	5	女。吸血種族の乙女。妖しく夢見がち
+npc	Mistral	ミストラル	20	男。蘇った修道士・記録係。古風で好奇心旺盛
+npc	Knorlos Knossos	ノルロス・クノッソス	7	男。悪の妖術師、夢と悪夢を操る。尊大で脅迫的
+npc	The White Owl	白き梟	11	ハイパーボリアの守護者。一行を「わが使者たち」と呼ぶ。穏やかで超然
+npc	Kroondergraf	クルーンダーグラフ	10	男。隠遁した哲学者。素っ気なく簡潔
+npc	Xerxes	クセルクセス	5	男。蘇った古代の大戦士。豪胆で古風
+npc	Mr. Zyrinx	ザイリンクス氏	26	男。異星企業リアリティ・ハイジンクスの代理人。営業マン風に丁寧
+npc	Mr. Nebulon	ネビュロン氏	27	男。同社の代表者。営業マン風に丁寧
+npc	The Entity	エンティティ	9	異宇宙の観察者。不干渉と言いつつしゃべり続ける
+npc	Qix	クイックス	8	異次元の存在。一人称「我々」、機械的な片言
+npc	Sword Ego	剣の霊	2	男。剣に封じられた戦士の霊。古風で簡潔
+npc	Axe Ego	斧の霊	2	男。斧に封じられた戦士の霊。古風で簡潔
+npc	Codex Troll	写本トロル	3	男。赤いドレイク・トロル。嫌味で人を煽る(ネットの荒らしのもじり)
+npc	The Piper	笛吹き男	6	骸骨の道化姿の魔の使者。韻を踏む不気味な謎かけ口調
+npc	Bottle Djinn	瓶の魔神	2	男。瓶(ランプ)の魔神。恭しく古風
+npc	Parasmus	パラスマス	3	男。ナーガアンの王子。シューという音しか発しない
+npc	Astral Stalker	星幽の追跡者	5	魔物。台詞なし
+place	Blackspike	黒棘	26	Blackspike Mountain=黒棘山
+place	Great Dominion	大領国	1	MASTER 03180
+place	Kublai Axis	クビライ枢軸	52	カーンの治める国
+place	Skulheim Plateau	スカルハイム高原	1	MASTER 03182
+place	Gideon	ギデオン	61	MASTER 03183
+place	Fertile Crescent	肥沃な三日月地帯	10	MASTER 03184
+place	Nerukruel	ネルクルエル	23	ラットゥのピラミッド
+place	Avian Mountains	鳥翼山脈	9	MASTER 03186
+place	Waterport	水港	58	港町の名(すいこう)
+place	Inland Lochs	内陸湖群	1	MASTER 03188
+place	Bahomet	バホメット	31	MASTER 03189
+place	Ravenlands	鴉の地	1	MASTER 03190
+place	Otherworld	異界	1	MASTER 03191
+patron	Crom	クロム	1	MASTER 04160
+patron	Merlin	マーリン	1	MASTER 04161
+patron	Asclepius	アスクレピオス	1	MASTER 04162
+patron	Magnus	マグヌス	1	MASTER 04163
+patron	Lemures	レムレス	1	MASTER 04164
+patron	Artemis	アルテミス	1	MASTER 04165
+patron	Hermes	ヘルメス	1	MASTER 04166
+patron	Martyrs	殉教者	1	MASTER 04167
+patron	Odin	オーディン	1	MASTER 04168
+patron	Loki	ロキ	1	MASTER 04169
+patron	Pan	パーン	1	MASTER 04170
+patron	Vulcan	ウルカヌス	1	MASTER 04171
+patron	Triton	トリトン	1	MASTER 04172
+patron	Shiva	シヴァ	5	MASTER 04173
+patron	Veritas	ヴェリタス	1	MASTER 04174
+patron	Oblivion	忘却	5	MASTER 04175
+party	Agents of the Owl	梟の使者	1	MASTER 03936
+party	Vanguard Marines	ヴァンガード海兵隊	53	MASTER 03937
+party	Robbing Hoods	強盗フッド団	1	ロビン・フッドのもじり
+party	Axis Diplomats	枢軸外交団	1	MASTER 03939
+party	Domain Confederacy	領国連合	1	MASTER 03940
+party	Black Coven	黒の魔女団	1	MASTER 03941
+party	Knosso's Minions	クノッソスの手下	1	MASTER 03942
+party	Crescent Alliance	三日月同盟	1	MASTER 03943
+party	Smugglers Conclave	密輸者評議会	1	MASTER 03944
+name?	Hyperborea	ハイパーボリア	128	世界の名
+name?	I'm		94	GAMETEXT.TXT.txt 00464: "Damn, let's face it I'm good"
+name?	Hijinx	ハイジンクス	70	Reality Hijinx=リアリティ・ハイジンクス(異星企業)
+name?	Cenotaph	霊廟	39	Cenotaph of the Black Lich=黒きリッチの霊廟
+name?	George	ジョージ	33	Saint George=聖ジョージ(サムハインの怪物を倒した聖堂騎士)
+name?	Tabernacle	殿堂	33	Tabernacle of Music=音楽の殿堂
+name?	Metronome	メトロノーム	28	Metronome Mysterium=メトロノーム・ミステリウム
+name?	Mysterium	ミステリウム	27	GAMETEXT.TXT.txt 03107: Metronome Mysterium.
+name?	I've		25	GAMETEXT.TXT.txt 03554: "I've not had a visitor in so long!
+name?	Lalain	ラレイン	21	Loch Lalain=ラレイン湖、Lalain Falls=ラレインの滝
+name?	Esoph	エソフ	21	男。十字軍神殿を裏切った修道士
+name?	I'd		20	GAMETEXT.TXT.txt 08252: You don't think I'd be foolish enough
+name?	Eater		20	Soul-Eater/Soul Eater の一部(SoulEater参照)
+name?	Grimoire	グリモア	19	ゲーム題名
+name?	Greetings		17	GAMETEXT.TXT.txt 14160: Greetings, my friends, I am the one
+name?	Enc		17	MASTER.TXT.txt 00906: Minor Sewer Enc
+name?	Tattletale	タトルテイル	15	Tattletale Circus=タトルテイル・サーカス
+name?	Wastes	荒地	14	The Haunted Wastes=呪われた荒地
+name?	I'll		13	GAMETEXT.TXT.txt 08459: but I expect any moment now I'll be
+name?	Whisketti	ウィスケッティ	13	Don Whisketti=ドン・ウィスケッティ(マフィア風)
+name?	Hmmm		12	GAMETEXT.TXT.txt 01197: Hmmm ... smells like very old beer.
+name?	Clara	クララ	12	女。ラグヒルダの妹
+name?	Paragons	パラゴン	12	古代の至宝。Paragon Maximus
+name?	Khan's	カーン	12	GAMETEXT.TXT.txt 12203: pardon and release at the Khan's
+name?	Kroondergraff	クルーンダーグラフ	11	Kroondergrafの異綴り
+name?	Congratulations		10	GAMETEXT.TXT.txt 10238: Congratulations!
+name?	Duroch'Mal	ドゥロク・マル	9	GAMETEXT.TXT.txt 02551: farther than the Duroch'Mal."
+name?	Ahriman's	アーリマン	9	GAMETEXT.TXT.txt 18342: it might help put Ahriman's claim to
+name?	Sixty		9	MASTER.TXT.txt 02960: Sixty-First
+name?	Seventy		9	MASTER.TXT.txt 02970: Seventy-First
+name?	Moongates	ムーンゲート	9	MASTER.TXT.txt 03994: Do you have the ability to access the Moongates?
+name?	Gorgon'Ra	ゴルゴン・ラー	8	女。蛇の始祖、女王メトセラ
+name?	Hedgemaze	生垣迷路	8	Hedgemaze of Gideon=ギデオンの生垣迷路
+name?	Barrow	バロウ	8	Barrow Caverns=バロウ洞窟(種族バロワーと対応)
+name?	Chrytosphere	クリトスフィア	7	Chrytosphere Mount/ネルクザンの宝珠
+name?	Bazaar		7	GAMETEXT.TXT.txt 11868: The Bazaar is an intriguing place,
+name?	Wildes	荒野	7	Raven Wildes=鴉の荒野
+name?	Dartagnan	ダルタニャン	7	男。ジュンガ・ディンの弟子
+name?	Hinjinx	ハイジンクス	7	Hijinxの異綴り
+name?	Ganesh	ガネーシャ	6	GAMETEXT.TXT.txt 05561: "I am the good spirit Ganesh!"
+name?	Barge		6	MASTER.TXT.txt 00373: The Wizard's Sky Barge
+name?	Crow's		6	MASTER.TXT.txt 00537: Crow's Nest Level One
+name?	Blakemore	ブレイクモア	5	クレジット(作者)
+name?	Eyrie	鷲の巣	5	The Eyrie
+name?	Hey		5	GAMETEXT.TXT.txt 02902: Hey, that must be why they call it the
+name?	Potentiator	増幅器	5	Potentiator Tanks/Lab
+name?	Model		5	GAMETEXT.TXT.txt 11486: "Model M"
+name?	Raven	鴉	5	Raven Wildes
+name?	Elysian	エリュシオン	4	Elysian Fields=エリュシオンの野
+name?	Kroondergraf's	クルーンダーグラフ	4	GAMETEXT.TXT.txt 01483: Kroondergraf's
+name?	Mantor	マントール	4	Mantor Garrison=マントール駐屯地
+name?	Tellurius	テルリウス	4	ブーンドグル提督の名
+name?	Plumbers	配管工	4	"Tunnel Plumbers"=トンネル配管工
+name?	Zeno	ゼノン	4	ゼノンのパラドックスのもじり
+name?	Hyperborean	ハイパーボリア	4	GAMETEXT.TXT.txt 09393: minor Hyperborean religion by killing
+name?	Whadda		4	GAMETEXT.TXT.txt 12039: Whadda youse want now?!?
+name?	Cucharacha	クカラーチャ	4	King Cucharacha(ゴキブリ王)
+name?	Vermis	妖蛆	4	Vermis Mysteriis=妖蛆の秘密(クトゥルフ神話の定訳)
+name?	Mysteriis	秘密	4	Vermis Mysteriis=妖蛆の秘密
+name?	Centotaph	霊廟	4	Cenotaphの異綴り
+name?	Outworld	外界	4	Outworld Realms
+name?	Hercules	ヘラクレス	4	SUPERID.TXT.txt 00724: Hercules could wear sandals like
+name?	Naga'an	ナーガアン	4	蛇人ナーガの民
+name?	She's		4	NPC027.TXT.txt 00097: That's my sister! She's the best gal
+name?	Deathstone	死の石	4	NPC038.TXT.txt 00243: You have touched the Deathstone.
+name?	Gruber	グルーバー	3	クレジット
+name?	Arachne	アラクネ	3	GAMETEXT.TXT.txt 00247: "Arachne Monopedia"
+name?	Ummm		3	GAMETEXT.TXT.txt 01587: "Ummm ... Right then, Captain Krone
+name?	Scylla	スキュラ	3	GAMETEXT.TXT.txt 02713: I writ thee ... Scylla."
+name?	Whew		3	GAMETEXT.TXT.txt 02865: Whew! Something in there smells like
+name?	Vanguard's	ヴァンガード	3	GAMETEXT.TXT.txt 04126: on the Vanguard's secure vault.
+name?	Styx	ステュクス	3	GAMETEXT.TXT.txt 04818: the river of Styx.
+name?	Hmm		3	GAMETEXT.TXT.txt 04995: Hmm ... ?
+name?	Clang		3	GAMETEXT.TXT.txt 06153: Clang ...
+name?	Quandary		3	GAMETEXT.TXT.txt 07884: Quandary
+name?	Zanzibout	ザンジバウト	3	GAMETEXT.TXT.txt 08363: walk to Zanzibout. Zeno walked a half
+name?	McCallum	マッカラム	3	GAMETEXT.TXT.txt 08395: "McCallum here again, 18 days into
+name?	Singularity	特異点	3	GAMETEXT.TXT.txt 10847: Singularity
+name?	Fontaine	フォンテーヌ	3	Jebleau Fontaine
+name?	Ayahhh		3	GAMETEXT.TXT.txt 12041: Ayahhh! Youse wants ta volunteer for
+name?	Endworld	世界の果て	3	Endworld Cabin
+name?	Spa		3	GAMETEXT.TXT.txt 13173: the renowned Mass Gainer Spa!
+name?	Farulosonoth	ファルロソノス	3	Farulosonoth Fissure=ファルロソノスの裂け目
+name?	Catriak	カトリアク	3	Catriak clan
+name?	Mother's		3	ID.TXT.txt 01198: was in the Queen Mother's nest,
+name?	Raji's	ラジ	3	ID.TXT.txt 03393: Written in Khan Raji's hand ...
+name?	Hack		3	MASTER.TXT.txt 00208: Hack
+name?	Crag		3	MASTER.TXT.txt 00456: Blackspike Crag
+name?	Aviary		3	MASTER.TXT.txt 00501: Royal Aviary Park
+name?	Park		3	MASTER.TXT.txt 00501: Royal Aviary Park
+name?	Conachur's	コナカー	3	MASTER.TXT.txt 00542: Conachur's Cabin
+name?	Ratfink	ラットフィンク	3	Ratfink Hideaway
+name?	Hideaway		3	MASTER.TXT.txt 00546: Ratfink Hideaway
+name?	Resisted		3	MASTER.TXT.txt 04662: Resisted Sleep
+name?	Invoking		3	SUPERID.TXT.txt 02857: Invoking the powers of this crystal
+name?	Adonai	アドナイ	3	NPC006.TXT.txt 00009: "Adonai! Asmod Ake Aukula! What will
+name?	Crandall	クランドル	3	スミザーズの名
+name?	Strive		3	NPC021.TXT.txt 00177: Strive therefore to see the
+name?	Wotta		3	NPC023.TXT.txt 00050: Wotta life!
+name?	SoulEater	ソウルイーター	3	ラットゥの神
+name?	Cleveland	クリーヴランド	2	クレジット
+name?	Michael	マイケル	2	クレジット
+name?	Shamgar	シャムガー	2	クレジット
+name?	Monique	モニーク	2	クレジット
+name?	MacNaughton	マクノートン	2	クレジット
+name?	Productions		2	CREDITS.LST.txt 00012: <BC>Spore Productions
+name?	Edvard	エドヴァルド	2	クレジット
+name?	Toth	トート	2	クレジット
+name?	Glenn	グレン	2	クレジット
+name?	Ellsworth	エルズワース	2	クレジット
+name?	William	ウィリアム	2	クレジット
+name?	Bruce	ブルース	2	クレジット
+name?	Laurel	ローレル	2	クレジット
+name?	Swearengen	スウェアリンジェン	2	クレジット
+name?	James	ジェームズ	2	クレジット
+name?	Harris	ハリス	2	クレジット
+name?	Roger	ロジャー	2	クレジット
+name?	Browne	ブラウン	2	クレジット
+name?	Cooper	クーパー	2	クレジット
+name?	Eric	エリック	2	クレジット
+name?	Ted	テッド	2	クレジット
+name?	Shareware		2	CREDITS.LST.txt 00115: <HC>Shareware Roleplaying Games
+name?	Sifting		2	GAMETEXT.TXT.txt 00119: Sifting through the paper debris
+name?	Sex		2	GAMETEXT.TXT.txt 00249: "Sex After Age 1000: The Facts"
+name?	Meister	マイスター	2	Meister Histerpott
+name?	Chronoworks	クロノワークス	2	GAMETEXT.TXT.txt 01512: "The Chronoworks are one of this
+name?	Leraus	レラウス	2	Leraus Stonecutter
+name?	Capemoor	ケープムーア	2	GAMETEXT.TXT.txt 02012: than the King's agents, Capemoor and
+name?	Bladehawk	ブレードホーク	2	GAMETEXT.TXT.txt 02013: Bladehawk, insisted we bring forward
+name?	Stalactites		2	GAMETEXT.TXT.txt 02183: "Stalactites loosened from their perch
+name?	Thanatos	タナトス	2	GAMETEXT.TXT.txt 02340: regal sepulchre ... we invoke Thanatos
+name?	Atropos	アトロポス	2	GAMETEXT.TXT.txt 02701: I writ thee ... Atropos."
+name?	Megaera	メガイラ	2	GAMETEXT.TXT.txt 02707: I writ thee ... Megaera."
+name?	Aurora	アウロラ	2	GAMETEXT.TXT.txt 02725: I writ thee ... Aurora."
+name?	Midknight	ミッドナイト	2	Gardens of Midknight(midnight+knight)
+name?	Pliny	プリニウス	2	Pliny the Elder=大プリニウス
+name?	Exemplar's	エグゼンプラー	2	Winged Exemplar
+name?	Friday		2	GAMETEXT.TXT.txt 04576: Believed that next Friday would
+name?	Ohhhhh		2	GAMETEXT.TXT.txt 04791: Ohhhhh .... Alonzo!
+name?	Sagursu	サンガース	2	Alonzo Sagursu
+name?	Charon	カロン	2	GAMETEXT.TXT.txt 04817: the boat of Charon when he reaches
+name?	Hijinks	ハイジンクス	2	Hijinxの異綴り
+name?	Hydrolift	ハイドロリフト	2	GAMETEXT.TXT.txt 05877: Hydrolift
+name?	Davy	デイヴィ	2	Davy Jones=デイヴィ・ジョーンズ
+name?	Battered		2	GAMETEXT.TXT.txt 06830: Battered tin snuff box ...
+name?	Ssstop		2	GAMETEXT.TXT.txt 07595: Ssstop them!!
+name?	Miracles		2	GAMETEXT.TXT.txt 09325: Miracles are all around us, if only we
+name?	Fines		2	GAMETEXT.TXT.txt 09708: Fines will apply to lazy readers.
+name?	Filcher	フィルチャー	2	Filcher Fivefingers
+name?	Incorporated		2	GAMETEXT.TXT.txt 11085: Reality Hijinks Incorporated"
+name?	Jebleau	ジャブロー	2	GAMETEXT.TXT.txt 11462: Jebleau Fontaine, decided to call the
+name?	Discontinued		2	GAMETEXT.TXT.txt 11487: "Discontinued after fatal accident with
+name?	Bong		2	GAMETEXT.TXT.txt 11722: Bong!!
+name?	Nooo		2	GAMETEXT.TXT.txt 12318: No! No! Nooo!
+name?	Biff	ビフ	2	Biff Masterson
+name?	Rollers		2	GAMETEXT.TXT.txt 14268: the High Rollers Club!
+name?	Farulsonoth's	ファルロソノス	2	Farulosonothの異綴り
+name?	Orloch's	オルロック	2	GAMETEXT.TXT.txt 15230: Orloch's clan.
+name?	Pendragon	ペンドラゴン	2	GAMETEXT.TXT.txt 16391: the Pendragon clan rest inside this
+name?	Festus	フェスタス	2	GAMETEXT.TXT.txt 16419: the Festus clan rest inside this
+name?	Walencia	ワレンシア	2	GAMETEXT.TXT.txt 16482: Walencia family buried here.
+name?	Hmmmm		2	GAMETEXT.TXT.txt 17086: Hmmmm ... somebody stuck a book behind
+name?	Depetrify		2	GAMETEXT.TXT.txt 17461: To make the "Depetrify" potion she
+name?	Wolfen	ウルフィン	2	種族Wolfinの異綴り
+name?	Stroking		2	ID.TXT.txt 00338: catgut strings. Stroking it's lattice,
+name?	Thor	トール	2	ID.TXT.txt 02886: The mighty hammer of Thor! This
+name?	Archibald	アーチボルド	2	クローネ船長の名
+name?	Smash		2	MASTER.TXT.txt 00212: Smash
+name?	Flick		2	MASTER.TXT.txt 00240: Flick
+name?	Briarpatch	茨の藪	2	Briarpatch Woods
+name?	MidKnight	ミッドナイト	2	Midknightの異綴り
+name?	Pitfall		2	MASTER.TXT.txt 00390: Prophesy Pitfall
+name?	Commerce		2	MASTER.TXT.txt 00394: Hall of Commerce
+name?	Collonade		2	MASTER.TXT.txt 00410: Orchestral Collonade
+name?	Sewers		2	MASTER.TXT.txt 00424: Gaol Sewers
+name?	Website		2	MASTER.TXT.txt 00434: Shelach's Website
+name?	Hecatombs		2	MASTER.TXT.txt 00445: Hecatombs of the Sphinx
+name?	Observatory		2	MASTER.TXT.txt 00450: Observatory of Knossos
+name?	Warren		2	MASTER.TXT.txt 00459: Dark Warren
+name?	EverLife	永生	2	Spring of EverLife=永生の泉
+name?	Harradan	ハラダン	2	Harradan Groves
+name?	Zero		2	MASTER.TXT.txt 00485: Cistern Zero
+name?	Donjon		2	MASTER.TXT.txt 00510: Donjon of the Mandarin
+name?	Pumps		2	MASTER.TXT.txt 00515: Tidal Pumps Station
+name?	Ramparts		2	MASTER.TXT.txt 00518: Ramparts of Moravia
+name?	Throneroom		2	MASTER.TXT.txt 00525: Royal Throneroom
+name?	Quiddick	クィディック	2	Quiddick Harbor
+name?	Subterranea		2	MASTER.TXT.txt 00543: Shrine Subterranea
+name?	Gainers		2	MASTER.TXT.txt 00554: Mass Gainers Spa
+name?	Hostel		2	MASTER.TXT.txt 00559: Periwinkle Hostel
+name?	Undercroft		2	MASTER.TXT.txt 00564: Evil Undercroft
+name?	Kroondergraff's	クルーンダーグラフ	2	MASTER.TXT.txt 00852: Kroondergraff's Hollow
+name?	Balladeer		2	MASTER.TXT.txt 01080: Balladeer Trove
+name?	Editor		2	MASTER.TXT.txt 03262: Map Editor
+name?	NPCs		2	MASTER.TXT.txt 05134: NPCs Encountered = [val]
+name?	Mindflay	精神鞭	2	エオーブの種族特殊能力
+name?	Aeorbs	エオーブ	2	RACEENCY.TXT.txt 00260: The Aeorbs are so strange they are
+name?	Distributors		2	REGO.LST.txt 00006: <B>Distributors
+name?	Warps		2	SPELLTXT.TXT.txt 00003: Warps the physical body of astral creatures causing them up to 4D8 dam
+name?	Division		2	SUPERID.TXT.txt 00050: Acme Weapons Division.
+name?	Thresgik	スレスギク	2	男。死霊術師
+name?	Krobboth	クロボス	2	SUPERID.TXT.txt 00390: worn by the troops of Krobboth the
+name?	Putt		2	SUPERID.TXT.txt 03831: Putt-Putt course this thing was
+name?	Hyborea	ハイパーボリア	2	Hyperboreaの異綴り
+name?	Temple's		2	NPC004.TXT.txt 00114: were kept in the Temple's vault for
+name?	Wayfarer's		2	NPC007.TXT.txt 00019: Wayfarer's Inn, a place of
+name?	Hadooo		2	NPC015.TXT.txt 00019: Hadooo! Mee name bee Knok-Knok!
+name?	Wod		2	NPC015.TXT.txt 00040: Wod dis yoo say? Mee don no dis.
+name?	Q'orl	クォール	2	Q'Orlの異綴り
+name?	Effen		2	NPC023.TXT.txt 00296: Nefarge, now. Effen ye haf this
+name?	Effybuddy		2	NPC028.TXT.txt 00012: Effybuddy! Welcome to me mountain!
+name?	Olaf's	オラフ	2	NPC028.TXT.txt 00031: yoo bee Olaf's friend!
+name?	Neptune	ネプチューン	2	NPC029.TXT.txt 00014: Blessings of Neptune be upon you!
+name?	Nicky	ニッキー	2	深海のニックの愛称
+name?	Nick's	ニック	2	NPC031.TXT.txt 00043: An examination of Nick's shell
+name?	Summa		2	NPC033.TXT.txt 00058: honors Delta Belta Fi Cappa Summa
+name?	Cum		2	NPC033.TXT.txt 00059: Cum Laude!!
+name?	Laude		2	NPC033.TXT.txt 00059: Cum Laude!!
+name?	Besides		2	NPC033.TXT.txt 00194: Besides, you shall have no luck
+name?	Salutations		2	NPC038.TXT.txt 00923: Salutations, marines!
+name?	Herp		2	NPC039.TXT.txt 00267: Herp derp derp.
+name?	Messiah		2	NPC050.TXT.txt 00317: I am not a Messiah.
+name?	Hjinx	ハイジンクス	2	Hijinxの異綴り
+name?	Unforeseen		2	NPC053.TXT.txt 00412: Unforeseen consequences.
+name?	Ssssssss		2	NPC062.TXT.txt 00003: Ssssssss ... ssssss ..... ?
+attribute	Intelligence	知力	1	MASTER 00289
+attribute	Wisdom	賢さ	1	MASTER 00290
+attribute	Willpower	意志力	1	MASTER 00291
+attribute	Strength	筋力	11	MASTER 00292
+attribute	Constitution	頑健	1	MASTER 00293
+attribute	Speed	速さ	2	MASTER 00294
+attribute	Agility	敏捷	3	MASTER 00295
+attribute	Fellowship	人望	1	社交性・カリスマ相当
+attribute	Devotion	信仰心	1	MASTER 00297
+attribute	Metabolism	代謝	1	MASTER 00298
+attribute	Destiny	運命	2	MASTER 00299
+condition	Hitpoints	体力	2	HPバー
+condition	Spirit	気力	18	バー
+condition	Vitality	生命力	3	バー（[tgt] IS DRAINED VITALITY）
+condition	Magic	魔力	55	バー
+condition	Encumbrance	荷重	1	Overloaded
+condition	Beholden	隷属	6	術者の言いなりになる
+condition	Unconscious	昏睡	2	MASTER 00595
+condition	Sleep	睡眠	7	MASTER 00596
+condition	Silence	沈黙	3	MASTER 00597
+condition	Fear	恐怖	3	MASTER 00598
+condition	Confusion	混乱	3	MASTER 00599
+condition	Irritation	苛立ち	4	MASTER 00600
+condition	Berserk	狂乱	3	MASTER 00601
+condition	Nausea	吐き気	5	MASTER 00602
+condition	Blindness	盲目	1	MASTER 00603
+condition	Curse	呪い	9	MASTER 00604
+condition	Poison	毒	13	MASTER 00605
+condition	Charm	魅了	7	MASTER 00606
+condition	Disease	病気	5	MASTER 00607
+condition	Insane	発狂	4	MASTER 00608
+condition	Petrification	石化	1	MASTER 00609
+condition	Paralyzation	麻痺	1	MASTER 00610
+condition	Blink	転移	3	Blinks Out!（瞬間移動で消える）
+condition	Lycanthropy	獣化	2	is a Werewolf!
+condition	Invisibility	透明	5	MASTER 00613
+condition	Protection	防護	2	MASTER 00614
+condition	Morphed	変身	2	アヒル・ネズミ・ヒキガエルに変えられる
+condition	MagicShield	対魔壁	2	MASTER 00616
+condition	MissileShield	矢除け	2	MASTER 00617
+condition	FizzleField	封魔陣	2	呪文を不発にする場
+resistance	System	肉体	7	System attacks。体系的な肉体攻撃への抵抗（推測）
+resistance	Death	即死	20	MASTER 04265
+resistance	Sorcery	魔術	4	MASTER 04266
+resistance	Sonic	音波	3	MASTER 04267
+resistance	Mental	精神	3	MASTER 04268
+resistance	Mesmeric	催眠	1	MASTER 04269
+resistance	Luma	閃光	2	光を使う攻撃
+resistance	Toxin	毒素	1	MASTER 04271
+resistance	Fire	火炎	14	MASTER 04272
+resistance	Cold	冷気	6	MASTER 04273
+resistance	Air	風	6	MASTER 04274
+resistance	Aqua	水	1	MASTER 04275
+resistance	Earth	大地	8	MASTER 04276
+resistance	Caustic	酸	1	MASTER 04277
+resistance	Galvanic	電撃	1	MASTER 04278
+resistance	Paralytic	麻痺	1	MASTER 04279
+skill	Alchemistry	錬金術	1	四大元素の魔術
+skill	Ancient History	古代史	3	MASTER 04680
+skill	Ninjitsu	忍術	1	素手で最大打撃
+skill	Arcanum	秘術	23	MASTER 04682
+skill	Archery	弓術	3	MASTER 04683
+skill	Assaying	鑑定	1	MASTER 04684
+skill	Astral Vision	霊視	3	見えざるものを見る
+skill	Axe&Scimitar	斧・曲刀	1	MASTER 04686
+skill	Backstabbing	不意打ち	1	背後からの攻撃
+skill	Slings&Bolas	投石・ボーラ	1	MASTER 04688
+skill	Climbing	登攀	1	MASTER 04689
+skill	Stealth	隠密	1	MASTER 04690
+skill	Bladesmanship	短剣術	1	短い刃物での近接戦
+skill	Deflection	受け流し	5	MASTER 04692
+skill	Scout	偵察	1	MASTER 04693
+skill	Iajitsu	居合	1	受けで敵の武器を壊す
+skill	Diplomacy	交渉	2	MASTER 04695
+skill	Inspection	機械検分	1	機械仕掛けの仕組みを見抜く
+skill	Barter	値切り	1	MASTER 04697
+skill	Hammer&Mace	槌・メイス	1	MASTER 04698
+skill	Evasion	退避	1	戦闘から無傷で退く
+skill	Nature Lore	本草学	1	植物・粉・触媒の調合
+skill	Incantation	詠唱	1	巻物の呪文を唱える
+skill	Invocation	発動	1	アイテムの魔力を引き出す
+skill	Berserking	狂戦術	1	特殊な必殺攻撃
+skill	Lash&Chain	鞭・鎖	1	MASTER 04704
+skill	Lethal Blow	急所突き	1	MASTER 04705
+skill	Lockpicking	鍵開け	1	MASTER 04706
+skill	Swordsmanship	剣術	2	MASTER 04707
+skill	Mephistics	毒術	1	武器に毒を塗る
+skill	Meditation	瞑想	2	MASTER 04709
+skill	Music	音楽	19	MASTER 04710
+skill	Mythology	神話学	1	MASTER 04711
+skill	Necromancy	死霊術	2	MASTER 04712
+skill	Accuracy	命中	2	MASTER 04713
+skill	Robbery	スリ	1	気付かれずに盗む
+skill	Spear&Lance	槍・長柄	1	MASTER 04715
+skill	Firearms	銃器	2	MASTER 04716
+skill	Scribe	書写	3	MASTER 04717
+skill	Iron Hands	鉄拳	2	MASTER 04718
+skill	Shield	盾術	31	MASTER 04719
+skill	Hand-to-Hand	素手格闘	1	MASTER 04720
+skill	Sorcery	魔術	4	MASTER 04721
+skill	Staff&Rod	杖・棍	1	MASTER 04722
+skill	Swimming	水泳	3	MASTER 04723
+skill	Litany	祈祷	1	MASTER 04724
+skill	Throwing	投擲	4	MASTER 04725
+skill	Trickery	悪戯	2	小道具といたずらで惑わす
+skill	Metallurgy	冶金術	1	武器の鍛造
+school	SORCERY	魔術	1	MASTER 04729
+school	HOLY	神聖	3	MASTER 04730
+school	UNHOLY	暗黒	1	MASTER 04731
+school	PAGAN	異教	1	MASTER 04732
+school	SAGE	賢者	1	MASTER 04733
+page	FIRE	火炎	14	MASTER 03923
+page	FROST	氷結	1	MASTER 03924
+page	AIR	風	9	MASTER 03925
+page	WATER	水	9	MASTER 03926
+page	EARTH	大地	5	MASTER 03927
+page	SPIRIT	霊魂	1	MASTER 03928
+page	PSYCHE	精神	1	MASTER 03929
+page	ASTRAL	星幽	3	MASTER 03930
+page	INFERNAL	地獄	1	MASTER 03931
+page	NECROMANTIC	死霊	1	MASTER 03932
+page	ARCANUM	秘術	2	MASTER 03933
+page	ELDRITCH	異界	2	MASTER 03934
+spell	Acid Cloud	酸の雲	2	MASTER 04735
+spell	Strength	剛力	11	MASTER 04736
+spell	Etherwarp	エーテル歪曲	2	造語。アストラル体を歪めて傷つける
+spell	Armor Rot	鎧腐食	2	MASTER 04738
+spell	Cosmic Gate	宇宙の門	11	MASTER 04739
+spell	Shrill Sound	金切り音	3	MASTER 04740
+spell	Magic Bells	魔法の鈴	4	MASTER 04741
+spell	Refresh	活力回復	1	MASTER 04742
+spell	Black Plague	黒死病	3	MASTER 04743
+spell	Deadly Poison	猛毒	2	MASTER 04744
+spell	Bless	祝福	3	MASTER 04745
+spell	Blinding Flash	閃光	1	MASTER 04746
+spell	Blood Clutch	血の掌握	2	説明文なし。酸性ダメージ+毒
+spell	Destroyer Vortex	破壊の渦	5	MASTER 04748
+spell	Brain Rot	脳腐れ	1	MASTER 04749
+spell	Death Gaze	死の凝視	2	MASTER 04750
+spell	Crypt Clarion	墓場のラッパ	3	Glory Trumpetと対
+spell	Charm	魅了	7	MASTER 04752
+spell	MindRead	読心	1	MASTER 04753
+spell	Cold Shield	耐冷の盾	2	MASTER 04754
+spell	Confusion	混乱	3	MASTER 04755
+spell	Flesh to Stone	石化	2	MASTER 04756
+spell	Crushing Hand	粉砕の手	8	MASTER 04757
+spell	Cure Disease	病気治癒	4	MASTER 04758
+spell	Cure Heavy Wounds	重傷治癒	3	MASTER 04759
+spell	Cure Light Cond	軽異常治癒	1	盲目・痒み・吐き気・沈黙などを治す
+spell	Cure Light Wounds	軽傷治癒	2	MASTER 04761
+spell	Stone To Flesh	石化解除	2	MASTER 04762
+spell	Cone of Cold	冷気円錐	3	MASTER 04763
+spell	Dancing Lights	踊る光	3	MASTER 04764
+spell	Devil Wind	魔風	4	MASTER 04765
+spell	Detect Invisible	透明探知	2	MASTER 04766
+spell	Detect Secret	秘密探知	5	MASTER 04767
+spell	Banish Undead	不死退散	5	MASTER 04768
+spell	Improved Identify	上級鑑定	1	MASTER 04769
+spell	Drain Cloud	渇きの雲	1	体内の水分を奪い活力を減らす雲
+spell	Earthquake	地震	4	MASTER 04771
+spell	Equinox	彼岸	3	説明文なし。春分/秋分と「あの世」を掛けた（霊体以外に効くダメージ雲）
+spell	Dread	戦慄	4	MASTER 04773
+spell	Energy Bolt	電撃	3	MASTER 04774
+spell	Fire Shield	耐火の盾	3	MASTER 04775
+spell	Fireball	火球	8	MASTER 04776
+spell	Fizzle Field	不発の場	3	MASTER 04777
+spell	Fog of Frost	霜の霧	1	MASTER 04778
+spell	Comet of Doom	破滅の彗星	1	MASTER 04779
+spell	Garlic Breath	にんにく吐息	1	吸血鬼から身を守る（吸血鬼には吐き気）
+spell	Glory Trumpet	栄光のラッパ	2	MASTER 04781
+spell	Hailstorm	雹の嵐	1	MASTER 04782
+spell	Deadly Blades	死の刃嵐	2	有刺鉄線の渦
+spell	Healing Cloud	癒しの雲	1	MASTER 04784
+spell	Shivers	悪寒	2	MASTER 04785
+spell	Hermetic Gag	猿ぐつわ	2	集団を沈黙させる
+spell	Hold Monsters	魔物束縛	3	MASTER 04787
+spell	Iceball	氷球	5	MASTER 04788
+spell	Identify	鑑定	6	MASTER 04789
+spell	Insect Swarm	虫の大群	2	MASTER 04790
+spell	Irritation	痒み	4	MASTER 04791
+spell	Knock Knock	開けゴマ	3	扉・宝箱を開ける。案: トントン
+spell	Knockout	昏倒	1	MASTER 04793
+spell	Leaping Sparks	跳ね火花	6	MASTER 04794
+spell	Levitation	浮遊	2	MASTER 04795
+spell	Lightning Bolt	雷撃	1	MASTER 04796
+spell	Locate Item	物品探索	5	MASTER 04797
+spell	LockSleuth	錠前探偵	1	説明文なし。錠/罠の鑑定を持続
+spell	Magic Food	魔法の糧	2	MASTER 04799
+spell	Magic Drain	魔力吸収	1	MASTER 04800
+spell	Magic Missile	魔法の矢	6	MASTER 04801
+spell	Magic Drink	魔法の飲物	1	MASTER 04802
+spell	Mark of The Beast	獣の刻印	1	人間を獣憑きにする
+spell	Matter Clone	物質複製	2	MASTER 04804
+spell	Dispel Magic	魔法解除	1	MASTER 04805
+spell	Midnight Sphere	真夜中の球	1	説明文なし。毒・病気・昏倒をランダムに与える
+spell	Enchanted Stones	魔法の礫	1	MASTER 04807
+spell	Magic Screen	魔法障壁	3	MASTER 04808
+spell	Phantasm	幻影	2	MASTER 04809
+spell	Poison	毒	13	MASTER 04810
+spell	Toxic Vapours	毒霧	1	MASTER 04811
+spell	Finger of Death	死の指	1	MASTER 04812
+spell	Power Nimbus	力の光輪	2	MASTER 04813
+spell	Psychometry	サイコメトリー	1	スクリプト空（未実装？）
+spell	Invisibility	透明化	5	MASTER 04815
+spell	Neutralize Poison	解毒	2	MASTER 04816
+spell	Purify Air	空気浄化	2	MASTER 04817
+spell	Rainbow Rays	虹の光線	6	MASTER 04818
+spell	Razor Wire	鉄条網	1	MASTER 04819
+spell	Read Languages	言語解読	2	MASTER 04820
+spell	Remove Curse	解呪	7	MASTER 04821
+spell	Recharge	再充填	4	MASTER 04822
+spell	Resurrection	蘇生	1	MASTER 04823
+spell	Revealer Mist	暴きの霧	1	MASTER 04824
+spell	Safe Haven	安全地帯	3	MASTER 04825
+spell	Dimension Door	次元の扉	8	MASTER 04826
+spell	Sound Mind	正気回復	2	MASTER 04827
+spell	Shadow Phase	影渡り	1	MASTER 04828
+spell	Silence	沈黙	3	MASTER 04829
+spell	Slow	鈍足	1	MASTER 04830
+spell	Sleep	眠り	7	MASTER 04831
+spell	Life Drain	生命吸収	1	MASTER 04832
+spell	SpiderScale	蜘蛛歩き	1	登攀技能を上げる
+spell	Spiking Earth	大地の棘	1	MASTER 04834
+spell	Luck Angel	幸運の天使	1	MASTER 04835
+spell	Spirit Guide	導きの霊	1	MASTER 04836
+spell	Holy Word	聖言	1	MASTER 04837
+spell	Venom	毒液	1	MASTER 04838
+spell	Stinking Cloud	悪臭の雲	3	MASTER 04839
+spell	Suffocate	窒息	2	MASTER 04840
+spell	Undead Ward	不死封じ	3	MASTER 04841
+spell	VivoGenesis	ヴィヴォ創世	1	Aquagenesisと対
+spell	Summon Elemental	精霊召喚	1	MASTER 04843
+spell	Illusion	幻像	2	MASTER 04844
+spell	Summon Hellspawn	地獄召喚	1	MASTER 04845
+spell	Summon Undead	不死召喚	1	MASTER 04846
+spell	Tarantella	タランテラ	2	狂ったように踊らせる（発狂）
+spell	Trap Glue	罠固め	1	MASTER 04848
+spell	True Seeing	真実の目	3	MASTER 04849
+spell	Hold Beasts	獣束縛	1	MASTER 04850
+spell	Hold Undead	不死束縛	3	MASTER 04851
+spell	Vitality Drain	活力吸収	1	MASTER 04852
+spell	Plant Repellent	植物除け	1	MASTER 04853
+spell	Enchanted Blade	魔法の刃	3	MASTER 04854
+spell	WitchHex	魔女の呪い	1	MASTER 04855
+spell	Wizard Eye	千里眼	1	MASTER 04856
+spell	Death Cloud	死の雲	4	MASTER 04857
+spell	Cure Paralysis	麻痺治癒	2	MASTER 04858
+spell	Armorplate	装甲強化	4	MASTER 04859
+spell	Detect Magic	魔力探知	3	MASTER 04860
+spell	MindFlay	心砕き	1	MASTER 04861
+spell	Locate Person	人物探索	5	MASTER 04862
+spell	FireStorm	火炎嵐	1	MASTER 04863
+spell	Hurricane	暴風	3	MASTER 04864
+spell	Blur	残像	1	MASTER 04865
+spell	Vamphyr Food	吸血族の糧	1	種族名Vamphyrの訳が決まれば合わせる
+spell	Direction	羅針盤	4	MASTER 04867
+spell	Solar Flare	太陽閃光	1	MASTER 04868
+spell	Deep Freeze	急速冷凍	5	冷凍庫の洒落。単体大ダメージ
+spell	AntiMagic	反魔法	3	MASTER 04870
+spell	Wither	枯らし	3	MASTER 04871
+spell	Werebane	獣避け	1	スクリプト名BEASTBANE（動物全般への防護）。案: 人狼避け
+spell	Missile Shield	矢避けの盾	3	MASTER 04873
+spell	Deflection Screen	偏向障壁	3	MASTER 04874
+spell	Polymorph	変化	2	MASTER 04875
+spell	Disintegrate	分解	5	MASTER 04876
+spell	Teleport	転移	7	MASTER 04877
+spell	Blight	おでき	1	MASTER 04878
+spell	Moonbeam	月光	2	MASTER 04879
+spell	Invisible Stalker	見えざる追跡者	1	MASTER 04880
+spell	Summoning I	召喚I	2	MASTER 04881
+spell	Create Golem	ゴーレム創造	1	MASTER 04882
+spell	Pentagram	五芒星	1	MASTER 04883
+spell	Summoning II	召喚II	2	MASTER 04884
+spell	Martial Law	武闘法則	1	戒厳令の洒落。案: 戒厳令
+spell	Physical Law	物理法則	1	MASTER 04886
+spell	Mental Law	精神法則	1	MASTER 04887
+spell	Universal Law	万有法則	1	MASTER 04888
+spell	Stinking Bile	臭い反吐	2	MASTER 04889
+spell	Burning Grasp	灼熱の掌	1	MASTER 04890
+spell	FluoroScope	透視鏡	1	スクリプト空（未実装？）
+spell	Mirror Mirage	鏡の幻	4	MASTER 04892
+spell	Haste	加速	2	MASTER 04893
+spell	Chilling Touch	凍える手	5	MASTER 04894
+spell	Paralysis	麻痺	5	MASTER 04895
+spell	Water Walking	水渡り	2	Fire Walking（火渡り）と対
+spell	Feather Fall	羽毛落下	1	MASTER 04897
+spell	Sonic Shield	耐音の盾	1	MASTER 04898
+spell	Nightmare	悪夢	4	MASTER 04899
+spell	Phantasmal Cloak	幻影の外套	1	MASTER 04900
+spell	Biophosphor	生物発光	1	MASTER 04901
+spell	Create Light	明かり	2	MASTER 04902
+spell	Time Stop	時間停止	4	MASTER 04903
+spell	Divination	占術	6	泉や飲み水の性質を占う
+spell	Danger Sense	危険察知	4	MASTER 04905
+spell	Psyonic Blast	精神衝撃	1	MASTER 04906
+spell	Cerebral Shield	心の盾	2	MASTER 04907
+spell	Death Wish	死の願い	2	MASTER 04908
+spell	Astral Travel	星界旅行	2	MASTER 04909
+spell	Protect Vs Plants	対植物防御	1	MASTER 04910
+spell	Protect Vs Beasts	対獣防御	1	MASTER 04911
+spell	Ventriloquism	腹話術	1	MASTER 04912
+spell	Gaze Reflection	凝視反射	1	MASTER 04913
+spell	Freezing Sphere	凍結球	1	MASTER 04914
+spell	Glacier Burst	氷塊爆裂	1	MASTER 04915
+spell	Aquagenesis	アクア創世	2	MASTER 04916
+spell	Weapon Rot	武器腐食	1	MASTER 04917
+spell	Miracle	奇跡	3	MASTER 04918
+spell	Read Magic	魔法解読	2	MASTER 04919
+spell	Demon Ward	悪魔封じ	3	MASTER 04920
+spell	Raise Dead	死者復活	9	MASTER 04921
+spell	Blister	水疱	1	MASTER 04922
+spell	Fire Walking	火渡り	2	MASTER 04923
+spell	Undead Bane	不死避け	2	MASTER 04924
+spell	Detoxify	毒抜き	1	毒と病気を抜くがHPも減る
+spell	Acid Splash	酸の飛沫	2	MASTER 04926
+spell	Rotten Food	腐れ飯	1	MASTER 04927
+spell	Insanity	狂気	1	MASTER 04928
+spell	Nausea	吐き気	5	MASTER 04929
+spell	Web	蛛網	7	幅制限のため。案: 蜘蛛の巣
+spell	Crush	圧殺	1	MASTER 04931
+spell	Beholden	魅入り	6	状態Beholdenの訳と合わせる
+spell	IQ Drain	知力吸収	1	MASTER 04933
+spell	Str Drain	筋力吸収	1	MASTER 04934
+spell	Will Drain	意志吸収	1	MASTER 04935
+spell	Famine	飢餓	1	MASTER 04936
+spell	Curse	呪い	9	MASTER 04937
+spell	Impale	串刺し	1	MASTER 04938
+spell	Hold	束縛	16	MASTER 04939
+spell	Decapitate	首刎ね	1	MASTER 04940
+spell	Burning Oil	煮え油	5	MASTER 04941
+spell	Serpent Bane	蛇避け	1	MASTER 04942
+spell	Laser Beam	レーザー	1	MASTER 04943
+spell	Death Ray	死の光線	1	MASTER 04944
+spell	!!BERSERK!!	!!狂戦士!!	1	MASTER 04945
+spell	Renew Mana	魔力回復	1	MASTER 04946
+spell	Firebreath	火炎の息	1	MASTER 04947
+spell	Dragon Control	竜支配	2	MASTER 04948
+spell	Attribute Enhance	能力強化	1	MASTER 04949
+spell	Restore Youth	若返り	1	MASTER 04950
+spell	Insect Bane	虫避け	3	MASTER 04951
+spell	Original Gangsta	元祖ギャングスタ	1	スクリプト空（ジョーク呪文）
+spell	Ultraglue	瞬間接着	1	Trap Glueの強化版。瞬間接着剤の洒落
+spell	Scarab of Ra	ラーのスカラベ	2	毎ラウンド生命力を回復する場
+spell	Magic Moth	魔法の蛾	4	MASTER 04955
+monstype	Warrior	戦士	10	vocationと同じ
+monstype	Wizard	魔術師	28	vocationと同じ
+monstype	Cleric	僧侶	4	vocationと同じ
+monstype	Thaumaturge	奇跡術師	5	vocationと同じ
+monstype	Necromancer	死霊術師	7	vocationと同じ
+monstype	Ranger	レンジャー	9	vocationと同じ
+monstype	Thief	盗賊	8	vocationと同じ
+monstype	Templar	聖堂騎士	7	vocationと同じ
+monstype	Berserker	狂戦士	8	vocationと同じ
+monstype	Jester	道化師	3	vocationと同じ
+monstype	Bard	吟遊詩人	11	vocationと同じ
+monstype	Metalsmith	鍛冶師	6	vocationと同じ
+monstype	Pirate	海賊	9	vocationと同じ
+monstype	Assassin	暗殺者	8	vocationと同じ
+monstype	Sage	賢者	4	vocationと同じ
+monstype	Undead	不死者	18	MASTER 03598
+monstype	Animal	動物	2	MASTER 03599
+monstype	Plant	植物	25	MASTER 03600
+monstype	Insect	昆虫	9	MASTER 03601
+monstype	Reptile	爬虫類	1	MASTER 03602
+monstype	Parasite	寄生体	1	MASTER 03603
+monstype	NonCorporeal	非実体	1	MASTER 03604
+monstype	Mythical	幻獣	1	MASTER 03605
+monstype	Elemental	精霊	5	MASTER 03606
+monstype	Dragon	竜	15	MASTER 03607
+monstype	Golem	魔像	3	MASTER 03608
+monstype	Astral	星界	21	MASTER 03609
+monstype	Infernal	悪魔	2	MASTER 03610
+subtype	FIRE	火	14	MASTER 05142
+subtype	WATER	水	9	MASTER 05143
+subtype	EARTH	土	5	MASTER 05144
+subtype	AIR	風	9	MASTER 05145
+subtype	METAL	金	1	MASTER 05146
+subtype	WOOD	木	1	MASTER 05147
+subtype	ARACHNIDS	蜘蛛	1	MASTER 05148
+subtype	SERPENTS	蛇	3	MASTER 05149
+subtype	GHOSTS	幽霊	1	MASTER 05150
+subtype	LYCANTHROPES	獣人	1	MASTER 05151
+subtype	VAMPIRES	吸血鬼	1	MASTER 05152
+subtype	GAZERS	邪眼	1	目玉の魔物
+subtype	MARINE	海棲	1	MASTER 05154
+subtype	ELECTRICITY	電気	1	MASTER 05155
+subtype	EVIL	邪悪	3	MASTER 05156
+subtype	FLYERS	飛行	1	MASTER 05157
+subtype	CRYSTAL	水晶	1	MASTER 05158
+subtype	ENCHANTED	魔法生物	1	MASTER 05159
+subtype	RADARSIGHT	レーダー	1	MASTER 05160
+subtype	CARROLL	アリス	1	ルイス・キャロルの魔物
+subtype	ALIEN	異星	1	MASTER 05162
+subtype	PSIONIC	超能力	1	MASTER 05163
+subtype	MAGIK!	魔法!	1	MASTER 05164
+subtype	ROBOT	機械	1	MASTER 05165
+subtype	ICE	氷	2	MASTER 05166
+subtype	ASIAN	東洋	1	MASTER 05167
+itemclass	Sword	剣	36	MASTER 01796
+itemclass	Dagger	短剣	12	MASTER 01797
+itemclass	Reagent	触媒	10	MASTER 01798
+itemclass	Lance	槍	20	MASTER 01799
+itemclass	Food	食料	13	MASTER 01800
+itemclass	Drink	飲物	12	MASTER 01801
+itemclass	Talisman	護符	4	MASTER 01802
+itemclass	Dart	投矢	10	MASTER 01803
+itemclass	Mace	メイス	15	MASTER 01804
+itemclass	Hammer	槌	15	MASTER 01805
+itemclass	Axe	斧	30	MASTER 01806
+itemclass	Ring	指輪	45	MASTER 01807
+itemclass	Scroll	巻物	34	MASTER 01808
+itemclass	Treasure	財宝	14	MASTER 01809
+itemclass	Mascot	縁起物	1	MASTER 01810
+itemclass	Figurine	小像	6	MASTER 01811
+itemclass	Crystal	水晶	17	MASTER 01812
+itemclass	Gem	宝石	7	MASTER 01813
+itemclass	Potion	薬	27	MASTER 01814
+itemclass	Gauntlet	篭手	9	MASTER 01815
+itemclass	Armor	鎧	41	MASTER 01816
+itemclass	Helm	兜	22	MASTER 01817
+itemclass	Instrument	楽器	2	MASTER 01818
+itemclass	Boots	靴	21	MASTER 01819
+itemclass	Lute	琵琶	6	リュートは幅超過のため
+itemclass	Lyre	竪琴	9	MASTER 01821
+itemclass	Clothing	衣服	7	MASTER 01822
+itemclass	Orb	宝珠	18	MASTER 01823
+itemclass	Shield	盾	31	MASTER 01824
+itemclass	Wand	短杖	17	MASTER 01825
+itemclass	Staff	杖	11	MASTER 01826
+itemclass	Tablet	石板	11	MASTER 01827
+itemclass	Book	書物	23	MASTER 01828
+itemclass	Spell Tome	魔道書	1	MASTER 01829
+itemclass	Sling	投石器	8	MASTER 01830
+itemclass	Viewable	閲覧物	1	MASTER 01831
+itemclass	Cloak	外套	24	MASTER 01832
+itemclass	Horn	角笛	9	MASTER 01833
+itemclass	Tool	道具	2	MASTER 01834
+itemclass	Fixture	設置物	1	MASTER 01835
+itemclass	Key	鍵	83	MASTER 01836
+itemclass	Arrow	矢	14	MASTER 01837
+itemclass	Bow	弓	13	MASTER 01838
+itemclass	Carrier	容器	1	袋などの入れ物
+itemclass	Stone	石	28	MASTER 01840
+itemclass	Insignia	記章	1	MASTER 01841
+itemclass	Parchment	羊皮紙	4	MASTER 01842
+itemclass	Plant	植物	25	MASTER 01843
+itemclass	Artifact	秘宝	5	MASTER 01844
+itemclass	Lash/Chain	鞭・鎖	1	MASTER 01845
+itemclass	Power Cell	電池	5	MASTER 01846
+itemclass	Organic	有機物	1	MASTER 01847
+itemclass	Gloves	手袋	10	MASTER 01848
+itemclass	Hat	帽子	8	MASTER 01849
+itemclass	Jewelry	装身具	7	MASTER 01850
+itemclass	Ancient Bones	古代の骨	1	MASTER 01851
+itemclass	Projectile	投射物	1	MASTER 01852
+itemclass	Flail	連接棍	11	MASTER 01853
+itemclass	Vending Token	自販機コイン	2	MASTER 01854
+itemclass	Map Fragment	地図の断片	1	MASTER 01855
+itemclass	Bullet	弾丸	1	MASTER 01856
+itemclass	Firepower	火器	1	MASTER 01857
+itemclass	Device	装置	5	MASTER 01858
+itemtype	Armor	防具	41	MASTER 02884
+itemtype	Weapon	武器	5	MASTER 02885
+itemtype	Shield	盾	31	MASTER 02886
+itemtype	Missile	飛び道具	10	MASTER 02887
+itemtype	Magic Item	魔法の品	1	MASTER 02888
+itemtype	Scroll	巻物	34	MASTER 02889
+itemtype	Musical	楽器	1	MASTER 02890
+hoard	Warrior Store	戦士の店	1	MASTER 01638
+hoard	Wizard Store	魔術師の店	1	MASTER 01639
+hoard	Cleric Store	僧侶の店	1	MASTER 01640
+hoard	Thaumaturge Store	奇跡術師の店	1	MASTER 01641
+hoard	Necromancer Store	死霊術師の店	1	MASTER 01642
+hoard	Ranger Store	レンジャーの店	1	MASTER 01643
+hoard	Rogue Store	盗賊の店	1	MASTER 01644
+hoard	Templar Store	聖堂騎士の店	1	MASTER 01645
+hoard	Berserker Store	狂戦士の店	1	MASTER 01646
+hoard	Jester Store	道化師の店	1	MASTER 01647
+hoard	Bard Store	吟遊詩人の店	1	MASTER 01648
+hoard	Metalsmith Store	鍛冶師の店	1	MASTER 01649
+hoard	Pirate Store	海賊の店	1	MASTER 01650
+hoard	Assassin Store	暗殺者の店	1	MASTER 01651
+hoard	Sage Store	賢者の店	1	MASTER 01652
+hoard	Aquavia Chest	アクアヴィアの宝箱	1	MASTER 01653
+hoard	Bronze Cauldron	青銅の大釜	17	MASTER 01654
+hoard	Mystery Wands	謎の杖	1	MASTER 01655
+hoard	Innkeeper Store	宿屋の売店	1	MASTER 01656
+hoard	Raptor Shrine Cache	猛禽の祠の隠し宝	1	MASTER 01657
+hoard	Ungrateful Dead	恩知らずの死者	3	Grateful Deadのもじり
+hoard	Ukluk Mining Cache	ウクルク鉱山の隠し宝	1	MASTER 01659
+hoard	Remains of Lich	リッチの遺骸	1	MASTER 01660
+hoard	Storage Crate	保管用の木箱	1	MASTER 01661
+hoard	Armory Crate	武器庫の木箱	1	MASTER 01662
+hoard	Forest Excavation	森の発掘品	1	MASTER 01663
+hoard	Turtle Hoard	亀の財宝	1	MASTER 01664
+hoard	Mythcreant Treasure	ミスクリアントの財宝	1	魔物名(未確定)
+hoard	Armory One	武器庫1	1	MASTER 01666
+hoard	Armory Two	武器庫2	1	MASTER 01667
+hoard	Armory Three	武器庫3	1	MASTER 01668
+hoard	Armory Four	武器庫4	1	MASTER 01669
+hoard	Legionaires	軍団兵の財宝	1	MASTER 01670
+hoard	Lachesis Vault	ラケシスの宝物庫	1	MASTER 01671
+hoard	Exemplar Vault	エグゼンプラー宝物庫	1	MASTER 01672
+hoard	Library Policeman Leftovers	図書館警察の残り物	1	S・キング「図書館警察」
+hoard	Inner Sanctum Chest	至聖所の宝箱	1	MASTER 01674
+hoard	Catacombs Vending Machine	地下墓所の自販機	1	MASTER 01675
+hoard	Raptor Grotto Hoard	猛禽の洞窟の財宝	1	MASTER 01676
+hoard	Chamber of Waters	水の間	1	MASTER 01677
+hoard	Hoard of Necrospawn	死霊の落とし子の財宝	1	MASTER 01678
+hoard	Hoard of Ur-Kraken	原初クラーケンの財宝	1	MASTER 01679
+hoard	Ki-Rin Remains	麒麟の遺骸	1	MASTER 01680
+hoard	Crowl Supply Store	クロウルの補給店	3	MASTER 01681
+hoard	Seal Vending Machine	封印の自販機	1	地名「Seal」(石の封印)
+hoard	Military Footlocker	軍用トランク	1	MASTER 01683
+hoard	Ancient Treasure Chest	古代の宝箱	1	MASTER 01684
+hoard	Archmage's Belongings	大魔導師の遺品	1	MASTER 01685
+hoard	Catering Supplies	仕出しの食材	1	MASTER 01686
+hoard	Hoard of Horror	恐怖の財宝	1	MASTER 01687
+hoard	Riches of Methuselah	メトセラの富	1	MASTER 01688
+hoard	Knossos Leftovers	クノッソスの残り物	1	MASTER 01689
+hoard	Shelach's Treasure Hoard	シェラクの財宝	1	MASTER 01690
+hoard	Grendel's Treasure Hoard	グレンデルの財宝	1	MASTER 01691
+hoard	Forgotten Treasure Hoard	忘れられた財宝	1	MASTER 01692
+hoard	Wicker Man Remains	ウィッカーマンの残骸	1	MASTER 01693
+hoard	Sanctuary Artifacts Chest	聖域の秘宝箱	1	MASTER 01694
+hoard	Magic Carpet Dealer	魔法の絨毯屋	1	MASTER 01695
+hoard	Orchestra Trunk	楽団のトランク	1	MASTER 01696
+hoard	Chiang's Shop	チャンの店	1	MASTER 01697
+hoard	Royal Treasury One	王家の宝物庫1	1	MASTER 01698
+hoard	Royal Treasury Two	王家の宝物庫2	1	MASTER 01699
+hoard	Roman Expedition	ローマ遠征隊	1	MASTER 01700
+hoard	Secret Magical Fruits	秘密の魔法の果実	1	MASTER 01701
+hoard	Fantastic Crypt Cache	幻想の墓所の隠し宝	1	MASTER 01702
+hoard	Necropolix Hidden Hoard	ネクロポリクスの隠し財宝	1	MASTER 01703
+hoard	Nerukruel Pyramid Chest	ネルクルエルのピラミッド箱	1	MASTER 01704
+hoard	Sphinx Trinkets	スフィンクスの小物	1	MASTER 01705
+hoard	Ziggurat Temple Box	ジッグラト神殿の箱	1	MASTER 01706
+hoard	Gideon Treasure Cache	ギデオンの隠し財宝	1	MASTER 01707
+hoard	Reflekshun Hoard	リフレクシュンの財宝	1	Reflectionのわざと誤綴り
+hoard	Spiral Deathtrap Reward	螺旋の死の罠の報酬	1	MASTER 01709
+hoard	Daemongate Safekeep	魔門の保管庫	1	MASTER 01710
+hoard	Webslinger Supply	蜘蛛糸使いの補給品	1	MASTER 01711
+hoard	Gilded Hidden Box	金箔の隠し箱	1	MASTER 01712
+hoard	Vault-Co Vending Machine	ヴォルトコ自販機	1	MASTER 01713
+hoard	Exemplar Artifacts	エグゼンプラーの秘宝	1	MASTER 01714
+hoard	Medusa's Lair	メデューサの巣	1	MASTER 01715
+hoard	Loogmar's Funeral Trove	ルーグマーの副葬品	1	MASTER 01716
+hoard	Chuckle's Novelty Rack	チャックルズの珍品棚	1	MASTER 01717
+hoard	Snark Mistress Cache	スナークの女主の隠し宝	1	MASTER 01718
+hoard	Magnificent Golden Armor	壮麗なる黄金の鎧	1	MASTER 01719
+hoard	Herbs of Elias	イライアスの薬草	1	MASTER 01720
+hoard	Greech's Forest Emporium	グリーチの森の百貨店	1	MASTER 01721
+hoard	Vanguard Recruit Issue	ヴァンガード新兵支給品	1	MASTER 01722
+hoard	Arachnoid Novelty Machine	蜘蛛型の珍品販売機	1	MASTER 01723
+hoard	N-Space Convenience Store	N空間コンビニ	1	MASTER 01724
+hoard	Acme Deluxe Vendor	ACMEデラックス自販機	1	MASTER 01725
+hoard	Acme Aristocrat Vendor	ACME貴族の自販機	1	MASTER 01726
+hoard	Acme Excelsior Vendor	ACMEエクセルシア自販機	1	MASTER 01727
+hoard	Diabla's Enchantments	ディアブラの魔法品	1	MASTER 01728
+hoard	The Entity's Intervention	エンティティの介入	1	MASTER 01729
+hoard	Crusade Temple Apothecary	十字軍神殿の薬局	1	MASTER 01730
+hoard	Crusade Temple Library	十字軍神殿の書庫	1	MASTER 01731
+hoard	Acme Premium Vendor	ACMEプレミアム自販機	1	MASTER 01732
+hoard	Acme Crossroads Merchanter	ACME十字路の商い機	1	MASTER 01733
+hoard	Discount Dungeon Dispenser	激安ダンジョン自販機	1	MASTER 01734
+hoard	Ancient Arcana Tome	古代秘術の大著	1	MASTER 01735
+hoard	Acme Soda Break!	ACMEソーダ休憩!	1	MASTER 01736
+hoard	Elite Marine Annex	精鋭海兵隊の別館	1	MASTER 01737
+hoard	Pierre's Pirate Stash	ピエール海賊団の隠し宝	1	MASTER 01738
+hoard	Acme Vamphyri Refreshments	ACMEヴァンピル軽食	1	MASTER 01739
+hoard	Bard Trove Leon	詩人宝庫レオン	1	MASTER 01740
+hoard	Bard Trove Darian	詩人宝庫ダリアン	1	MASTER 01741
+hoard	Bard Trove Juneval	詩人宝庫ジュネヴァル	1	MASTER 01742
+hoard	Bestiary Hoard	獣舎の財宝	1	王立動物園(Royal Bestiary)
+hoard	Mandarin's Collection	官吏の収集品	1	緑の官吏
+hoard	Shelach's Loom Hoard	シェラクの織機の財宝	1	MASTER 01745
+hoard	Owl Forge Hoard	梟の鍛冶場の財宝	1	MASTER 01746
+hoard	Acme Gun Shop	ACME銃砲店	1	MASTER 01747
+hoard	Everlife Hoard	永生の財宝	1	MASTER 01748
+hoard	Moravia Level II	モラヴィア第2層	3	MASTER 01749
+hoard	Moravia Level III	モラヴィア第3層	3	MASTER 01750
+hoard	Moravia Level IV	モラヴィア第4層	3	MASTER 01751
+hoard	Moravia Level V	モラヴィア第5層	3	MASTER 01752
+hoard	Moravia Level VI	モラヴィア第6層	3	MASTER 01753
+hoard	Moravia Level VII	モラヴィア第7層	3	MASTER 01754
+hoard	Hathor Sogg Cache	ハトホル・ソッグの隠し宝	1	MASTER 01755
+hoard	Zandrithar Magic Keepsafe	ザンドリサーの魔法保管庫	1	MASTER 01756
+hoard	Wizard Worrfair Remains	魔術師ウォーフェアの遺骸	1	MASTER 01757
+hoard	Secret Samhain Hoard	サムハインの秘密の財宝	1	サウィンとも
+hoard	Vanguard Vault	ヴァンガード金庫	2	MASTER 01759
+hoard	Acme Ammo Shop	ACME弾薬店	1	MASTER 01760
+hoard	Acme Archery Shop	ACME弓具店	1	MASTER 01761
+hoard	Ducat's Weapons	ダカットの武器	1	MASTER 01762
+hoard	Kublai Warehouse	クビライの倉庫	1	MASTER 01763
+hoard	Saltwyrm Owl Chest	塩竜の梟の宝箱	2	Saltwyrm Caves
+hoard	Nether Owl Chest	冥界の梟の宝箱	2	MASTER 01765
+hoard	Bahomet Lucky Grab	バホメットの福袋	1	MASTER 01766
+hoard	Hidden Coil Chest	隠れ螺旋の宝箱	1	塔の「コイル」(階)
+hoard	Parlour Coil Chest	螺旋の客間の宝箱	1	MASTER 01768
+hoard	Qix Cosmo Shop	クイックスの宇宙商店	1	MASTER 01769
+hoard	Chance Keys	運試しの鍵	1	MASTER 01770
+hoard	Acme Power Shop	ACME電力店	1	MASTER 01771
+hoard	Alien Chance	異星の運試し	1	MASTER 01772
+hoard	Drak's Dojo Store	ドラクの道場売店	1	MASTER 01773
+hoard	Yuggoth's Trove	ユゴスの宝	1	MASTER 01774
+hoard	Grand Refuge Chest	大避難所の宝箱	1	MASTER 01775
+hoard	Ancients Refuge Chest	古代人の避難所の箱	1	MASTER 01776
+hoard	Cathedral Vault Chest	大聖堂の金庫箱	1	MASTER 01777
+hoard	Astral Plane Hoard	星界の財宝	1	MASTER 01778
+hoard	Titan Treasure Trunk	タイタンの宝の櫃	1	MASTER 01779
+hoard	Giggles Novelty Bag	ギグルズの珍品袋	1	MASTER 01780
+hoard	Titan Vault	タイタンの宝物庫	1	MASTER 01781
+hoard	Miners Automat	鉱夫の自販機	1	MASTER 01782
+hoard	Cataclysm Military Locker	大災厄の軍用ロッカー	1	MASTER 01783
+container	Dungeon Chest	迷宮の宝箱	1	MASTER 05188
+container	Forest Chest	森の宝箱	1	MASTER 05189
+container	Cavern Chest	洞窟の宝箱	1	MASTER 05190
+container	Beach Chest	浜辺の宝箱	1	MASTER 05191
+container	Mountain Chest	山の宝箱	1	MASTER 05192
+container	City Chest	街の宝箱	1	MASTER 05193
+container	Ship Chest	船の宝箱	1	MASTER 05194
+container	Evil Chest	邪悪な宝箱	1	MASTER 05195
+container	Crypt Chest	地下墓所の宝箱	1	MASTER 05196
+container	Oriental Chest	東洋の宝箱	1	MASTER 05197
+container	Sci-Fi Chest	SFの宝箱	1	MASTER 05198
+container	Serpent Chest	蛇の宝箱	1	MASTER 05199
+container	Church Chest	教会の宝箱	1	MASTER 05200
+container	Wizardry Chest	魔術の宝箱	1	MASTER 05201
+container	Barrel	樽	4	MASTER 05202
+container	Crate	木箱	3	MASTER 05203
+container	Ancient Urn	古代の壺	1	MASTER 05204
+container	Arcanum Chest	秘術の宝箱	1	MASTER 05205
+container	Witch Cauldron	魔女の大釜	1	MASTER 05206
+container	Soup Cauldron	スープの大釜	1	MASTER 05207
+hitloc	Arm	腕	1	MASTER 01565
+hitloc	Antennae	触角	1	MASTER 01566
+hitloc	Appendage	付属肢	1	MASTER 01567
+hitloc	Base	基部	1	MASTER 01568
+hitloc	Beak	嘴	3	MASTER 01569
+hitloc	Belly	腹	1	MASTER 01570
+hitloc	Bone	骨	3	MASTER 01571
+hitloc	Bough	大枝	1	MASTER 01572
+hitloc	Branch	枝	3	MASTER 01573
+hitloc	Carapace	甲羅	1	MASTER 01574
+hitloc	Claw	爪	6	MASTER 01575
+hitloc	Coil	とぐろ	19	MASTER 01576
+hitloc	Feeler	触毛	1	MASTER 01577
+hitloc	Fin	鰭	3	MASTER 01578
+hitloc	Flipper	ひれ足	3	MASTER 01579
+hitloc	Foot	足	4	MASTER 01580
+hitloc	Hood	フード	10	MASTER 01581
+hitloc	Gills	鰓	1	MASTER 01582
+hitloc	Hand	手	23	MASTER 01583
+hitloc	Head	頭	4	MASTER 01584
+hitloc	Hoof	蹄	1	MASTER 01585
+hitloc	Horn	角	9	MASTER 01586
+hitloc	Jaw	顎	1	MASTER 01587
+hitloc	Leg	脚	2	MASTER 01588
+hitloc	Limb	肢	1	MASTER 01589
+hitloc	Lower Body	下半身	1	MASTER 01590
+hitloc	Mandibles	大顎	3	MASTER 01591
+hitloc	Membrane	皮膜	1	MASTER 01592
+hitloc	Neck	首	1	MASTER 01593
+hitloc	Orb	球体	18	MASTER 01594
+hitloc	Paw	前足	1	MASTER 01595
+hitloc	Pincer	鋏	1	MASTER 01596
+hitloc	Pod	莢	3	MASTER 01597
+hitloc	Chest	胸	38	MASTER 01598
+hitloc	Root	根	10	MASTER 01599
+hitloc	Scales	鱗	1	MASTER 01600
+hitloc	Shell	殻	3	MASTER 01601
+hitloc	Skull	頭蓋	22	MASTER 01602
+hitloc	Snout	鼻面	1	MASTER 01603
+hitloc	Spine	背骨	1	MASTER 01604
+hitloc	Stalk	茎	1	MASTER 01605
+hitloc	Tail	尾	9	MASTER 01606
+hitloc	Talon	鉤爪	3	MASTER 01607
+hitloc	Tentacle	触手	6	MASTER 01608
+hitloc	Thorax	胸部	1	MASTER 01609
+hitloc	Trunk	幹	3	MASTER 01610
+hitloc	Tusk	牙	1	MASTER 01611
+hitloc	Upper Body	上半身	1	MASTER 01612
+hitloc	Wing	翼	1	MASTER 01613
+hitloc	Abdomen	腹部	1	MASTER 01614
+hitloc	Body	胴体	3	MASTER 01615
+hitloc	Pseudopod	偽足	4	MASTER 01616
+hitloc	Bulk	巨体	1	MASTER 01617
+hitloc	Viscera	内臓	1	MASTER 01618
+hitloc	Underbelly	下腹	1	MASTER 01619
+hitloc	Jelly	粘体	4	MASTER 01620
+hitloc	Bladder	気嚢	1	MASTER 01621
+hitloc	Eye	目	11	MASTER 01622
+hitloc	Mouth	口	1	MASTER 01623
+hitloc	Brain	脳	3	MASTER 01624
+hitloc	Crown	冠	4	MASTER 01625
+hitloc	Pyre	炎	5	MASTER 01626
+hitloc	Coxcomb	鶏冠	1	MASTER 01627
+hitloc	Arch	アーチ	2	MASTER 01628
+hitloc	Strings	弦	2	MASTER 01629
+hitloc	Torso	胴	1	MASTER 01630
+hitloc	Light	光	8	MASTER 01631
+hitloc	Crown ~ Asps	蛇冠	1	蛇の冠
+hitloc	Cowl	頭巾	1	MASTER 01633
+hitloc	Gremlin Archer	射手	1	乗っているグレムリン弓兵
+hitloc	Ribcage	肋骨	1	MASTER 01635
+hitloc	Femur	大腿骨	1	MASTER 01636
+tarot	The Fool!	愚者!	1	MASTER 05221
+tarot	The Magician	魔術師	1	MASTER 05222
+tarot	The Priestess	女教皇	1	MASTER 05223
+tarot	The Empress	女帝	1	MASTER 05224
+tarot	The Emperor	皇帝	1	MASTER 05225
+tarot	The Pope	教皇	1	MASTER 05226
+tarot	The Lovers	恋人	1	MASTER 05227
+tarot	The Chariot	戦車	1	MASTER 05228
+tarot	The Hermit	隠者	1	MASTER 05229
+tarot	The Hanged Man	吊された男	1	MASTER 05230
+tarot	The Devil!	悪魔!	1	MASTER 05231
+tarot	The Star	星	1	MASTER 05232
+tarot	The Moon	月	1	MASTER 05233
+tarot	The Sun	太陽	1	MASTER 05234
+tarot	The World!	世界!	1	MASTER 05235
+tarot	Judgement!	審判!	1	MASTER 05236
+tarot	Lightning	塔	6	「塔」の札（稲妻の絵）
+tarot	Death!	死神!	1	MASTER 05238
+tarot	Temperance	節制	1	MASTER 05239
+tarot	Strength	力	11	MASTER 05240
+tarot	Fortune	運命の輪	1	MASTER 05241
+tarot	Justice	正義	2	MASTER 05242
+legend	WATER	水場	9	MASTER 02892
+legend	*ZAP*	*感電*	1	MASTER 02893
+legend	LAVA!	溶岩!	1	MASTER 02894
+legend	DARK!	暗闇!	1	MASTER 02895
+legend	REST?	休憩?	1	MASTER 02896
+legend	!GAS!	!ガス!	1	MASTER 02897
+legend	DROWSY	眠気	1	MASTER 02898
+item	LACHESIS	ラケシス	1	運命の三女神の一柱（九つの石板）
+item	NEMESIS	ネメシス	1	MASTER 01861
+item	ATROPOS	アトロポス	1	MASTER 01862
+item	MEGAERA	メガイラ	2	復讐の女神
+item	SCYLLA	スキュラ	1	MASTER 01864
+item	ARACHNE	アラクネ	1	MASTER 01865
+item	AURORA	アウロラ	1	MASTER 01866
+item	GORGON	ゴルゴン	3	MASTER 01867
+item	Longsword	長剣	1	MASTER 01868
+item	Shortsword	小剣	1	MASTER 01869
+item	Bastard Sword	片手半剣	1	MASTER 01870
+item	Pole Fork	刺股	1	敵を捕らえ押さえる長柄
+item	QuarterStaff	六尺棒	1	MASTER 01872
+item	Lance	槍	20	MASTER 01873
+item	Throwing Knive	投げナイフ	1	原文の綴りはKnive
+item	Poison Dagger	毒の短剣	1	MASTER 01875
+item	Bone Dagger	骨の短剣	1	MASTER 01876
+item	HandAxe	手斧	1	MASTER 01877
+item	Battle Axe	戦斧	1	MASTER 01878
+item	Soothing Stone	安らぎの石	1	MASTER 01879
+item	Ruby Broach	ルビーブローチ	2	MASTER 01880
+item	Cobalt Sapphire	コバルトサファイア	1	MASTER 01881
+item	Silver Spoon	銀の匙	1	MASTER 01882
+item	Royal Seal Of Loogmar	ルーグマー王の印章	1	MASTER 01883
+item	Pointy Stick	尖った棒	1	MASTER 01884
+item	Letter Of Marque	私掠免許状	1	MASTER 01885
+item	Scrying Crystal	遠見の水晶	1	MASTER 01886
+item	Nightshade	ベラドンナ	6	MASTER 01887
+item	Arsenic	ヒ素	1	MASTER 01888
+item	Wolfsbane	トリカブト	1	MASTER 01889
+item	Garlic	にんにく	2	呪文「にんにく吐息」に合わせる
+item	Woundwort	癒し草	1	MASTER 01891
+item	Amaranth	アマランス	6	MASTER 01892
+item	Bag Of Whispers	囁きの袋	1	MASTER 01893
+item	Hemlock	毒人参	1	MASTER 01894
+item	Toadweed	ガマ草	1	MASTER 01895
+item	Black Lotus	黒い蓮	2	MASTER 01896
+item	Mistletoe	ヤドリギ	1	MASTER 01897
+item	Mandrake Root	マンドレイクの根	3	MASTER 01898
+item	Scullcap	タツナミソウ	1	MASTER 01899
+item	Grave Moss	墓場の苔	1	MASTER 01900
+item	Wooden Buckler	木の小盾	1	MASTER 01901
+item	Ivory Scrollcase	象牙の巻物入れ	1	MASTER 01902
+item	Stun Rod	昏倒の杖	1	Stun系は「昏倒」（呪文Knockoutに合わせる）
+item	Cosmic Egg	宇宙の卵	8	MASTER 01904
+item	Cosmic Egg Yolk	宇宙の卵の黄身	2	MASTER 01905
+item	Coffin Orchids	棺桶蘭	1	MASTER 01906
+item	Monk's Bones	修道僧の骨	1	MASTER 01907
+item	Hand Of Ha-Ka-Tuten	ハカトゥテンの手	1	ツタンカーメンのもじり
+item	Mistral's Letter	ミストラルの手紙	1	MASTER 01909
+item	Wand Of Fireballs	火球の短杖	1	MASTER 01910
+item	Armoury Key	武器庫の鍵	1	MASTER 01911
+item	Rusty Gate Key	錆びた門の鍵	1	MASTER 01912
+item	Mechano Egg	機械の卵	2	MASTER 01913
+item	Mechano Owl	機械の梟	3	MASTER 01914
+item	Hand Of Glory	栄光の手	1	MASTER 01915
+item	Broadsword	広刃剣	1	MASTER 01916
+item	Key Of Saints	聖者の鍵	2	MASTER 01917
+item	Periapt Of Accursed Wind	魔風の護符	1	「魔風」を唱える
+item	Lyre Of Slumber	眠りの竪琴	1	MASTER 01919
+item	Wand Of Rainbows	虹の短杖	1	MASTER 01920
+item	Copper Plate	銅板鎧	1	MASTER 01921
+item	Lethe Liqeur	レテの酒	2	MASTER 01922
+item	Leg Of Ham	骨付きハム	1	MASTER 01923
+item	Leather Armor	革鎧	1	MASTER 01924
+item	Iron Rations	保存食	1	MASTER 01925
+item	Spoiled Rations	腐った保存食	1	MASTER 01926
+item	Galen Apple	ガレノスの林檎	1	MASTER 01927
+item	Slingshot	パチンコ	1	MASTER 01928
+item	Caduceus Of Life	生命の蛇杖	1	Caduceus=蛇杖（ケーリュケイオン）
+item	Neutralize Poison	解毒	2	呪文名
+item	True North	真北	1	「羅針盤」の巻物
+item	Key Of The Exemplar	エグゼンプラーの鍵	1	MASTER 01932
+item	Spirit Goblet	魂の杯	3	MASTER 01933
+item	Cure Paralysis	麻痺治癒	2	呪文名
+item	Heraldic Shield	紋章の盾	1	MASTER 01935
+item	Stone-To-Flesh	石化解除	1	呪文名
+item	Cure Lt. Condition	軽異常治癒	1	呪文名
+item	Vending Token	自販機コイン	2	MASTER 01938
+item	Stave Of Missiles	魔法の矢の杖	1	MASTER 01939
+item	Bane Of Hobnob	ホブノブの災い	1	MASTER 01940
+item	Rock Salts	岩塩	2	MASTER 01941
+item	Cure Heavy Wounds	重傷治癒	3	呪文名
+item	Swaying Lute	揺らぎの琵琶	1	Lute=琵琶（itemclass）
+item	Cherry Wine	さくらんぼ酒	1	MASTER 01944
+item	Swamp Leech	沼ヒル	1	MASTER 01945
+item	Cure Lt. Wounds	軽傷治癒	1	呪文名
+item	Bag Of Terrors	恐怖の袋	1	MASTER 01947
+item	Bag Of Slumber	眠りの袋	1	MASTER 01948
+item	Ring Of Protection	防護の指輪	1	MASTER 01949
+item	Coronet Of Chaos	混沌の角笛	1	coronet/cornetの洒落
+item	Seahorse Signet	海馬の印章	1	MASTER 01951
+item	Death Mask	デスマスク	1	MASTER 01952
+item	Nematic Dust	ネマチック粉	1	MASTER 01953
+item	Gold Leaf	金箔	1	MASTER 01954
+item	Ring Of Power	力の指輪	1	MASTER 01955
+item	Crimson Ambrosia	深紅の神酒	1	MASTER 01956
+item	Brigandine	鋲打ち鎧	1	MASTER 01957
+item	Ringmail	鉄輪鎧	1	MASTER 01958
+item	Horn Of Horror	恐怖の角笛	1	MASTER 01959
+item	Needle Darts	針投矢	1	MASTER 01960
+item	Locksmith's Glue	錠前師の糊	1	MASTER 01961
+item	Baldercake	バルダーケーキ	2	Balderdashのもじり
+item	Cap O'Rushes	イグサの頭巾	1	英国民話「イグサのずきん」
+item	Halomancic Salts	封魔の塩	1	原義は塩占い。効果（封魔陣）から
+item	Amulet Astrixus	アストリクサスの護符	3	MASTER 01965
+item	Avenger Talisman	報復の護符	1	MASTER 01966
+item	Divination	占術	6	呪文名
+item	Knuckle Duster	メリケンサック	1	MASTER 01968
+item	Bag Of Chuckles	爆笑の袋	1	MASTER 01969
+item	Bag Of Sparkles	火花の袋	1	MASTER 01970
+item	Seven Leagues	七里靴	1	MASTER 01971
+item	Dracaena Petals	竜血樹の花弁	1	MASTER 01972
+item	Key Of The Mystery	謎の鍵	1	MASTER 01973
+item	Leather Helm	革の兜	1	MASTER 01974
+item	Leather Jerkin	革の胴着	1	MASTER 01975
+item	Leather Pants	革のズボン	1	MASTER 01976
+item	Trail Boots	旅の靴	1	MASTER 01977
+item	Leather Gloves	革手袋	1	MASTER 01978
+item	Silk Robe	絹の長衣	1	MASTER 01979
+item	Phrygian Cone	フリギア帽	1	MASTER 01980
+item	Sandals	サンダル	3	MASTER 01981
+item	Lead Ball	鉛玉	1	MASTER 01982
+item	Magic Missile	魔法の矢	6	呪文名
+item	Holy Symbol	聖印	5	MASTER 01984
+item	Leather Vestment	革の法衣	1	MASTER 01985
+item	Fireball	火球	8	呪文名
+item	Healing	治癒	4	呪文一覧に該当なし
+item	Cotton Cloak	木綿の外套	1	MASTER 01988
+item	Thistle Whistle	アザミの笛	1	MASTER 01989
+item	Hunting Shirt	狩猟シャツ	1	MASTER 01990
+item	Moccasins	モカシン	1	MASTER 01991
+item	Shortbow	短弓	1	MASTER 01992
+item	Barbed Arrows	返しの矢	1	MASTER 01993
+item	Hunting Knife	狩猟ナイフ	1	MASTER 01994
+item	Flannel Shirt	ネルシャツ	1	MASTER 01995
+item	Flannel Pants	ネルのズボン	1	MASTER 01996
+item	Locate Person	人物探索	5	呪文名
+item	Knock-Knock	開けゴマ	2	呪文Knock Knock
+item	Stiletto	スティレット	1	MASTER 01999
+item	Amulet Of Might	剛力の護符	1	「剛力」を唱える
+item	Tricorne Hat	三角帽	1	MASTER 02001
+item	Cutlass	舶刀	2	MASTER 02002
+item	Forge Hammer	鍛冶槌	1	MASTER 02003
+item	Fireseed	火の種	1	MASTER 02004
+item	True Seeing	真実の目	3	呪文名
+item	Mindread	読心	4	呪文MindRead
+item	Poison Dust	毒の粉	1	MASTER 02007
+item	Nausea Powder	吐き気の粉	1	MASTER 02008
+item	Red Pepper	唐辛子	1	MASTER 02009
+item	Sleep Sand	眠りの砂	1	MASTER 02010
+item	Paralysis Dust	麻痺の粉	1	MASTER 02011
+item	Undead Warder	不死封じ聖印	1	MASTER 02012
+item	Gear Band	歯車帯	2	MASTER 02013
+item	Composite Bow	複合弓	1	MASTER 02014
+item	Oatmeal Cookie	オーツクッキー	1	MASTER 02015
+item	Humming Arrow	鏑矢	1	MASTER 02016
+item	Ring Of Swordsmen	剣士の指輪	1	MASTER 02017
+item	Blowgun	吹き矢筒	1	MASTER 02018
+item	Blowdarts	吹き矢	1	MASTER 02019
+item	Ring Of Smiting	強打の指輪	1	MASTER 02020
+item	Ring Of Featherfall	羽毛落下の指輪	1	MASTER 02021
+item	Ring Of Deflection	偏向の指輪	1	MASTER 02022
+item	Recharge	再充填	4	呪文名
+item	Deep Freeze	急速冷凍	5	呪文名
+item	Tome Of The Spider	蜘蛛の書	1	MASTER 02025
+item	Broken Harness	壊れたハーネス	1	MASTER 02026
+item	Linchpin	留めピン	1	MASTER 02027
+item	Outrigger Harness	補強ハーネス	1	MASTER 02028
+item	Canvas Sack	帆布の袋	2	MASTER 02029
+item	Armorplate	装甲強化	4	呪文名
+item	Dralkar's Fury	ドラルカーの怒り	1	MASTER 02031
+item	Arachne's Vial	アラクネの小瓶	1	MASTER 02032
+item	Bottle Of Milk	牛乳瓶	1	MASTER 02033
+item	Pack Of Jelly Beans	ゼリービーンズ	1	MASTER 02034
+item	Engineer's Memo	技師のメモ	1	MASTER 02035
+item	Vorpal Blade	ヴォーパルの剣	2	ジャバウォックを斬った剣
+item	Book Of Reflekshun	はんしゃの書	1	原文の誤綴りの冗談をひらがなで
+item	Sleeper Arrow	眠りの矢	1	MASTER 02038
+item	Flame Arrow	火矢	1	MASTER 02039
+item	Stun Arrow	昏倒の矢	1	MASTER 02040
+item	Drain Arrow	吸精の矢	1	MASTER 02041
+item	Rod Of Nightmares	悪夢の杖	1	MASTER 02042
+item	Mercury Fish	水銀魚	1	MASTER 02043
+item	Hadesmonger	ハデスモンガー	1	MASTER 02044
+item	Chromatic Visor	色彩バイザー	5	MASTER 02045
+item	Propagator Belt	伝導ベルト	1	MASTER 02046
+item	Memory Disk	メモリディスク	1	MASTER 02047
+item	Axio-Stabilizer	軸安定装置	2	MASTER 02048
+item	Dragon Key	竜の鍵	2	MASTER 02049
+item	Baling Hook	荷役鉤	1	MASTER 02050
+item	Gaol Key	牢の鍵	1	MASTER 02051
+item	Wolf's Head	狼の頭	1	MASTER 02052
+item	Fungal Anodyne	菌類鎮静剤	1	MASTER 02053
+item	Bell Clapper	鐘の舌	1	MASTER 02054
+item	Bell Fragment	鐘の破片	2	MASTER 02055
+item	Bell Jacket	鐘の胴	1	MASTER 02057
+item	Bell Hasp	鐘の留金	1	MASTER 02058
+item	Bell Casing	鐘の外殻	1	MASTER 02059
+item	Cathedral Bell	大聖堂の鐘	9	MASTER 02060
+item	Dead Ringer Chart	弔鐘の海図	2	dead ringer（瓜二つ）と鐘の洒落
+item	Y-Adaptor Plug	Y字プラグ	2	MASTER 02062
+item	Golden Lock	黄金の錠前	1	MASTER 02063
+item	Magneto Disk	磁気円盤	3	MASTER 02064
+item	Lavaliere Of Swords	剣のペンダント	1	タロットの4スート
+item	Lavaliere Of Cups	聖杯のペンダント	1	MASTER 02066
+item	Lavaliere Of Pentacles	金貨のペンダント	1	MASTER 02067
+item	Lavaliere Of Batons	棒のペンダント	1	MASTER 02068
+item	Homeless Crab	宿なしガニ	1	MASTER 02069
+item	Hermit Crab	ヤドカリ	1	MASTER 02070
+item	Rope (25 ft.)	ロープ(25ft.)	1	MASTER 02071
+item	Astrynomic Sceptre	天文の王笏	1	MASTER 02072
+item	Mirror Of Reflekshun	はんしゃの鏡	1	Book Of Reflekshunと揃える
+item	Brisingamen	ブリーシンガメン	1	北欧神話フレイヤの首飾り
+item	Amphorae	アンフォラ	1	MASTER 02075
+item	Caliburnus	カリブルヌス	1	MASTER 02076
+item	Thunderbolt	雷霆	2	MASTER 02077
+item	Hellbinder	地獄封じ	1	MASTER 02078
+item	Cargo Net	荷網	1	MASTER 02079
+item	Cockatrice Feather	コカトリスの羽根	1	MASTER 02080
+item	Mirror Shard	鏡の破片	1	MASTER 02081
+item	Druid Burnoose	ドルイドの外套	1	MASTER 02082
+item	Methuselah Egg	メトシェラの卵	1	MASTER 02083
+item	Widower	ヤモメ	2	蜘蛛（後家蜘蛛）が恐れる剣
+item	Battle Gauntlet	戦闘篭手	1	MASTER 02085
+item	Spiked Bracer	棘の腕甲	1	MASTER 02086
+item	Golden Armor	黄金の鎧	2	MASTER 02087
+item	Platinum Armor	白金の鎧	1	MASTER 02088
+item	Titanium Armor	チタンの鎧	1	MASTER 02089
+item	Rope & Hook	鉤縄	2	MASTER 02090
+item	Armageddon Key	ハルマゲドンの鍵	1	MASTER 02091
+item	Caduceus of Healing	癒しの蛇杖	1	MASTER 02092
+item	Djinn Bottle	魔神の瓶	1	npc「瓶の魔神」
+item	Psychopompic Orb	サイコポンプの宝珠	1	MASTER 02094
+item	The Mabinogion	マビノギオン	5	MASTER 02095
+item	Encyclic Syllabus	百科全書	4	延滞図書の冗談
+item	Hot Chili Sardine	激辛イワシ	1	MASTER 02097
+item	Rug Of Smothering	窒息の絨毯	1	MASTER 02098
+item	Curtain Of Concealment	隠形の帳	1	MASTER 02099
+item	Carpet Of Levitation	浮遊の絨毯	1	MASTER 02100
+item	Diving Bell	潜水鐘	5	MASTER 02101
+item	Stepping Stones	飛び石	1	MASTER 02102
+item	Deth-O-Matic 4000	デスオマチック4000	1	MASTER 02103
+item	Cryonic Coffer	冷凍金庫	1	MASTER 02104
+item	Mr. Lobotomy	ロボトミー氏	1	Mr.は「〜氏」（npcに合わせる）
+item	Phased Plasma Rifle	位相プラズマ銃	1	ターミネーターのネタ
+item	Donut Of Destruction	破壊のドーナツ	1	MASTER 02107
+item	Muon Power Cell	ミューオン電池	1	MASTER 02108
+item	Key Of The Owl	梟の鍵	1	MASTER 02109
+item	Hourglass Of Relapse	逆戻りの砂時計	1	MASTER 02110
+item	Royal Leaflet	王家のチラシ	1	MASTER 02111
+item	Elder Map	古の地図	1	MASTER 02112
+item	Rhattu Bones	ラットゥの骨	1	MASTER 02113
+item	Key Of The Domain	領域の鍵	1	グレンデルの領域
+item	Pipes Majestyk	荘厳の笛	8	MASTER 02115
+item	Bearded War Axe	髭付き戦斧	1	MASTER 02116
+item	Suan-Tou-Fung	蒜頭棍	1	中国の蒜頭（ニンニク頭）の棍
+item	Bec-De-Corbin	ベク・ド・コルバン	1	MASTER 02118
+item	Bipennis	両刃斧	1	MASTER 02119
+item	Broad Axe	広刃斧	1	MASTER 02120
+item	Cat'O'Nine Tails	九尾の猫鞭	1	MASTER 02121
+item	Fist Mace	拳型メイス	1	MASTER 02122
+item	Cudgel	棍棒	1	MASTER 02123
+item	Duckbill	アヒル斧	3	鴨の嘴形の斧
+item	Flagellum	フラゲルム	3	MASTER 02125
+item	Goupillon	グピヨン	2	MASTER 02126
+item	Holy Sprinkler	聖水撒き	1	MASTER 02127
+item	Spoked Mace	突起メイス	1	MASTER 02128
+item	Ball & Chain	鎖付き鉄球	1	MASTER 02129
+item	Martel de Fer	マルテル	1	MASTER 02130
+item	War Maul	大槌	1	MASTER 02131
+item	Ball Flail	鉄球連接棍	1	MASTER 02132
+item	Moon Axe	三日月斧	1	MASTER 02133
+item	Nunchaku	ヌンチャク	1	MASTER 02134
+item	Sai	サイ	1	MASTER 02135
+item	Tonfa	旋棍	1	トンファー（幅のため漢字）
+item	Truncheon	警棒	1	MASTER 02137
+item	War Hammer	戦槌	1	MASTER 02138
+item	Dirk	ダーク	1	MASTER 02139
+item	Gauche	左手剣	1	マンゴーシュ
+item	Tanto	短刀	1	MASTER 02141
+item	Bolas	ボーラ	3	MASTER 02142
+item	Bullwhip	牛追い鞭	1	MASTER 02143
+item	Cestus	セスタス	3	MASTER 02144
+item	Full Moon	満月	1	輪形の投擲武器
+item	Kusarigama	鎖鎌	1	MASTER 02146
+item	Kyogketsu-Shogi	距跋渉子	1	MASTER 02147
+item	Lariat	投げ縄	1	MASTER 02148
+item	Shuriken	手裏剣	1	MASTER 02149
+item	Awl Pike	錐槍	1	MASTER 02150
+item	Poison Lash	毒の鞭	1	MASTER 02151
+item	Beaked Axe	鳥嘴斧	2	MASTER 02152
+item	Berdiche	長刃斧	1	バルディッシュ
+item	Bo	棍	2	MASTER 02154
+item	Brandestoc	仕込み槍	2	MASTER 02155
+item	Joust	馬上槍	1	MASTER 02156
+item	Guisarme	ギザルム	1	MASTER 02157
+item	Halberd Pike	斧槍	1	MASTER 02158
+item	Half Moon	半月	1	MASTER 02159
+item	Lucerne Hammer	ルツェルンハンマー	1	MASTER 02160
+item	Naginata	薙刀	1	MASTER 02161
+item	Pike	長槍	5	MASTER 02162
+item	Pole Axe	長柄斧	2	MASTER 02163
+item	Sabre Halberd	剣刃斧槍	3	MASTER 02164
+item	Scythe	大鎌	2	MASTER 02165
+item	Spetum	スペタム	1	MASTER 02166
+item	Voulge	鉈槍	3	ヴォウジェ
+item	Boar Spear	猪槍	2	MASTER 02168
+item	Harpoon	銛	1	MASTER 02169
+item	Javelin	投槍	1	MASTER 02170
+item	Firestorm	火炎嵐	7	呪文FireStorm
+item	To-Ono	大斧	1	MASTER 02172
+item	Baselard	バゼラード	1	MASTER 02173
+item	Claymore	クレイモア	3	MASTER 02174
+item	Flamberge	波刃剣	3	フランベルジュ
+item	No-Dachi	野太刀	1	MASTER 02176
+item	Ninjato	忍者刀	1	MASTER 02177
+item	Sabre Cutlass	サーベル舶刀	1	MASTER 02178
+item	Jeweled Scimitar	宝玉の曲刀	1	MASTER 02179
+item	Zweihander	両手大剣	3	ツヴァイハンダー
+item	Chainmail	鎖帷子	2	MASTER 02181
+item	Platemail	板金鎧	2	MASTER 02182
+item	Bronze Plate	青銅板鎧	1	MASTER 02183
+item	Jazeraint Shirt	ジャゼラント胴着	1	MASTER 02184
+item	Maximilian Plate	マクシミリアン鎧	1	MASTER 02185
+item	Lamellar	小札鎧	1	MASTER 02186
+item	Kite Shield	凧型盾	1	MASTER 02187
+item	Target Buckler	円形小盾	1	MASTER 02188
+item	Holy Heater	聖印の盾	1	MASTER 02189
+item	Mail Coif	鎖頭巾	1	MASTER 02190
+item	Greaves	脛当て	4	MASTER 02191
+item	Sollerets	鉄靴	3	MASTER 02192
+item	Hauberk	長鎖帷子	2	MASTER 02193
+item	Disintegrate	分解	5	呪文名
+item	Ring Of Polymorph	変化の指輪	1	MASTER 02195
+item	Bascinet	バシネット	1	MASTER 02196
+item	Cuirass Leggings	板金の脚甲	1	MASTER 02197
+item	Attic Helm	アッティカ兜	2	MASTER 02198
+item	Leather Hood	革頭巾	1	MASTER 02199
+item	Vambraces	腕甲	2	MASTER 02200
+item	Jazeraint Pants	ジャゼラント脚甲	1	MASTER 02201
+item	Pill	ピル	1	pilumと錠剤の洒落
+item	Mail Chausses	鎖の脚甲	1	MASTER 02203
+item	Heaume	大兜	2	MASTER 02204
+item	Rerebraces	上腕甲	1	MASTER 02205
+item	Camail	喉当て	2	MASTER 02206
+item	Spur Sollerets	拍車付き鉄靴	1	MASTER 02207
+item	Pauldrons	肩当て	2	MASTER 02208
+item	Burgonet	ブルゴネット	2	説明文のバーガーの冗談用にカタカナ
+item	Katana	刀	2	MASTER 02210
+item	Wakizashi	脇差	2	MASTER 02211
+item	Stone Bow	弾弓	1	MASTER 02212
+item	Stone Bullets	石弾	1	MASTER 02213
+item	Sling	投石器	8	MASTER 02214
+item	Crossbow	クロスボウ	3	MASTER 02215
+item	Siege Arbalest	攻城弩	1	MASTER 02216
+item	Cranequin	巻上げ弩	1	MASTER 02217
+item	Chu-Ko-Nu	諸葛弩	1	MASTER 02218
+item	Longbow	長弓	1	MASTER 02219
+item	Slurbow	スラーボウ	1	MASTER 02220
+item	Threaded Lash	撚り鞭	1	MASTER 02221
+item	Poison Arrow	毒矢	1	MASTER 02222
+item	Poison Dart	毒投矢	1	MASTER 02223
+item	Feather Dart	羽根投矢	1	MASTER 02224
+item	Morningstar	モーニングスター	1	MASTER 02225
+item	Braided Golden Cord	金の組紐	1	MASTER 02226
+item	Exemplar Codex	エグゼンプラー写本	2	MASTER 02227
+item	Eyepatch	眼帯	2	MASTER 02228
+item	Garland Of Thorns	茨の冠	1	MASTER 02229
+item	Crypt Clarion	墓場のラッパ	3	呪文名
+item	Stink Bomb	悪臭弾	2	MASTER 02231
+item	Invisibility	透明化	5	呪文名
+item	Blink	転移	3	状態Blinkに合わせる
+item	Talenton	タレントン	1	MASTER 02234
+item	Star Gauntlet	星の篭手	1	MASTER 02235
+item	Autofire Chaingun	自動機関銃	1	MASTER 02236
+item	Deep One Totem	深きものの像	1	MASTER 02237
+item	Final Notice	最終督促状	3	MASTER 02238
+item	Rusty Sword	錆びた剣	1	MASTER 02239
+item	Havoc Seed	災厄の種	23	MASTER 02240
+item	Blacky's Diary	ブラッキーの日記	1	MASTER 02241
+item	Tuning Fork	音叉	1	MASTER 02242
+item	Treasury Key	宝物庫の鍵	1	MASTER 02243
+item	Key Of Psychopomp	サイコポンプの鍵	1	MASTER 02244
+item	Snakeskin Pouch	蛇革の小袋	1	MASTER 02245
+item	Skull Ruby	髑髏ルビー	1	MASTER 02246
+item	Vial Of Night Mists	夜霧の小瓶	1	MASTER 02247
+item	Vial Of Spirit Essence	霊精の小瓶	1	MASTER 02248
+item	Bones Of Xerxes	クセルクセスの骨	1	MASTER 02249
+item	Prematter Ectoplasm	前物質エクトプラズム	1	MASTER 02250
+item	Batwing Ring	蝙蝠翼の指輪	1	MASTER 02251
+item	Eye Of Nerukzan	ネルクザンの目	2	MASTER 02252
+item	Key to The City	街の鍵	1	MASTER 02253
+item	Large Bird Egg	巨鳥の卵	1	MASTER 02254
+item	Eldritch Puzzle Box	異界のパズル箱	1	MASTER 02255
+item	Cube Of Corgu	コーグの立方体	2	MASTER 02256
+item	Ziggurat Of Zinestes	ジネステスのジッグラト	1	MASTER 02257
+item	Orb Of Olisson	オリッソンの宝珠	2	MASTER 02258
+item	Cone Of Krypkar	クリプカーの円錐	1	MASTER 02259
+item	Copper Damper Mesh	銅の遮蔽網	1	MASTER 02260
+item	Mollusk Master	軟体マスター	1	MASTER 02261
+item	THANATOS	タナトス	1	MASTER 02262
+item	Bite	牙	16	噛みつき。魔物の攻撃部位
+item	Claw	爪	6	MASTER 02264
+item	Tail	尾	9	MASTER 02268
+item	Punch	殴打	4	MASTER 02269
+item	Thorn	棘	2	MASTER 02271
+item	Stinger	毒針	5	MASTER 02272
+item	Fist	拳	4	MASTER 02273
+item	Pseudopod	偽足	4	MASTER 02274
+item	Trident	三叉槍	1	MASTER 02277
+item	Dead Rat	鼠の死骸	1	MASTER 02278
+item	Horns	角	5	MASTER 02279
+item	Jeweled Egg	宝石の卵	2	MASTER 02280
+item	Luck Stone	幸運の石	1	MASTER 02281
+item	Humanoid Attack	人型の攻撃	1	MASTER 02282
+item	Wolfin Attack	ウルフィンの攻撃	1	MASTER 02283
+item	Feyfolk Attack	妖精族の攻撃	1	MASTER 02284
+item	Saurian Attack	蜥蜴人の攻撃	1	MASTER 02285
+item	Naga Attack	ナーガの攻撃	1	MASTER 02286
+item	Drake Attack	竜人の攻撃	1	MASTER 02287
+item	Rhattu Attack	ラットゥの攻撃	1	MASTER 02288
+item	Leonar Attack	レオナーの攻撃	1	MASTER 02289
+item	Aeorb Attack	エオーブの攻撃	1	MASTER 02290
+item	Giant Attack	巨人の攻撃	1	MASTER 02291
+item	Vampire Attack	吸血鬼の攻撃	1	MASTER 02292
+item	Talons	鉤爪	2	MASTER 02307
+item	Talon	鉤爪	3	MASTER 02309
+item	Touch	接触	20	MASTER 02313
+item	Leafblade	葉の刃	2	MASTER 02327
+item	Mandibles	大顎	3	MASTER 02329
+item	Tongue	舌	6	MASTER 02331
+item	Flipper	ひれ足	3	MASTER 02337
+item	Fin	鰭	3	MASTER 02339
+item	Coil	とぐろ	19	MASTER 02341
+item	Whiskers	髭	1	MASTER 02342
+item	Branch	枝	3	MASTER 02343
+item	Foot	足	4	MASTER 02345
+item	Boulder	岩	3	MASTER 02348
+item	Ninja	忍者	3	MASTER 02351
+item	Tailbarb	尾の棘	3	MASTER 02353
+item	Wings	翼	2	MASTER 02356
+item	Pinecone	松かさ	1	MASTER 02358
+item	NettleSpike	刺草の棘	2	MASTER 02359
+item	Remove Curse	解呪	7	呪文名
+item	Locate Item	物品探索	5	呪文名
+item	Accursed Skull Of Amon	アモンの呪い髑髏	1	MASTER 02375
+item	Accursed Skull Of Ra	ラーの呪い髑髏	1	MASTER 02376
+item	Accursed Skull Of Lir	リルの呪い髑髏	1	MASTER 02377
+item	Accursed Skull Of Hoth	ホスの呪い髑髏	1	MASTER 02378
+item	Accursed Skull Of Uzuk	ウズクの呪い髑髏	1	MASTER 02379
+item	Necromantle	ネクロマントル	1	MASTER 02380
+item	Mithril Cuirass	ミスリル胸甲	1	MASTER 02381
+item	Mithril Greaves	ミスリル脛当て	1	MASTER 02382
+item	Mithril Armet	ミスリル兜	1	MASTER 02383
+item	Detect Magic	魔力探知	3	呪文名
+item	Detect Secret	秘密探知	5	呪文名
+item	Beak	嘴	3	MASTER 02386
+item	Hook	鉤	11	MASTER 02388
+item	Tentacle	触手	6	MASTER 02390
+item	Mandarin Pipe	官吏の煙管	1	緑の官吏の煙管
+item	Gremlin Bow	グレムリンの弓	1	MASTER 02396
+item	Snakes	蛇	5	MASTER 02397
+item	Crown Of Gorgon	ゴルゴンの冠	1	MASTER 02398
+item	Necrostave	死霊の短杖	1	Necrostaff(死霊の杖)と区別
+item	Identify	鑑定	6	MASTER 02401
+item	Wooden Club	木の棍棒	1	MASTER 02402
+item	Unholy Symbol	邪悪な聖印	1	MASTER 02403
+item	Night Hood	夜の頭巾	1	MASTER 02404
+item	Night Robe	夜の長衣	1	MASTER 02405
+item	Night Leggings	夜の脚衣	1	MASTER 02406
+item	Elysium Berries	楽園の果実	1	エリュシオン=楽園
+item	Labyris	ラブリュス	1	両刃斧。女性専用
+item	Keeper's Key	番人の鍵	1	MASTER 02409
+item	Orchestral Key	管弦の鍵	1	MASTER 02410
+item	Key Of The Vault	宝物庫の鍵	1	MASTER 02411
+item	Zorb Key	ゾーブの鍵	1	MASTER 02412
+item	Magic Screen	魔法障壁	3	MASTER 02413
+item	Enchanted Blade	魔法の刃	3	MASTER 02414
+item	AntiMagic	反魔法	3	MASTER 02415
+item	Hold Undead	不死束縛	3	MASTER 02416
+item	Cestian Girdle	ケストスの帯	1	アフロディテの帯
+item	Flute of Chaos	混沌の笛	1	MASTER 02418
+item	Wizard Cap	魔術師帽	1	MASTER 02419
+item	Dragon Control	竜支配	2	MASTER 02420
+item	Raise Dead	死者復活	9	MASTER 02421
+item	Crabshell	蟹の殻	1	MASTER 02422
+item	Punch Puppet	パンチ人形	1	MASTER 02423
+item	Exploding Cigar	爆発する葉巻	1	MASTER 02424
+item	Gris-Gris Bag	グリグリ袋	1	MASTER 02425
+item	Necrostaff	死霊の杖	1	MASTER 02426
+item	Ring Pro Magic	対魔法の指輪	1	MASTER 02427
+item	King's Crest	王の紋章	1	MASTER 02428
+item	Royal Seal	王家の印章	3	MASTER 02429
+item	Avian Helm	鳥翼の兜	1	MASTER 02430
+item	Owl Figurine	梟の小像	1	MASTER 02431
+item	Raptor Statue	猛禽の像	1	MASTER 02432
+item	Vulcanic Gloves	ウルカヌス手袋	2	MASTER 02433
+item	Museum Ticket	博物館入場券	1	MASTER 02434
+item	Deepsink Ore	深淵の鉱石	1	MASTER 02435
+item	Evil-Off	悪魔ヨケール	1	虫除け商品のパロディ
+item	Cosmic Gate	宇宙の門	11	MASTER 02437
+item	Canopic Jar	カノプス壺	1	MASTER 02438
+item	Dragonic Bile	竜の胆汁	1	MASTER 02439
+item	Sparkler Rod	火花の杖	1	MASTER 02440
+item	Piercer Arrow	貫通の矢	1	MASTER 02441
+item	K.O. Rock	K.O.石	1	MASTER 02442
+item	Freezer Rod	冷凍の杖	1	MASTER 02443
+item	Huntsman Quarrel	狩人の矢筒	1	実体は矢筒(容器)
+item	Zapper Rod	電撃の杖	1	MASTER 02445
+item	Cupid's Arrow	キューピッドの矢	1	MASTER 02446
+item	Faerie Staff	妖精の杖	1	MASTER 02447
+item	Fizzlestick	不発の棒	1	MASTER 02448
+item	Medusa Dust	メデューサの粉	1	MASTER 02449
+item	Torpedo Rod	魚雷の杖	1	MASTER 02450
+item	Lightning	稲妻	6	呪文一覧に無し。Lightning Boltなら雷撃
+item	Beholder stave	邪眼の杖	1	MASTER 02452
+item	Terror Stave	恐怖の杖	1	MASTER 02453
+item	Muting Lyre	沈黙の竪琴	1	MASTER 02454
+item	DragonSlayer	竜殺し	1	MASTER 02455
+item	Giant Killer	巨人殺し	1	MASTER 02456
+item	Ice Wand	氷の杖	1	MASTER 02457
+item	Pandora's Box	パンドラの箱	1	MASTER 02458
+item	Warwind Wand	戦風の杖	1	MASTER 02459
+item	Apocalypse Stave	黙示録の杖	1	MASTER 02460
+item	Clutcher Talon	掴みの鉤爪	1	MASTER 02461
+item	Fangor	牙丸	2	Fang+or。短剣の銘として「〜丸」
+item	Stingor	針丸	2	Sting+or
+item	GraveGuide	冥途の案内	2	MASTER 02464
+item	DethSkul	死ドクロ	2	MASTER 02465
+item	NecroShroud	死霊の屍衣	1	MASTER 02466
+item	NecroHood	死霊の頭巾	1	MASTER 02467
+item	NecroSkirt	死霊の腰衣	1	MASTER 02468
+item	Crusade Kite	十字軍の凧盾	2	MASTER 02469
+item	RuneShield	ルーンの盾	1	MASTER 02470
+item	NecroHelm	死霊の兜	1	MASTER 02471
+item	Gauss Boots	ガウス長靴	1	絶縁のゴム長靴
+item	Armor Shield	装甲障壁	2	呪文一覧に無し(仮訳)
+item	Direction	羅針盤	4	MASTER 02474
+item	Magic Bells	魔法の鈴	4	MASTER 02476
+item	Bless	祝福	3	MASTER 02477
+item	Charm	魅了	7	MASTER 02478
+item	Fire Shield	耐火の盾	3	MASTER 02479
+item	Knock Knock	開けゴマ	3	MASTER 02480
+item	Missile Shield	矢避けの盾	3	MASTER 02481
+item	Featherfall	羽毛落下	4	呪文Feather Fallと同じ
+item	Vivogenesis	ヴィヴォ創世	2	呪文VivoGenesisと同じ
+item	Wizard's Eye	千里眼	2	呪文Wizard Eyeと同じ
+item	Anti-Magic	反魔法	2	呪文AntiMagicと同じ
+item	Cacaphony Harp	不協和音ハープ	1	MASTER 02489
+item	Halcyonic Lyre	凪の竪琴	1	MASTER 02490
+item	Barding Kit	吟遊詩人の箱	2	楽器用の容器
+item	Horn of Winter	冬の角笛	1	MASTER 02492
+item	Lethe Harp	レテのハープ	1	MASTER 02493
+item	Hotfoot Banjo	あちちバンジョー	1	タランテラを奏でる
+item	Sheolic Pipes	冥府の葦笛	1	MASTER 02495
+item	Cosmic Cryer	宇宙の角笛	1	MASTER 02496
+item	Doom Chanter	破滅の詠唱者	1	MASTER 02497
+item	Brimstone	硫黄石	1	MASTER 02498
+item	Nocturne	夜想曲	1	MASTER 02499
+item	Ring Pro Frost	対冷気の指輪	1	MASTER 02500
+item	Ring Pro Fire	対火炎の指輪	1	MASTER 02501
+item	Wand of Webs	蜘蛛網の杖	1	MASTER 02502
+item	Amulet vs. Death	対即死の護符	1	MASTER 02503
+item	Amulet vs. Hypno	対催眠の護符	1	MASTER 02504
+item	Amulet vs. Sorcery	対魔術の護符	1	MASTER 02505
+item	Water Glass	水鏡の珠	1	MASTER 02506
+item	Dazzler Dust	眩惑の粉	1	MASTER 02507
+item	Sentry Vision	見張りの目	1	MASTER 02508
+item	Ring of Sages	賢者の指輪	1	MASTER 02509
+item	Dionysian Garland	酒神の花冠	1	MASTER 02510
+item	The One Ring	一つの指輪	1	MASTER 02511
+item	Psi Garland	念力の花冠	1	MASTER 02512
+item	Faery Water	妖精の水	1	MASTER 02513
+item	Viper Ashes	毒蛇の灰	1	MASTER 02514
+item	Pilgrim Tea	巡礼者の茶	1	MASTER 02515
+item	Prankstone	いたずら石	1	MASTER 02516
+item	Hold Monsters	魔物束縛	3	MASTER 02517
+item	Crushing Hand	粉砕の手	8	MASTER 02518
+item	Earthquake	地震	4	MASTER 02520
+item	Acid Splash	酸の飛沫	2	MASTER 02521
+item	Wither	枯らし	3	MASTER 02522
+item	Phantasmal Harmonia	幻影のハルモニア	1	MASTER 02523
+item	Jar O'Bugs	虫入りの瓶	1	MASTER 02524
+item	Repel Undead	不死払い	1	Undead Wardを掛ける水薬
+item	Zandrithar Totem	ザンドリサー頭骨	1	中身は血塗れの髑髏
+item	Dimension Door	次元の扉	8	MASTER 02527
+item	Teleport	転移	7	MASTER 02528
+item	Massacre	大虐殺	2	MASTER 02529
+item	Conundrum	難問	2	MASTER 02530
+item	Mjolnir	ミョルニル	1	MASTER 02531
+item	Stormbringer	ストームブリンガー	1	幅1.5倍ちょうど
+item	Key of the Ancients	古代人の鍵	1	MASTER 02533
+item	Skull of Hathor-Sogg	ハトホル・ソッグの髑髏	1	MASTER 02534
+item	Moravia Key	モラヴィアの鍵	1	MASTER 02535
+item	Xenoform Passcard	異形体の通行証	1	MASTER 02536
+item	Thrice Forged	三度鍛え	1	MASTER 02537
+item	Firewalkers	火渡りの靴	1	MASTER 02538
+item	Waterwalkers	水渡りの靴	1	MASTER 02539
+item	Stuffed Parrot	オウムの剥製	1	MASTER 02540
+item	Cracker Soda	炭酸ソーダ	1	酢と混ぜてガスを出す
+item	Coal Ember	燃える石炭	1	MASTER 02542
+item	Quantum Ichor	量子の粘液	1	MASTER 02543
+item	Shades Key North	亡霊の鍵・北	1	Sepulchre of Shadesの鍵
+item	Shades Key South	亡霊の鍵・南	1	MASTER 02545
+item	Spire Key	尖塔の鍵	1	MASTER 02546
+item	Serpentine Key	蛇紋の鍵	1	MASTER 02547
+item	Looking Glass Key	鏡の国の鍵	1	MASTER 02548
+item	World Mgr. Monthly	月刊世界経営	1	MASTER 02549
+item	Page 59	59ページ	1	MASTER 02550
+item	Page 72	72ページ	1	MASTER 02551
+item	Maestro's Bell	マエストロの鈴	1	MASTER 02552
+item	Dunce Cap	ばか帽子	1	MASTER 02553
+item	Conductor's Wand	指揮棒	1	MASTER 02554
+item	Bard's Coin	吟遊詩人の硬貨	1	MASTER 02555
+item	Encoded Catechism	暗号の教理書	1	MASTER 02556
+item	Knightly Catechism	騎士の教理書	2	MASTER 02557
+item	Mausoleum Key	霊廟の鍵	1	MASTER 02558
+item	Bug-Off	虫ヨケール	1	虫除けスプレーのパロディ
+item	Key of the Catacombs	地下墓所の鍵	1	MASTER 02560
+item	Cankerweight	巨石の重し	1	MASTER 02561
+item	Nexus Key	ネクサスの鍵	1	MASTER 02562
+item	Dreamcatcher	夢捕りの網	1	MASTER 02563
+item	Umbilica	ウンビリカ	2	MASTER 02564
+item	Demonhead Coin	悪魔頭の硬貨	1	MASTER 02565
+item	Demon Tooth	悪魔の歯	1	MASTER 02566
+item	Demon Hair	悪魔の毛	1	MASTER 02567
+item	Demon Ashes	悪魔の灰	1	MASTER 02568
+item	Infernal Writ	地獄の書	1	MASTER 02569
+item	Pearl Of Evil	邪悪の真珠	1	MASTER 02570
+item	Talisman Of SpiderClimb	蜘蛛歩きの護符	1	MASTER 02571
+item	Ashes of Reverie	夢想の灰	1	MASTER 02572
+item	Hermetic Gag	猿ぐつわ	2	MASTER 02573
+item	Matter Clone	物質複製	2	MASTER 02574
+item	Power Nimbus	力の光輪	2	MASTER 02575
+item	Rainbow Rays	虹の光線	6	MASTER 02577
+item	Illusion	幻像	2	MASTER 02580
+item	Mirror Mirage	鏡の幻	4	MASTER 02582
+item	Astral Travel	星界旅行	2	MASTER 02583
+item	Protect VS Plants	対植物防御	1	MASTER 02584
+item	Agrimony	金水引	2	MASTER 02585
+item	Stench Weed	悪臭草	1	MASTER 02586
+item	Feverfew	夏白菊	2	MASTER 02587
+item	Golden Flaxseed	金の亜麻仁	1	MASTER 02588
+item	Periwinkle	蔓日々草	22	MASTER 02589
+item	Peckle Plantain	斑入り大葉子	2	MASTER 02590
+item	Serapias Anurbis	セラピアス・アヌルビス	1	MASTER 02591
+item	Blood Tamarinde	血のタマリンド	1	MASTER 02592
+item	Valerian Root	吉草根	2	MASTER 02593
+item	White Bryon	白ブリオニア	2	MASTER 02594
+item	Black Rose	黒薔薇	1	MASTER 02595
+item	Archangelicus	大天使草	1	MASTER 02596
+item	Bitter Tuber	苦い芋	1	MASTER 02597
+item	Harpy Crown	ハーピーの冠	1	花の名
+item	Whiterot	白腐れ草	1	MASTER 02599
+item	Tai-Gi-Ar	タイギアー	1	MASTER 02600
+item	Black Pearls	黒真珠の実	2	果実
+item	Ranspur Agonite	ランスパー鳥兜	1	Agonite=aconite+agony
+item	Copperthorn	銅いばら	2	MASTER 02603
+item	Centaur Bane	人馬殺し草	1	MASTER 02604
+item	Megiddo Ivy	メギドの蔦	1	MASTER 02605
+item	Kejuro-Ti-Lungwa	ケジュロ・ティ・ルングワ	1	MASTER 02606
+item	Hobor's Holy Hash	ホーボーの聖餐	1	MASTER 02607
+item	Neutral Medium	中性の媒剤	2	MASTER 02608
+item	Flute of Oblivion	忘却の笛	1	MASTER 02609
+item	Entropy Sword	エントロピー剣	1	MASTER 02610
+item	Entropy Axe	エントロピー斧	1	MASTER 02611
+item	Bones Of Paladar	パラダーの骨	1	MASTER 02612
+item	Raptor Map	猛禽の地図	1	MASTER 02613
+item	Bones Of Medea	メデイアの骨	1	MASTER 02614
+item	Batwing Necklace	蝙蝠の首飾り	1	MASTER 02615
+item	Unicorn Statue	一角獣の像	2	MASTER 02616
+item	Cobra Statue	コブラの像	1	MASTER 02617
+item	Chattery Teeth	カチカチ入れ歯	1	MASTER 02618
+item	Quest Locker	冒険の収納箱	1	MASTER 02619
+item	Valiant	勇猛	1	MASTER 02620
+item	Adamantium Shield	アダマンチウム盾	1	Adamantine(アダマンタイト)とは綴りが別
+item	Magic Sack	魔法の袋	2	MASTER 02622
+item	Sack Of Winds	風の袋	1	MASTER 02623
+item	Sack Of Evil	邪悪の袋	1	MASTER 02624
+item	Sack Of Elementals	精霊の袋	1	MASTER 02625
+item	Ace Of Hearts	ハートのエース	1	MASTER 02626
+item	Jack Of Diamonds	ダイヤのジャック	1	MASTER 02627
+item	Cap Of Perseus	ペルセウスの帽子	1	MASTER 02628
+item	Feathered Hat	羽根付き帽子	1	MASTER 02629
+item	Hennin	エナン帽	1	MASTER 02630
+item	Phyrgian Cap	フリギア帽	1	MASTER 02631
+item	Jewelry Box	宝石箱	2	MASTER 02632
+item	Potion Rack	水薬棚	2	MASTER 02633
+item	Pantry	食料庫	2	MASTER 02634
+item	Quicksilver	水銀	1	MASTER 02635
+item	All Purpose Barrel	万能の樽	1	MASTER 02636
+item	Wizard Bag	魔術師の鞄	2	MASTER 02637
+item	Bookcase	本棚	2	MASTER 02638
+item	Ring Pouch	指輪入れ	2	MASTER 02639
+item	Conch Helmet	法螺貝の兜	1	MASTER 02640
+item	Quest Pouch	冒険の小袋	1	MASTER 02641
+item	Moongate Crystal	ムーンゲート水晶	7	MASTER 02642
+item	Master of Serpents	蛇の支配者	3	鍵
+item	Morraha's Password	モラーハの合言葉	1	MASTER 02644
+item	ShellHorn Salepsis	サレプシスの貝笛	1	MASTER 02645
+item	Pierre's Chest Key	ピエールの宝箱の鍵	1	MASTER 02646
+item	Krone's Commendation	クローネ船長の推薦状	1	MASTER 02647
+item	Vault Defender	宝庫の守り	1	MASTER 02648
+item	Odysseus	オデュセウス	1	MASTER 02649
+item	Grand Turner	大逸らし	1	攻撃を逸らす盾
+item	Diamond Luna	ダイヤの月	1	MASTER 02651
+item	Hollowpoints	ホローポイント	2	MASTER 02652
+item	Wadcutters	ワッドカッター	1	MASTER 02653
+item	Leadjackets	鉛被甲弾	1	MASTER 02654
+item	Scattergun	散弾銃	1	MASTER 02655
+item	Acme Slugs	ACME偽硬貨	1	ACMEは「アクメ」と読ませず英字のまま
+item	Bling Ring	ギラギラ指輪	6	MASTER 02658
+item	The Om	オーム	1	MASTER 02659
+item	The Krell Foozle	クレル・フーズル	1	MASTER 02660
+item	Brain Pinata	脳みそピニャータ	1	MASTER 02661
+item	Krakklers	バチバチ石	1	MASTER 02662
+item	Cure Disease	病気治癒	4	MASTER 02665
+item	Read Magic	魔法解読	2	MASTER 02666
+item	Purifier	浄化者	1	MASTER 02667
+item	Snapshot	早撃ち	1	MASTER 02668
+item	Toxibarb	毒棘鞭	1	MASTER 02669
+item	Ginsu Aerator	ギンス穴あけ刀	1	通販包丁ギンスのパロディ
+item	Titan Trout	タイタン鱒	1	MASTER 02671
+item	Wonder Adhesive	驚異の接着剤	2	MASTER 02672
+item	Scarab of Ra	ラーのスカラベ	2	MASTER 02673
+item	Magic Moth	魔法の蛾	4	MASTER 02674
+item	Ink Quill	羽根ペン	1	MASTER 02675
+item	Forged Pardon Letter	偽の赦免状	1	MASTER 02676
+item	Kelpy Lullabye	ケルピーの子守唄	2	MASTER 02677
+item	Medusa Barb	メデューサの棘	1	MASTER 02678
+item	Haven Seeker	安全地帯探し	1	MASTER 02679
+item	Blackberries	黒苺	1	MASTER 02680
+item	Pink Lady	ピンクレディ	1	林檎の品種
+item	Bone Biscuit	骨ビスケット	1	MASTER 02682
+item	Lemon Juice	レモン果汁	2	MASTER 02683
+item	Dizzy Dart	目眩の投矢	1	MASTER 02684
+item	Fiery Dart	炎の投矢	1	MASTER 02685
+item	Plague Needle	疫病の針	1	MASTER 02686
+item	Cosmic Dart	宇宙の投矢	1	MASTER 02687
+item	SkullBuster	頭蓋砕き	1	MASTER 02688
+item	Earthbuster	大地砕き	1	MASTER 02689
+item	Hammer of the Apocalypse	黙示録の槌	1	MASTER 02690
+item	Minigolf Mallet of Doom	破滅のパターゴルフ槌	1	MASTER 02691
+item	Brainchopper Jr.	脳天割りJr.	2	MASTER 02692
+item	Senor Brainchopper	脳天割りセニョール	1	MASTER 02693
+item	Restoration	再生	1	MASTER 02694
+item	Sanctuary	聖域	4	MASTER 02695
+item	Acme Service	ACMEサービス	1	MASTER 02696
+item	Reflection	反射	4	呪文一覧に無し(Gaze Reflectionは凝視反射)
+item	Codexian	コデクシアン	2	伝説のトロルの骨
+item	Lustrous Amethyst	輝く紫水晶	1	MASTER 02700
+item	Blood Ruby	血のルビー	1	MASTER 02701
+item	Jade Cornet	翡翠の宝玉	1	MASTER 02702
+item	MegaBrew I	メガ水薬I	1	MASTER 02703
+item	MegaBrew II	メガ水薬II	1	MASTER 02704
+item	MegaBrew III	メガ水薬III	1	MASTER 02705
+item	MegaBrew IV	メガ水薬IV	1	MASTER 02706
+item	MegaBrew Ultra	メガ水薬ウルトラ	1	MASTER 02707
+item	Iron Gauntlets	鉄の篭手	1	MASTER 02708
+item	Brass Gauntlets	真鍮の篭手	1	MASTER 02709
+item	Stone Fists	石の拳	1	MASTER 02710
+item	Doom Fists	破滅の拳	1	MASTER 02711
+item	Iron Ringlet Lower	鉄の鎖脚絆	1	MASTER 02712
+item	Brass Ringlet Lower	真鍮の鎖脚絆	1	MASTER 02713
+item	Tragic Pants of Fail	悲劇のしくじりズボン	1	MASTER 02714
+item	Golden Greaves	黄金の脛当て	1	MASTER 02715
+item	Klondike Marchers	クロンダイク脚甲	1	MASTER 02716
+item	Platinum Helmet	白金の兜	1	MASTER 02717
+item	Golden Helm	黄金の兜	1	MASTER 02718
+item	Brass Helmet	真鍮の兜	1	MASTER 02719
+item	Conquistador Helm	征服者の兜	1	MASTER 02720
+item	Iron Helmet	鉄の兜	1	MASTER 02721
+item	Grand Champs	グランチャンプ	1	MASTER 02722
+item	Hiking Boots	登山靴	1	MASTER 02723
+item	Ranger Footgear	レンジャーの靴	1	MASTER 02724
+item	Barracks Boots	兵舎の軍靴	1	MASTER 02725
+item	Honey Baited Wick	蜜付きの釣り糸	1	MASTER 02726
+item	Dulcet Courage	甘美なる勇気	1	MASTER 02727
+item	Strings of Agony	苦悶の弦	1	MASTER 02728
+item	Banishing Chords	退散の和音	1	MASTER 02729
+item	Hoodoo Hoodie	呪術の頭巾	1	MASTER 02730
+item	Hoodoo Robes	呪術の長衣	1	MASTER 02731
+item	Red Hood	赤頭巾	1	MASTER 02732
+item	Red Robes	赤い長衣	1	MASTER 02733
+item	Druidic Hood	ドルイドの頭巾	1	MASTER 02734
+item	Druidic Robes	ドルイドの長衣	1	MASTER 02735
+item	Enchanter Hood	付与術師の頭巾	1	MASTER 02736
+item	Enchanter Robes	付与術師の長衣	1	MASTER 02737
+item	Blood Shawl	血の肩掛け	1	MASTER 02738
+item	Blood Robes	血の長衣	1	MASTER 02739
+item	Ice Crystal	氷の水晶	1	MASTER 02740
+item	Sonic Shock	音波衝撃	1	MASTER 02741
+item	Demon Killer	悪魔殺し	1	MASTER 02742
+item	Winged Justice	翼ある正義	1	MASTER 02743
+item	Legend Maker	伝説製造機	1	MASTER 02744
+item	Honey Samovar	蜜のサモワール	1	MASTER 02745
+item	Scourge	災いの鞭	3	MASTER 02746
+item	Retribution	報復	1	MASTER 02747
+item	Clepsydra Of The Titans	タイタンの水時計	1	MASTER 02748
+item	Rawhide Gloves	生革の手袋	1	MASTER 02749
+item	Fingers	器用な指	1	MASTER 02750
+item	Scribers	書写の手	1	MASTER 02751
+item	Woodsman	木こり	1	MASTER 02752
+item	Whistler	口笛吹き	1	MASTER 02753
+item	Pride of The Mines	鉱山の誇り	1	MASTER 02754
+item	Oil Wick	油の灯心	1	MASTER 02755
+item	Pilgrim Flail	巡礼者の連接棍	1	MASTER 02756
+item	Thorndoom	茨の破滅	1	MASTER 02757
+item	Graveyard Tickets	墓場への切符	1	MASTER 02758
+item	Texas Persuaders	テキサスの説得者	1	MASTER 02759
+item	Chomping Death	死の入れ歯	1	MASTER 02760
+item	Puppet of Doom	破滅の人形	1	MASTER 02761
+item	Moon Singer	月の歌い手	1	MASTER 02762
+item	Ring of Joy	歓喜の指輪	1	MASTER 02763
+item	Glorious Orb of Codexia	栄光のコデクシアの宝珠	1	MASTER 02764
+item	Wulven Dash Boots	ウルヴェン疾走靴	1	MASTER 02765
+item	Gnorff's Cloak of Bafflement	ノーフの困惑の外套	1	MASTER 02766
+item	Lute of Nirvana	涅槃の琵琶	1	MASTER 02767
+item	Farulosonoth's Staff	ファルロソノスの杖	1	MASTER 02768
+item	Blood Tunic	血の胴着	1	MASTER 02769
+item	Druid Tunic	ドルイドの胴着	1	MASTER 02770
+item	Enchanter Tunic	付与術師の胴着	1	MASTER 02771
+item	Hoodoo Tunic	呪術の胴着	1	MASTER 02772
+item	Red Tunic	赤い胴着	1	MASTER 02773
+item	Red Cone	赤い三角帽	1	MASTER 02774
+item	Wizard Hood	魔術師の頭巾	1	MASTER 02775
+item	Wizard Robe	魔術師の長衣	1	MASTER 02776
+item	Wizard Tunic	魔術師の胴着	1	MASTER 02777
+item	Sorcerian	ソーサリアン	1	MASTER 02778
+item	Nevermiss	必中	1	MASTER 02779
+item	Headbuster	頭割り	1	MASTER 02780
+item	Necktwister	首ねじり	1	MASTER 02781
+item	Forged Recommendation	偽の推薦状	1	MASTER 02782
+item	Fishing Line (25 ft)	釣り糸 (25 ft)	1	MASTER 02783
+item	Fishing Line (50 ft)	釣り糸 (50 ft)	1	MASTER 02784
+item	Fishing Line (75 ft)	釣り糸 (75 ft)	1	MASTER 02785
+item	Fishing Line (100 ft)	釣り糸 (100 ft)	1	MASTER 02786
+item	Fishing Hook	釣り針	2	MASTER 02787
+item	Fishing Hook (100 ft)	釣り針 (100 ft)	1	MASTER 02788
+item	Mythacuda	ミスクーダ	3	myth+barracuda
+item	Weircat	化けナマズ	3	weird+catfish
+item	Ichysaurus	イクチサウルス	3	MASTER 02791
+item	Super Monster Maul	超怪物大槌	1	MASTER 02792
+item	Excalibur	エクスカリバー	1	幅1.56倍だが定着名なので維持
+item	Crackatoa	クラカトア	1	火山クラカタウのもじり。Fireballを放つ
+item	Bopwanker	ボコスカ	1	MASTER 02795
+item	Monster Bait	魔物の餌	1	MASTER 02796
+item	Burning Oil	煮え油	5	MASTER 02797
+item	Super Burning Oil	超煮え油	1	MASTER 02798
+item	Zephyr Cola	ゼファーコーラ	3	MASTER 02799
+item	Baby Quilt Cover	ベビー毛布	1	MASTER 02800
+item	Elite Corps Scale	精鋭隊の鱗鎧	1	MASTER 02801
+item	Elite Corps Leggings	精鋭隊の脚甲	1	MASTER 02802
+item	Elite Corps Boots	精鋭隊の軍靴	1	MASTER 02803
+item	Elite Corps Helm	精鋭隊の兜	1	MASTER 02804
+item	Elite Corps Pike	精鋭隊の長槍	1	MASTER 02805
+item	Elite Vambraces	精鋭の腕甲	1	MASTER 02806
+item	Paragon Minor	小パラゴン	3	MASTER 02807
+item	Bard Trove Key	詩人宝庫の鍵	1	MASTER 02808
+item	Sprig of Parsley	パセリの小枝	2	MASTER 02809
+item	Cream De Menthe	クレーム・ド・ミント	2	MASTER 02810
+item	Cheddar Cheese	チェダーチーズ	2	MASTER 02811
+item	Cinnamon	シナモン	2	MASTER 02812
+item	Cooking Wine	料理酒	2	MASTER 02813
+item	Lamb Cutlet	ラムカツレツ	2	MASTER 02814
+item	Catering Meal	仕出し料理	1	MASTER 02815
+item	Academy Key	学院の鍵	1	MASTER 02816
+item	Daguerro	ダゲーロ	1	MASTER 02817
+item	V.G. Vault Key	V.G.金庫の鍵	1	MASTER 02818
+item	Muon Beamgun	ミュー粒子銃	1	MASTER 02819
+item	Quark Power Cell	クォーク電池	1	MASTER 02820
+item	Neutrino Power Cell	ニュートリノ電池	1	MASTER 02821
+item	Positron Power Cell	陽電子電池	1	MASTER 02822
+item	Burial Mask	埋葬の仮面	2	MASTER 02823
+item	Funeral Wreath	葬儀の花輪	2	MASTER 02824
+item	Walking Cane	ステッキ	1	MASTER 02825
+item	Panegyric Tribute	追悼の賛辞	1	MASTER 02826
+item	Pyre Starter	火葬の火種	4	MASTER 02827
+item	Arlecchino	アルレッキーノ	1	MASTER 02828
+item	Prayer Shawl	祈りの肩掛け	2	MASTER 02829
+item	Alonzo's Remains	アロンゾの遺骸	1	MASTER 02830
+item	Perk Key	特典の鍵	1	MASTER 02831
+item	Locksmith's Key	錠前師の鍵	1	MASTER 02832
+item	Common Gate Key	通用門の鍵	1	MASTER 02833
+item	Chamber of the Waters	水の間	8	鍵。宝の山Chamber of Watersも同訳
+item	Charon's Toll	カロンの渡し賃	1	MASTER 02835
+item	Alonzo's Ashes	アロンゾの遺灰	1	MASTER 02836
+item	Alonzo Sangursu	アロンゾ・サンガース	12	name?のSagursu(サガース)とは綴りが別
+item	Glass Vial	ガラス小瓶	1	MASTER 02838
+item	Rotgut Tincture	安酒チンキ	1	MASTER 02839
+item	Phoenix Feather	不死鳥の羽根	1	MASTER 02840
+item	Pagoda Key	仏塔の鍵	1	MASTER 02841
+item	Threaded Rod	ねじ切り棒	1	MASTER 02842
+item	Power Jack	電源プラグ	1	MASTER 02843
+item	Bridge Operations	艦橋の操作手引	1	MASTER 02844
+item	Devil Wind	魔風	4	MASTER 02849
+item	Iceball	氷球	5	MASTER 02850
+item	Death Cloud	死の雲	4	MASTER 02851
+item	Leaping Sparks	跳ね火花	6	MASTER 02852
+item	Chilling Touch	凍える手	5	MASTER 02853
+item	Danger Sense	危険察知	4	MASTER 02857
+item	Orchestrion	オーケストリオン	1	MASTER 02859
+item	Crankletin	手回しブリキ	1	MASTER 02860
+item	Terrortunes	恐怖の調べ	1	MASTER 02861
+item	Soul Harvester	魂の収穫者	1	MASTER 02862
+item	Screecher	金切り箱	1	MASTER 02863
+item	Deadly Blades	死の刃嵐	2	MASTER 02864
+item	Destroyer Vortex	破壊の渦	5	MASTER 02865
+item	Detect Invisible	透明探知	2	MASTER 02866
+item	Etherwarp	エーテル歪曲	2	MASTER 02867
+item	Moonbeam	月光	2	MASTER 02868
+item	Summoning I	召喚I	2	MASTER 02869
+item	Summoning II	召喚II	2	MASTER 02870
+item	Time Stop	時間停止	4	MASTER 02871
+item	Telepathic Toothpaste	テレパシー歯磨き	1	MASTER 02872
+item	Golden Gauntlets	黄金の篭手	1	MASTER 02873
+item	Safety Glass	安全ガラス	1	安全地帯を映す水晶玉
+item	Anvilcraft	金床の書	1	製作の書シリーズ
+item	Bladecraft	刃物の書	1	MASTER 02876
+item	Poisoncraft	毒薬の書	1	MASTER 02877
+item	Shrinecraft	祭壇の書	1	MASTER 02878
+item	Hearthcraft	炉端の書	1	MASTER 02879
+item	Paragon Maximus	大パラゴン	7	MASTER 02880
+item	Patron Argent	銀の守護像	3	銀の一角獣像
+item	King Cucaracha	クカラーチャ王	2	MASTER 02882
+item_unid	Tablet	石板	11	MASTER 01860
+item_unid	Sword	剣	36	MASTER 01868
+item_unid	Lance	長柄	20	長柄武器全般の未鑑定名
+item_unid	Staff	杖	11	MASTER 01872
+item_unid	Spear	槍	13	MASTER 01873
+item_unid	Knife	ナイフ	8	MASTER 01874
+item_unid	Axe	斧	30	MASTER 01877
+item_unid	Rock	石ころ	4	MASTER 01879
+item_unid	Jewelry	装身具	7	MASTER 01880
+item_unid	Gem	宝石	7	MASTER 01881
+item_unid	Utensil	食器	1	MASTER 01882
+item_unid	Stamp	印章	1	MASTER 01883
+item_unid	Stick	棒きれ	9	MASTER 01884
+item_unid	Letter	手紙	8	MASTER 01885
+item_unid	Crystal	水晶	17	MASTER 01886
+item_unid	Flower	花	12	MASTER 01887
+item_unid	Reagent	触媒	10	MASTER 01888
+item_unid	Plant	植物	25	MASTER 01889
+item_unid	Disk	円盤	7	MASTER 01901
+item_unid	Tube	筒	2	MASTER 01902
+item_unid	Wand	短杖	17	MASTER 01903
+item_unid	Egg	卵	20	MASTER 01904
+item_unid	Yolk	黄身	3	MASTER 01905
+item_unid	Bones	骨	15	MASTER 01907
+item_unid	Hand	手	23	MASTER 01908
+item_unid	Parchment	羊皮紙	4	MASTER 01909
+item_unid	Key	鍵	83	MASTER 01911
+item_unid	Mechano Owl	機械の梟	3	MASTER 01914
+item_unid	Lyre	竪琴	9	MASTER 01919
+item_unid	Armor	鎧	41	MASTER 01921
+item_unid	Bottle	瓶	14	MASTER 01922
+item_unid	Food	食料	13	MASTER 01923
+item_unid	Rations	携帯食	5	MASTER 01925
+item_unid	Fruit	果実	4	MASTER 01927
+item_unid	Sling	投石器	8	MASTER 01928
+item_unid	Salve	軟膏	1	MASTER 01930
+item_unid	Scroll	巻物	34	MASTER 01931
+item_unid	Cup	杯	2	MASTER 01933
+item_unid	Potion	薬	27	MASTER 01934
+item_unid	Shield	盾	31	MASTER 01935
+item_unid	Coin	硬貨	10	MASTER 01938
+item_unid	Rod	棒	14	MASTER 01939
+item_unid	Ankh	アンク	2	MASTER 01940
+item_unid	Flute	横笛	5	MASTER 01943
+item_unid	Snail	蝸牛	1	MASTER 01945
+item_unid	Powder	粉末	12	MASTER 01947
+item_unid	Ring	指輪	45	MASTER 01949
+item_unid	Horn	角笛	9	MASTER 01950
+item_unid	Mask	仮面	6	MASTER 01952
+item_unid	Treasure	財宝	14	MASTER 01954
+item_unid	Music Horn	ホルン	1	MASTER 01959
+item_unid	Darts	投矢	6	MASTER 01960
+item_unid	Cap	帽子	12	MASTER 01963
+item_unid	Amulet	護符	9	MASTER 01965
+item_unid	Holy Symbol	聖印	5	MASTER 01966
+item_unid	Paperweight	文鎮	1	MASTER 01968
+item_unid	Boots	靴	21	MASTER 01971
+item_unid	Rusty Key	錆びた鍵	1	MASTER 01973
+item_unid	Helm	兜	22	MASTER 01974
+item_unid	Clothing	衣服	7	MASTER 01975
+item_unid	Gloves	手袋	10	MASTER 01978
+item_unid	Robe	長衣	8	MASTER 01979
+item_unid	Cone	円錐	10	MASTER 01980
+item_unid	Sandals	サンダル	3	MASTER 01981
+item_unid	Balls	玉	1	MASTER 01982
+item_unid	Icon	聖像	3	MASTER 01984
+item_unid	Spellbook	魔道書	43	MASTER 01987
+item_unid	Whistle	呼子	2	MASTER 01989
+item_unid	Bow	弓	13	MASTER 01992
+item_unid	Arrows	矢	8	MASTER 01993
+item_unid	Hat	帽子	8	MASTER 02001
+item_unid	Hammer	槌	15	MASTER 02003
+item_unid	Ashes	灰	8	MASTER 02004
+item_unid	Holy Icon	聖なる像	1	MASTER 02012
+item_unid	Strip	帯	2	MASTER 02013
+item_unid	Pipe	管	3	MASTER 02018
+item_unid	Book	書物	23	MASTER 02025
+item_unid	Harness	ハーネス	4	MASTER 02026
+item_unid	Part	部品	1	MASTER 02027
+item_unid	Canvas Sack	帆布の袋	2	MASTER 02029
+item_unid	Arrow	矢	14	MASTER 02031
+item_unid	Vial	小瓶	11	MASTER 02032
+item_unid	Packet	包み	1	MASTER 02034
+item_unid	Memo	メモ	2	MASTER 02035
+item_unid	Fish	魚	10	MASTER 02043
+item_unid	Flail	連接棍	11	MASTER 02044
+item_unid	Spectacles	眼鏡	1	MASTER 02045
+item_unid	Gadget	小道具	3	MASTER 02046
+item_unid	Old Key	古い鍵	2	MASTER 02049
+item_unid	Hook	鉤	11	MASTER 02050
+item_unid	Vial Of Dust	粉の小瓶	1	MASTER 02053
+item_unid	Metal Rod	金属棒	1	MASTER 02054
+item_unid	Copper Scrap	銅の欠片	2	MASTER 02055
+item_unid	Copper Shell	銅の殻	1	MASTER 02057
+item_unid	Copper Hook	銅の鉤	1	MASTER 02058
+item_unid	Copper Casing	銅の外殻	1	MASTER 02059
+item_unid	Copper Bell	銅の鐘	1	MASTER 02060
+item_unid	Map	地図	10	MASTER 02061
+item_unid	Plug	プラグ	3	MASTER 02062
+item_unid	Lock	錠前	19	MASTER 02063
+item_unid	Locket	ロケット	4	MASTER 02065
+item_unid	Crab	カニ	4	MASTER 02069
+item_unid	Rope	縄	9	MASTER 02071
+item_unid	Mirror	鏡	7	MASTER 02073
+item_unid	Necklace	首飾り	7	MASTER 02074
+item_unid	Net	網	3	MASTER 02079
+item_unid	Feather	羽根	7	MASTER 02080
+item_unid	Broken Glass	ガラス片	1	MASTER 02081
+item_unid	Glove	手袋	2	MASTER 02085
+item_unid	Band	腕輪	5	MASTER 02086
+item_unid	Rope & Hook	鉤縄	2	MASTER 02090
+item_unid	Lamp	ランプ	1	MASTER 02093
+item_unid	Sphere	球体	5	MASTER 02094
+item_unid	Kipper	燻製魚	1	MASTER 02097
+item_unid	Rug	敷物	4	MASTER 02098
+item_unid	Helmet	鉄兜	10	MASTER 02101
+item_unid	Stones	小石	6	MASTER 02102
+item_unid	Unknown	謎の物体	7	MASTER 02103
+item_unid	Orb	宝珠	18	MASTER 02105
+item_unid	Black Cylinder	黒い円筒	4	MASTER 02108
+item_unid	Hourglass	砂時計	3	MASTER 02110
+item_unid	Leaflet	チラシ	2	MASTER 02111
+item_unid	Panpipes	葦笛	1	MASTER 02115
+item_unid	Mace	メイス	15	MASTER 02117
+item_unid	Sticks	二本の棒	2	MASTER 02134
+item_unid	Dagger	短剣	12	MASTER 02135
+item_unid	Baton	短棒	3	MASTER 02136
+item_unid	Whip	鞭	6	MASTER 02143
+item_unid	Star	星形	5	MASTER 02149
+item_unid	Coif	頭巾	2	MASTER 02190
+item_unid	Hood	フード	10	MASTER 02199
+item_unid	Leather Strip	革紐	1	MASTER 02214
+item_unid	Cord	紐	2	MASTER 02226
+item_unid	Disc	円盤	1	MASTER 02227
+item_unid	Eyepatch	眼帯	2	MASTER 02228
+item_unid	Vines	蔓	1	MASTER 02229
+item_unid	Trumpet	ラッパ	3	MASTER 02230
+item_unid	Statue	石像	8	MASTER 02237
+item_unid	Final Notice	最終督促状	3	MASTER 02238
+item_unid	Black Sphere	黒い球体	1	MASTER 02240
+item_unid	Fork	二又	3	音叉の未鑑定名（フォークは幅超過）
+item_unid	Pouch	小袋	10	MASTER 02245
+item_unid	Box	箱	17	MASTER 02255
+item_unid	Cube	立方体	4	MASTER 02256
+item_unid	Pyramid	ピラミッド	23	MASTER 02257
+item_unid	Minor	Minor	47	攻撃データのコード。訳さない
+item_unid	a	a	5098	攻撃データのコード。訳さない
+item_unid	p	p	56	攻撃データのコード。訳さない
+item_unid	Major	Major	41	攻撃データのコード。訳さない
+item_unid	Minor/Poi	Minor/Poi	4	攻撃データのコード。訳さない
+item_unid	Minor/Irr	Minor/Irr	1	攻撃データのコード。訳さない
+item_unid	Minor/KO	Minor/KO	1	攻撃データのコード。訳さない
+item_unid	Major/Poi	Major/Poi	3	攻撃データのコード。訳さない
+item_unid	D/Poi	D/Poi	1	攻撃データのコード。訳さない
+item_unid	Forked Spear	二股槍	1	MASTER 02277
+item_unid	Ill Gerbil	病気のネズミ	1	MASTER 02278
+item_unid	Stone	石	28	MASTER 02281
+item_unid	Cr	Cr	7	攻撃データのコード。訳さない
+item_unid	VDrn	VDrn	3	攻撃データのコード。訳さない
+item_unid	Major/KO	Major/KO	2	攻撃データのコード。訳さない
+item_unid	Minor/Dis	Minor/Dis	1	攻撃データのコード。訳さない
+item_unid	Major/HPDrn	Major/HPDrn	1	攻撃データのコード。訳さない
+item_unid	Major/Par	Major/Par	2	攻撃データのコード。訳さない
+item_unid	Major/Irr	Major/Irr	2	攻撃データのコード。訳さない
+item_unid	D/Irr	D/Irr	1	攻撃データのコード。訳さない
+item_unid	Morp	Morp	3	攻撃データのコード。訳さない
+item_unid	Stn	Stn	2	攻撃データのコード。訳さない
+item_unid	Sle	Sle	2	攻撃データのコード。訳さない
+item_unid	HPDrn	HPDrn	2	攻撃データのコード。訳さない
+item_unid	MorDrn	MorDrn	1	攻撃データのコード。訳さない
+item_unid	MagDrn	MagDrn	1	攻撃データのコード。訳さない
+item_unid	Cha	Cha	1	攻撃データのコード。訳さない
+item_unid	IQDrn	IQDrn	1	攻撃データのコード。訳さない
+item_unid	StrDrn	StrDrn	1	攻撃データのコード。訳さない
+item_unid	WillDrn	WillDrn	1	攻撃データのコード。訳さない
+item_unid	Dis	Dis	3	攻撃データのコード。訳さない
+item_unid	Par	Par	5	攻撃データのコード。訳さない
+item_unid	Insan	Insan	1	攻撃データのコード。訳さない
+item_unid	Lyc	Lyc	1	攻撃データのコード。訳さない
+item_unid	Irr	Irr	5	攻撃データのコード。訳さない
+item_unid	Bli	Bli	1	攻撃データのコード。訳さない
+item_unid	Poi	Poi	10	攻撃データのコード。訳さない
+item_unid	KO	KO	5	攻撃データのコード。訳さない
+item_unid	Beh	Beh	1	攻撃データのコード。訳さない
+item_unid	Nau	Nau	1	攻撃データのコード。訳さない
+item_unid	Cur	Cur	1	攻撃データのコード。訳さない
+item_unid	Skull	髑髏	22	MASTER 02375
+item_unid	Snakehead	蛇頭	1	MASTER 02398
+item_unid	Stave	長杖	4	MASTER 02399
+item_unid	Minor/Ins	Minor/Ins	1	攻撃データのコード。訳さない
+item_unid	Legs	脚衣	1	MASTER 02406
+item_unid	Girdle	腰帯	2	MASTER 02417
+item_unid	Seashell	貝殻	1	MASTER 02422
+item_unid	Badge	バッジ	1	MASTER 02428
+item_unid	Bird Helmet	鳥の兜	1	MASTER 02430
+item_unid	Figurine	小像	6	MASTER 02431
+item_unid	Bird Statue	鳥の像	1	MASTER 02432
+item_unid	Ticket	切符	2	MASTER 02434
+item_unid	Ore	鉱石	2	MASTER 02435
+item_unid	Lotion	塗り薬	1	MASTER 02436
+item_unid	Jar	壺	11	MASTER 02438
+item_unid	Quarrel	太矢	2	MASTER 02444
+item_unid	Cloak	外套	24	MASTER 02466
+item_unid	Buckler	小盾	3	MASTER 02470
+item_unid	Harp	ハープ	6	MASTER 02489
+item_unid	Chest	木箱	38	MASTER 02491
+item_unid	Guitar	ギター	1	MASTER 02494
+item_unid	Pipes	笛	12	MASTER 02495
+item_unid	Drink	飲物	12	MASTER 02513
+item_unid	Music Box	オルゴール	6	MASTER 02523
+item_unid	Head	頭像	4	MASTER 02526
+item_unid	Card	札	3	MASTER 02536
+item_unid	Stuffed Bird	鳥の剥製	1	MASTER 02540
+item_unid	Ick	粘液	1	Quantum Ichorの未鑑定名（Ickは「げっ」の洒落）
+item_unid	Magazine	雑誌	1	MASTER 02549
+item_unid	Bell	鐘	30	MASTER 02552
+item_unid	Old Book	古書	3	MASTER 02556
+item_unid	Spray Bottle	スプレー	1	MASTER 02559
+item_unid	Statuette	置物	2	MASTER 02561
+item_unid	Ornament	飾り	1	MASTER 02563
+item_unid	Tooth	歯	2	MASTER 02566
+item_unid	Hair	毛	2	MASTER 02567
+item_unid	Strange Book	奇妙な本	1	MASTER 02569
+item_unid	Spider	蜘蛛	36	MASTER 02571
+item_unid	Arcana	秘儀	13	MASTER 02573
+item_unid	Herb	薬草	6	MASTER 02585
+item_unid	Root	根	10	MASTER 02590
+item_unid	Lute	琵琶	6	MASTER 02609
+item_unid	Bat	蝙蝠	4	MASTER 02615
+item_unid	Horse	馬	1	MASTER 02616
+item_unid	Snake	蛇	5	MASTER 02617
+item_unid	Fangs	牙	2	MASTER 02618
+item_unid	Sack	袋	12	MASTER 02622
+item_unid	Rack	棚	4	MASTER 02633
+item_unid	Barrel	樽	4	MASTER 02636
+item_unid	Bag	鞄	11	MASTER 02637
+item_unid	Paper	紙	2	MASTER 02644
+item_unid	Shell	貝	3	MASTER 02645
+item_unid	Shells	弾薬	3	銃弾（Hollowpointsなど）
+item_unid	Weapon	武器	5	MASTER 02655
+item_unid	Device	装置	5	MASTER 02660
+item_unid	Sceptre	王笏	2	MASTER 02667
+item_unid	Glue	糊	3	MASTER 02672
+item_unid	Stone Bug	石の虫	1	MASTER 02673
+item_unid	Dart	投矢	10	MASTER 02684
+item_unid	Gauntlet	篭手	9	MASTER 02708
+item_unid	Leggings	脚甲	8	MASTER 02712
+item_unid	String	糸	2	MASTER 02726
+item_unid	Crossbow	クロスボウ	3	MASTER 02743
+item_unid	Kettle	やかん	1	MASTER 02745
+item_unid	Lash	革鞭	9	MASTER 02746
+item_unid	Bullets	弾丸	3	MASTER 02758
+item_unid	Teeth	歯	2	MASTER 02760
+item_unid	Puppet	人形	3	MASTER 02761
+item_unid	Polearm	長柄武器	1	MASTER 02762
+item_unid	Bolas	ボーラ	3	MASTER 02781
+item_unid	Rare Fish	珍魚	3	MASTER 02789
+item_unid	Hamster	ハムスター	1	MASTER 02796
+item_unid	Blanket	毛布	1	MASTER 02800
+item_unid	Meat	肉	2	MASTER 02814
+item_unid	Blade	刃	6	MASTER 02817
+item_unid	Gun	銃	2	MASTER 02819
+item_unid	Wreath	花輪	3	MASTER 02824
+item_unid	Embers	残り火	1	MASTER 02827
+item_unid	Cloth	布	1	MASTER 02829
+item_unid	Connector	コネクタ	1	MASTER 02843
+item_unid	Gauntlets	篭手	4	MASTER 02873
+item_unid	Bug	虫	7	MASTER 02882
+monster	PackRat	ためこみ鼠	1	packrat=モリネズミ(物を溜め込む)
+monster	Skinkasaur	トカゲサウルス	1	skink(トカゲ)+saur
+monster	Little Rosy	リトル・ロージー	12	npc
+monster	Brigand	山賊	1	MASTER 03330
+monster	Phangshrub	牙灌木	2	fang+shrub
+monster	Night Lily	夜百合	1	MASTER 03332
+monster	Banshee	バンシー	1	MASTER 03333
+monster	Shiva-Han-Goromu	シヴァ・ハン・ゴロム	3	patron Shiva=シヴァ
+monster	Gorlo	ゴーロ	14	npc
+monster	Captain Krone	クローネ船長	13	npc
+monster	Trimestes	トリメステス	26	npc Magus Trimestes=魔導師トリメステス
+monster	Raghilda	ラグヒルダ	9	npc
+monster	Mordecai	モルデカイ	3	npc
+monster	Junga Din	ジュンガ・ディン	7	npc
+monster	Argosyre	アルゴサイア	16	npc
+monster	Sir Coffergus	コファーガス卿	6	npc
+monster	Smithers	スミザーズ	10	npc
+monster	Ducat	ダカット	9	盗賊団の頭目
+monster	Vanguard Soldier	ヴァンガード兵	1	MASTER 03345
+monster	Vanguard Marine	ヴァンガード海兵	2	party Vanguard Marines=ヴァンガード海兵隊
+monster	Library Policeman	図書館警察	3	S.キングの小説名(邦題『図書館警察』)
+monster	Black Lich	黒きリッチ	25	npc
+monster	Crypt Cleaner	墓所掃除屋	1	MASTER 03349
+monster	AtterCob	アターコブ	1	attercop=古英語で蜘蛛(トールキン)
+monster	Festerboil	膿疱茸	1	fester+boil。菌類
+monster	Mudwasp	ドロバチ	1	MASTER 03352
+monster	Glowmoth	光蛾	1	MASTER 03353
+monster	Wrokwyrm	ロクワーム	1	MASTER 03354
+monster	Amoebic Slime	アメーバスライム	1	MASTER 03355
+monster	Condor	コンドル	1	MASTER 03356
+monster	Jackalope	ジャカロープ	2	角のある兎の伝説獣
+monster	Ghost	幽霊	6	MASTER 03358
+monster	Giant Bat	大蝙蝠	1	MASTER 03359
+monster	Astral Stalker	星幽の追跡者	5	npc
+monster	Coffin Caterer	棺の仕出し屋	1	吸血鬼系のジョーク名
+monster	Oreworm	鉱石虫	1	MASTER 03362
+monster	Acid Jelly	酸ゼリー	1	MASTER 03363
+monster	Admiral Boondoggle	ブーンドグル提督	11	npc
+monster	Alien Hunter	異星の狩人	1	MASTER 03365
+monster	Medea	メデイア	9	npc
+monster	Armored Zombie	鎧ゾンビ	1	MASTER 03367
+monster	Asmodeus	アスモデウス	15	MASTER 03368
+monster	Auto-Sentinel	自動哨兵	1	MASTER 03369
+monster	Mr. Zyrinx	ザイリンクス氏	26	npc
+monster	Baalrog	バアルログ	1	Balrog+Baal
+monster	Balderdash	バルダーダッシュ	49	npc
+monster	Bandersnatch	バンダースナッチ	1	キャロル
+monster	Barracks Guard	兵舎衛兵	1	MASTER 03374
+monster	Basilisk	バジリスク	1	MASTER 03375
+monster	Behemoth	ベヒモス	1	MASTER 03376
+monster	Black Bat	黒蝙蝠	1	MASTER 03377
+monster	Bronze Crusader	青銅の聖戦士	1	MASTER 03378
+monster	Black Pierre	ブラック・ピエール	53	npc
+monster	Barghest	バーゲスト	1	MASTER 03380
+monster	Dragonfly	竜トンボ	1	dragonfly=トンボ。未鑑定はWasp
+monster	Bottle Djinn	瓶の魔神	2	npc
+monster	Brainflayer	脳喰らい	1	Mind Flayerのもじり
+monster	Buccaneer	バッカニア	1	MASTER 03384
+monster	Blinkcat	瞬き猫	1	blink dogのもじり(瞬間移動)
+monster	Celestian Watchman	天界の夜警	1	MASTER 03386
+monster	Chiang	チャン	9	npc
+monster	ChimeraSphinx	キメラスフィンクス	1	MASTER 03388
+monster	Chlorazoid	クロラゾイド	1	MASTER 03389
+monster	Chuckles	チャックルズ	6	npc
+monster	Air Elemental	風の精霊	1	MASTER 03391
+monster	Cockatrice	コカトリス	4	MASTER 03392
+monster	Fire Beetle	火炎甲虫	1	MASTER 03393
+monster	Coecanthe	コエカンス	1	シーラカンスのもじり
+monster	Colossus Adder	巨大マムシ	1	MASTER 03395
+monster	Mr. Nebulon	ネビュロン氏	27	npc
+monster	Electrapede	電気ムカデ	2	MASTER 03397
+monster	Cophrophage	糞食い虫	1	coprophage
+monster	Count Orloch	オルロック伯爵	17	npc
+monster	Crusher Brother	粉砕兄弟	1	巨人の二人組
+monster	Dark Fairy	闇の妖精	1	MASTER 03401
+monster	Dark Ranger	闇のレンジャー	1	MASTER 03402
+monster	Prophetess	女預言者	7	npc
+monster	Diabla	ディアブラ	6	npc
+monster	Displacer	幻影獣	1	D&D displacer beast
+monster	DracoSphinx	竜スフィンクス	1	MASTER 03406
+monster	Dragon Carp	竜鯉	1	MASTER 03407
+monster	Dragon Turtle	竜亀	1	MASTER 03408
+monster	Dragon Tyrant	暴君竜	1	MASTER 03409
+monster	Drak Serat	ドラク・セラト	13	npc
+monster	Iron Warg	鉄のワーグ	1	MASTER 03411
+monster	DreamDuster	夢撒き妖精	1	眠りの砂を撒く妖精
+monster	Druid	ドルイド	7	MASTER 03413
+monster	Dryad	ドライアド	1	MASTER 03414
+monster	Earth Titan	大地の巨神	2	MASTER 03415
+monster	Earwhigg	ハサミムシ	1	earwig
+monster	Electromaggot	電気ウジ	1	MASTER 03417
+monster	Elias Conachur	イライアス・コナカー	24	npc
+monster	Evilspeak	邪語り	2	映画Evilspeak。未鑑定は牛の頭骨
+monster	Zurggoth	ザーゴス	1	教団が崇める屍喰いの大蛇
+monster	Fire Elemental	火の精霊	1	MASTER 03421
+monster	Sword Ego	剣の霊	2	npc
+monster	Colossochely	コロッソケリス	1	絶滅した巨大亀Colossochelys
+monster	Codex Troll	写本トロル	3	npc
+monster	Flesh Grub	肉喰い蛆	1	MASTER 03425
+monster	Krellspar	クレルスパー	6	npc
+monster	Gargoyle Mage	ガーゴイル術師	1	MASTER 03427
+monster	Ghost Bard	幽霊詩人	1	MASTER 03428
+monster	Giant Rat	大ネズミ	1	MASTER 03429
+monster	Gargantua	ガルガンチュア	2	MASTER 03430
+monster	Glib-Glub	グリブグラブ	19	npc GlibGlub
+monster	Goblin Spider	ゴブリン蜘蛛	1	MASTER 03432
+monster	Earth Golem	土ゴーレム	1	MASTER 03433
+monster	Grand Master	大師範	1	忍者系(未鑑定=黒服の男)
+monster	Ninja-Gaiden	忍者外伝	1	ゲーム『Ninja Gaiden』のもじり
+monster	Greech | Leech	ヒルのグリーチ	1	Greech the Leech。|は The
+monster	Green Mandarin	緑の官吏	34	npc
+monster	Grendel	グレンデル	38	ラットゥの神ソウルイーター
+monster	Grue	グルー	1	Zorkの怪物
+monster	Yuggoth	ユゴス	3	ユゴスよりの菌類(ラヴクラフト)。未鑑定=きのこ
+monster	Shoggoth	ショゴス	4	MASTER 03441
+monster	Highwayman	追い剥ぎ	1	MASTER 03442
+monster	Hobknob	ホブノブ	13	シェラクの子
+monster	Incubus	夢魔	1	MASTER 03444
+monster	Jabberwocky	ジャバウォック	3	キャロル
+monster	Jaqque Nefarge	ジャック・ネファージュ	4	npc
+monster	Juggernaut	ジャガーノート	2	MASTER 03447
+monster	Khan Raji	ラジ・カーン	44	npc
+monster	Ki-Rin	麒麟	2	MASTER 03449
+monster	King Cobra	キングコブラ	1	MASTER 03450
+monster	Knok-Knok	ノック・ノック	12	npc
+monster	Knorlos Knossos	ノルロス・クノッソス	7	npc
+monster	Neurophrite	神経魔眼	1	目玉の魔物
+monster	Stinkbug	カメムシ	1	MASTER 03454
+monster	Sandflea	スナノミ	1	MASTER 03455
+monster	Legionaire	レギオン兵	1	複数形Legion(我が名はレギオン)
+monster	Leviathan	レヴィアタン	2	MASTER 03457
+monster	Lieutenant Shrike	シュライク中尉	20	npc
+monster	Lilith	リリス	5	npc
+monster	Little Daisy	リトル・デイジー	6	npc
+monster	Lord Ahriman	アーリマン卿	79	npc
+monster	Mad Miner	狂った坑夫	1	MASTER 03462
+monster	Lysandra	リサンドラ	8	npc
+monster	Magic Statue	魔法の像	1	MASTER 03464
+monster	Man'O'|'Woods	森の男	1	Man'O'The'Woods。|は The
+monster	Marshlight	沼の鬼火	1	MASTER 03466
+monster	Medusa	メデューサ	6	MASTER 03467
+monster	Megalon	メガロン	1	MASTER 03468
+monster	Mermaid	人魚	1	MASTER 03469
+monster	Axe Ego	斧の霊	2	npc
+monster	Methuselah	メトセラ	12	蛇の女王ゴルゴン・ラー
+monster	Insane Leonar	狂ったレオナー	1	race Leonar
+monster	Monarch Nettle	帝王イラクサ	1	MASTER 03473
+monster	Moonbeast	月棲獣	1	ラヴクラフトの定訳
+monster	Morgana LeFey	モルガン・ル・フェ	4	npc
+monster	Morraha	モラーハ	7	npc
+monster	Mountain Giant	山の巨人	1	MASTER 03477
+monster	Mutineer	反乱水夫	1	MASTER 03478
+monster	Myconorid	マイコノリド	1	D&D myconidのもじり
+monster	Mystagogue	秘儀導師	1	MASTER 03480
+monster	Mythcreant	幻想獣	2	mythical creature
+monster	Naga Shaman	ナーガ呪術師	1	MASTER 03482
+monster	Naga Firstborn	ナーガの長子	2	MASTER 03483
+monster	Naga Imperial Guard	ナーガ近衛兵	2	MASTER 03484
+monster	Naga Scavenger	ナーガの屍漁り	1	MASTER 03485
+monster	Naga Warrior	ナーガ戦士	1	MASTER 03486
+monster	Necrospawn	死の落とし子	2	MASTER 03487
+monster	Neriad	ネリアド	8	npc
+monster	Nick'O'|'Deep	深海のニック	1	npc Nick'O'The'Deep
+monster	Nightfiend	夜魔	1	MASTER 03490
+monster	Homunculus	ホムンクルス	1	MASTER 03491
+monster	Nosferatu	ノスフェラトゥ	1	MASTER 03492
+monster	Spore Fungus	胞子茸	1	MASTER 03493
+monster	Ogre Giant	オーガ巨人	1	MASTER 03494
+monster	Ogre Mage	オーガ魔術師	1	MASTER 03495
+monster	Olaf Gigunda	オラフ・ギガンダ	5	npc
+monster	Paladar	パラダー	7	npc
+monster	Executioner	処刑人	1	MASTER 03498
+monster	Parasmus	パラスマス	3	npc
+monster	Phantom	亡霊	1	MASTER 03500
+monster	Phase Spider	位相蜘蛛	1	MASTER 03501
+monster	Philchit	フィルチット	10	npc
+monster	Mad Monk	狂った僧	1	MASTER 03503
+monster	Piranha	ピラニア	2	MASTER 03504
+monster	Xombi	ゾンビ	1	複数形Zombies
+monster	Princess Dahlia	ダリア姫	22	npc
+monster	Psi-borg	サイ・ボーグ	1	psi+cyborg
+monster	Psychopomp	サイコポンプ	48	霊魂の導き手
+monster	Psyclop	サイクロプ	1	psi+cyclops
+monster	Q'Orl	クォール	6	npc
+monster	Qix	クイックス	8	npc
+monster	Ramora	小判鮫	1	remora
+monster	Rawbone Rex	骨王レックス	1	MASTER 03513
+monster	Renfeeld	レンフィールド	6	npc
+monster	Revenant	レヴナント	1	MASTER 03515
+monster	Rhattu	ラットゥ	69	race
+monster	Mystic Acolyte	秘教の侍祭	1	MASTER 03517
+monster	Mystic Priest	秘教の司祭	1	MASTER 03518
+monster	Rhattu Ranger	ラットゥレンジャー	1	MASTER 03519
+monster	Roc	ロック鳥	9	MASTER 03520
+monster	Royal Jelly	ローヤルゼリー	1	未鑑定=巨大な角氷のゼリー系
+monster	Hive Empress	巣の女帝	1	MASTER 03522
+monster	Salamander	サラマンダー	1	MASTER 03523
+monster	Seawitch	海の魔女	1	MASTER 03524
+monster	Jester	道化師	3	monstype
+monster	Shao-Tzu	シーズー獅子	1	Shih Tzu(獅子犬)+唐獅子
+monster	Shelach	シェラク	113	蜘蛛の女王
+monster	Shrieker	叫び茸	1	MASTER 03528
+monster	Silver Dragon	銀竜	1	MASTER 03529
+monster	Siren	セイレーン	1	MASTER 03530
+monster	Skeletal Champion	骸骨の勇者	1	MASTER 03531
+monster	Snivels	スニベルズ	6	npc
+monster	Spectre	スペクター	1	MASTER 03533
+monster	Storm Dragon	嵐竜	1	MASTER 03534
+monster	Sumogorathra	スモゴラスラ	3	MASTER 03535
+monster	Blood Leech	吸血ヒル	1	MASTER 03536
+monster	Tarantula	タランチュラ	1	MASTER 03537
+monster	Terrormite	恐怖シロアリ	1	terror+termite
+monster	Entity	エンティティ	16	npc The Entity
+monster	Piper	笛吹き男	10	npc The Piper
+monster	Samhain Horror	サムハインの恐怖	5	MASTER 03541
+monster	Sprout From Hell	地獄の新芽	1	MASTER 03542
+monster	White Owl	白き梟	50	npc The White Owl
+monster	Reaver	略奪者	1	MASTER 03544
+monster	Tomb Guardian	墓の守護者	1	MASTER 03545
+monster	Torpedo-Bot	魚雷ロボ	1	MASTER 03546
+monster	Toxic Amoeba	毒アメーバ	1	MASTER 03547
+monster	Treant	トレント	1	MASTER 03548
+monster	Toadstool	毒キノコ	1	MASTER 03549
+monster	Trog Shaman	トログ呪術師	1	MASTER 03550
+monster	Trog Warrior	トログ戦士	1	MASTER 03551
+monster	Troglodyte	トログロダイト	1	MASTER 03552
+monster	Turnscrew	ネジ巻き看守	1	turnkey+screw(看守の俗称)
+monster	Ungrateful Dead	恩知らずの死者	3	Grateful Deadのもじり
+monster	Kraken	クラーケン	47	npc
+monster	Vampire Bat	吸血蝙蝠	1	MASTER 03556
+monster	Hellhound	ヘルハウンド	1	MASTER 03557
+monster	Miner'49er	49年組の坑夫	1	ゴールドラッシュのフォーティナイナー
+monster	Vanguard Bowman	ヴァンガード弓兵	1	MASTER 03559
+monster	Spawn	眷属	2	Spawn of Shelach=シェラクの眷属
+monster	Skeleton	スケルトン	1	MASTER 03561
+monster	Vermint	ヴァーミント	5	npc
+monster	Warlock	妖術師	1	MASTER 03563
+monster	Water Elemental	水の精霊	1	MASTER 03564
+monster	Hydra	ヒドラ	1	未鑑定Floater/群れPod(クラゲ類扱い)
+monster	Man'O'War	電気クラゲ	1	カツオノエボシ
+monster	Weeping Violet	泣きスミレ	1	MASTER 03567
+monster	WereLion	ワーライオン	1	MASTER 03568
+monster	Werewolf	人狼	2	MASTER 03569
+monster	Wicker Cultist	ウィッカー教徒	1	ウィッカーマン教団
+monster	Druid Archmage	ドルイド大導師	1	MASTER 03571
+monster	Wizard ~ Worrfair	ウォーフェア~魔術師	1	Wizard of Worrfair。~は位置を保持(~=ofなら『の』)
+monster	Wraith	レイス	1	MASTER 03573
+monster	Lich Lord	リッチロード	1	MASTER 03574
+monster	Xerxes	クセルクセス	5	npc
+monster	Wicker Man	ウィッカーマン	14	教団の名
+monster	Kroondergraf	クルーンダーグラフ	10	npc
+monster	Mistral	ミストラル	20	npc
+monster	Green Hand	緑の手	4	Green Hand Gang=緑の手団
+monster	Minotaur	ミノタウロス	1	MASTER 03580
+monster	Cenobite	セノバイト	1	ヘルレイザー
+monster_pl	PackRats	ためこみ鼠	1	=単数 PackRat
+monster_pl	Skinkasaurs	トカゲサウルス	1	=単数 Skinkasaur
+monster_pl	Brigands	山賊	1	=単数 Brigand
+monster_pl	Phangshrub	牙灌木	2	=単数 Phangshrub
+monster_pl	Night Lilies	夜百合	1	=単数 Night Lily
+monster_pl	Banshees	バンシー	1	=単数 Banshee
+monster_pl	Vanguard Soldiers	ヴァンガード兵	1	=単数 Vanguard Soldier
+monster_pl	Vanguard Marines	ヴァンガード海兵	53	=単数 Vanguard Marine
+monster_pl	Crypt Cleaners	墓所掃除屋	2	=単数 Crypt Cleaner
+monster_pl	Attercobs	アターコブ	1	=単数 AtterCob
+monster_pl	Festerboils	膿疱茸	1	=単数 Festerboil
+monster_pl	Mudwasps	ドロバチ	1	=単数 Mudwasp
+monster_pl	Glowmoths	光蛾	1	=単数 Glowmoth
+monster_pl	Wrokwyrms	ロクワーム	1	=単数 Wrokwyrm
+monster_pl	Amoebic Slimes	アメーバスライム	1	=単数 Amoebic Slime
+monster_pl	Condors	コンドル	1	=単数 Condor
+monster_pl	Jackalopes	ジャカロープ	2	=単数 Jackalope
+monster_pl	Ghosts	幽霊	2	=単数 Ghost
+monster_pl	Giant Bats	大蝙蝠	1	=単数 Giant Bat
+monster_pl	Coffin Caterers	棺の仕出し屋	1	=単数 Coffin Caterer
+monster_pl	Oreworms	鉱石虫	1	=単数 Oreworm
+monster_pl	Acid Jellies	酸ゼリー	1	=単数 Acid Jelly
+monster_pl	Alien Hunters	異星の狩人	1	=単数 Alien Hunter
+monster_pl	Armored Zombies	鎧ゾンビ	1	=単数 Armored Zombie
+monster_pl	Asmodeus	アスモデウス	15	=単数 Asmodeus
+monster_pl	Auto-Sentinels	自動哨兵	1	=単数 Auto-Sentinel
+monster_pl	Baalrogs	バアルログ	1	=単数 Baalrog
+monster_pl	Bandersnatches	バンダースナッチ	1	=単数 Bandersnatch
+monster_pl	Barracks Guards	兵舎衛兵	1	=単数 Barracks Guard
+monster_pl	Basilisks	バジリスク	1	=単数 Basilisk
+monster_pl	Behemoths	ベヒモス	1	=単数 Behemoth
+monster_pl	Black Bats	黒蝙蝠	1	=単数 Black Bat
+monster_pl	Bronze Crusaders	青銅の聖戦士	1	=単数 Bronze Crusader
+monster_pl	Barghestii	バーゲスト	1	=単数 Barghest
+monster_pl	Dragonflies	竜トンボ	1	=単数 Dragonfly
+monster_pl	Brainflayers	脳喰らい	1	=単数 Brainflayer
+monster_pl	Buccaneers	バッカニア	1	=単数 Buccaneer
+monster_pl	Blinkcats	瞬き猫	1	=単数 Blinkcat
+monster_pl	Celestian Watchmen	天界の夜警	1	=単数 Celestian Watchman
+monster_pl	ChimeraSphinxes	キメラスフィンクス	1	=単数 ChimeraSphinx
+monster_pl	Chlorazoids	クロラゾイド	1	=単数 Chlorazoid
+monster_pl	Air Elementals	風の精霊	1	=単数 Air Elemental
+monster_pl	Cockatrices	コカトリス	1	=単数 Cockatrice
+monster_pl	Fire Beetles	火炎甲虫	1	=単数 Fire Beetle
+monster_pl	Coecanthes	コエカンス	1	=単数 Coecanthe
+monster_pl	Colossus Adders	巨大マムシ	1	=単数 Colossus Adder
+monster_pl	Electrapede	電気ムカデ	2	=単数 Electrapede
+monster_pl	Cophrophages	糞食い虫	1	=単数 Cophrophage
+monster_pl	Crusher Brothers	粉砕兄弟	1	=単数 Crusher Brother
+monster_pl	Dark Fairies	闇の妖精	1	=単数 Dark Fairy
+monster_pl	Dark Rangers	闇のレンジャー	1	=単数 Dark Ranger
+monster_pl	Displacers	幻影獣	1	=単数 Displacer
+monster_pl	DracoSphinxes	竜スフィンクス	1	=単数 DracoSphinx
+monster_pl	Dragon Carps	竜鯉	1	=単数 Dragon Carp
+monster_pl	Dragon Turtles	竜亀	1	=単数 Dragon Turtle
+monster_pl	Dragon Tyrants	暴君竜	1	=単数 Dragon Tyrant
+monster_pl	DreamDusters	夢撒き妖精	1	=単数 DreamDuster
+monster_pl	Druids	ドルイド	2	=単数 Druid
+monster_pl	Dryads	ドライアド	1	=単数 Dryad
+monster_pl	Earth Titans	大地の巨神	1	=単数 Earth Titan
+monster_pl	Earwhiggs	ハサミムシ	1	=単数 Earwhigg
+monster_pl	Electromaggots	電気ウジ	1	=単数 Electromaggot
+monster_pl	Evilspeak	邪語り	2	=単数 Evilspeak
+monster_pl	Fire Elementals	火の精霊	1	=単数 Fire Elemental
+monster_pl	Colossochelys	コロッソケリス	1	=単数 Colossochely
+monster_pl	Flesh Grubs	肉喰い蛆	1	=単数 Flesh Grub
+monster_pl	Gargoyle Magi	ガーゴイル術師	1	=単数 Gargoyle Mage
+monster_pl	Ghost Bards	幽霊詩人	1	=単数 Ghost Bard
+monster_pl	Giant Rats	大ネズミ	1	=単数 Giant Rat
+monster_pl	Goblin Spiders	ゴブリン蜘蛛	1	=単数 Goblin Spider
+monster_pl	Earth Golems	土ゴーレム	1	=単数 Earth Golem
+monster_pl	Grand Masters	大師範	1	=単数 Grand Master
+monster_pl	Gaidens	忍者外伝	1	=単数 Ninja-Gaiden
+monster_pl	Grues	グルー	1	=単数 Grue
+monster_pl	Yuggi	ユゴス	1	=単数 Yuggoth
+monster_pl	Highwaymen	追い剥ぎ	1	=単数 Highwayman
+monster_pl	Incubi	夢魔	1	=単数 Incubus
+monster_pl	King Cobras	キングコブラ	1	=単数 King Cobra
+monster_pl	Neurophrites	神経魔眼	1	=単数 Neurophrite
+monster_pl	Stinkbugs	カメムシ	1	=単数 Stinkbug
+monster_pl	Sandfleas	スナノミ	1	=単数 Sandflea
+monster_pl	Legion	レギオン	3	我が名はレギオン(単数=レギオン兵)
+monster_pl	Mad Miners	狂った坑夫	1	=単数 Mad Miner
+monster_pl	Magic Statues	魔法の像	1	=単数 Magic Statue
+monster_pl	Men'O'|'Woods	森の男	1	=単数 Man'O'|'Woods
+monster_pl	Marshlights	沼の鬼火	1	=単数 Marshlight
+monster_pl	Medusae	メデューサ	2	=単数 Medusa
+monster_pl	Mermaids	人魚	3	=単数 Mermaid
+monster_pl	Insane Leonarae	狂ったレオナー	1	=単数 Insane Leonar
+monster_pl	Monarch Nettles	帝王イラクサ	1	=単数 Monarch Nettle
+monster_pl	Mountain Giants	山の巨人	1	=単数 Mountain Giant
+monster_pl	Mutineers	反乱水夫	1	=単数 Mutineer
+monster_pl	Myconorids	マイコノリド	1	=単数 Myconorid
+monster_pl	Mystagogues	秘儀導師	1	=単数 Mystagogue
+monster_pl	Naga Shamans	ナーガ呪術師	1	=単数 Naga Shaman
+monster_pl	Naga Firstborn	ナーガの長子	2	=単数 Naga Firstborn
+monster_pl	Naga Imperial Guard	ナーガ近衛兵	2	=単数 Naga Imperial Guard
+monster_pl	Naga Scavengers	ナーガの屍漁り	1	=単数 Naga Scavenger
+monster_pl	Naga Warriors	ナーガ戦士	1	=単数 Naga Warrior
+monster_pl	Nightfiends	夜魔	1	=単数 Nightfiend
+monster_pl	Homunculi	ホムンクルス	1	=単数 Homunculus
+monster_pl	Nosferatum	ノスフェラトゥ	1	=単数 Nosferatu
+monster_pl	Spore Fungi	胞子茸	1	=単数 Spore Fungus
+monster_pl	Ogre Giants	オーガ巨人	1	=単数 Ogre Giant
+monster_pl	Ogre Magi	オーガ魔術師	1	=単数 Ogre Mage
+monster_pl	Executioners	処刑人	1	=単数 Executioner
+monster_pl	Phantoms	亡霊	1	=単数 Phantom
+monster_pl	Phase Spiders	位相蜘蛛	1	=単数 Phase Spider
+monster_pl	Mad Monks	狂った僧	1	=単数 Mad Monk
+monster_pl	Piranha	ピラニア	2	=単数 Piranha
+monster_pl	Zombies	ゾンビ	2	=単数 Xombi
+monster_pl	Psi-borgs	サイ・ボーグ	1	=単数 Psi-borg
+monster_pl	Psyclops	サイクロプ	1	=単数 Psyclop
+monster_pl	Ramorae	小判鮫	1	=単数 Ramora
+monster_pl	Revenants	レヴナント	1	=単数 Revenant
+monster_pl	Rhattu	ラットゥ	69	=単数 Rhattu
+monster_pl	Acolytes	秘教の侍祭	1	=単数 Mystic Acolyte
+monster_pl	Priests	秘教の司祭	1	=単数 Mystic Priest
+monster_pl	Rhattu Rangers	ラットゥレンジャー	1	=単数 Rhattu Ranger
+monster_pl	Rocs	ロック鳥	1	=単数 Roc
+monster_pl	Royal Jellies	ローヤルゼリー	1	=単数 Royal Jelly
+monster_pl	Salamanders	サラマンダー	1	=単数 Salamander
+monster_pl	Seawitches	海の魔女	1	=単数 Seawitch
+monster_pl	Jesters	道化師	1	=単数 Jester
+monster_pl	Shao-Tzi	シーズー獅子	1	=単数 Shao-Tzu
+monster_pl	Shriekers	叫び茸	1	=単数 Shrieker
+monster_pl	Silver Dragons	銀竜	1	=単数 Silver Dragon
+monster_pl	Sirens	セイレーン	1	=単数 Siren
+monster_pl	Skeletal Champions	骸骨の勇者	1	=単数 Skeletal Champion
+monster_pl	Spectres	スペクター	1	=単数 Spectre
+monster_pl	Storm Dragons	嵐竜	1	=単数 Storm Dragon
+monster_pl	Blood Leeches	吸血ヒル	1	=単数 Blood Leech
+monster_pl	Tarantulas	タランチュラ	1	=単数 Tarantula
+monster_pl	Terrormites	恐怖シロアリ	1	=単数 Terrormite
+monster_pl	Reavers	略奪者	1	=単数 Reaver
+monster_pl	Tomb Guardians	墓の守護者	1	=単数 Tomb Guardian
+monster_pl	Torpedo-Bots	魚雷ロボ	1	=単数 Torpedo-Bot
+monster_pl	Toxic Amoebae	毒アメーバ	1	=単数 Toxic Amoeba
+monster_pl	Treants	トレント	1	=単数 Treant
+monster_pl	Toadstools	毒キノコ	1	=単数 Toadstool
+monster_pl	Trog Shamans	トログ呪術師	1	=単数 Trog Shaman
+monster_pl	Trog Warriors	トログ戦士	1	=単数 Trog Warrior
+monster_pl	Troglodytes	トログロダイト	4	=単数 Troglodyte
+monster_pl	Turnscrews	ネジ巻き看守	1	=単数 Turnscrew
+monster_pl	Ungrateful Dead	恩知らずの死者	3	=単数 Ungrateful Dead
+monster_pl	Vampiric Bats	吸血蝙蝠	1	=単数 Vampire Bat
+monster_pl	Hellhounds	ヘルハウンド	1	=単数 Hellhound
+monster_pl	Miner'49ers	49年組の坑夫	1	=単数 Miner'49er
+monster_pl	Vanguard Bowmen	ヴァンガード弓兵	1	=単数 Vanguard Bowman
+monster_pl	Spawn ~ Shelach	シェラクの眷属	1	Spawn of Shelach。ゲームのフォントでは ~ が "of" の字形なので、日本語では ~ を使わない
+monster_pl	Skeletons	スケルトン	1	=単数 Skeleton
+monster_pl	Warlocks	妖術師	1	=単数 Warlock
+monster_pl	Water Elementals	水の精霊	1	=単数 Water Elemental
+monster_pl	Hydras	ヒドラ	1	=単数 Hydra
+monster_pl	Men'O'War	電気クラゲ	1	=単数 Man'O'War
+monster_pl	Weeping Violets	泣きスミレ	1	=単数 Weeping Violet
+monster_pl	WereLions	ワーライオン	1	=単数 WereLion
+monster_pl	Werewolves	人狼	1	=単数 Werewolf
+monster_pl	Wicker Cultists	ウィッカー教徒	1	=単数 Wicker Cultist
+monster_pl	Druid Archmagi	ドルイド大導師	1	=単数 Druid Archmage
+monster_pl	Wraiths	レイス	1	=単数 Wraith
+monster_pl	Lich Lords	リッチロード	1	=単数 Lich Lord
+monster_pl	Green Hand Gang	緑の手団	3	Green Hand Gang
+monster_unid	Squirrel	リス	1	MASTER 03327
+monster_unid	Snake	蛇	5	MASTER 03328
+monster_unid	Rude Chap	失礼な奴	1	MASTER 03330
+monster_unid	Weed	雑草	2	MASTER 03331
+monster_unid	Shrub	低木	1	MASTER 03332
+monster_unid	Apparition	幻影	1	MASTER 03333
+monster_unid	Shiva-Han-Goromu	シヴァ・ハン・ゴロム	3	MASTER 03334
+monster_unid	Soldier	兵士	7	MASTER 03345
+monster_unid	Giant Icecube	巨大な角氷	3	MASTER 03349
+monster_unid	Insect	昆虫	9	MASTER 03350
+monster_unid	Fungus	菌類	2	MASTER 03351
+monster_unid	Hummingbird	ハチドリ	1	MASTER 03352
+monster_unid	Butterfly	蝶	1	MASTER 03353
+monster_unid	Mudpie	泥団子	1	MASTER 03355
+monster_unid	Goose	雁	1	MASTER 03356
+monster_unid	Goat	山羊	1	MASTER 03357
+monster_unid	Mist	霧	5	MASTER 03358
+monster_unid	Ugly Bird	醜い鳥	4	MASTER 03359
+monster_unid	Pale Man	青白い男	2	MASTER 03361
+monster_unid	Worm	長虫	8	MASTER 03362
+monster_unid	Stranger	よそ者	2	MASTER 03365
+monster_unid	Manbat	蝙蝠男	3	MASTER 03368
+monster_unid	Tin Man	ブリキ男	3	MASTER 03369
+monster_unid	Bird	鳥	11	MASTER 03373
+monster_unid	Lizard	トカゲ	5	MASTER 03375
+monster_unid	Giant	巨人	19	MASTER 03376
+monster_unid	Knight	騎士	6	MASTER 03378
+monster_unid	Ugly Dog	醜い犬	2	MASTER 03380
+monster_unid	Wasp	蜂	3	MASTER 03381
+monster_unid	Bighead	でか頭	1	MASTER 03383
+monster_unid	Pirate	海賊	9	MASTER 03384
+monster_unid	Lion	獅子	2	MASTER 03385
+monster_unid	Guard	衛兵	7	MASTER 03386
+monster_unid	Cat Lady	猫婦人	2	MASTER 03388
+monster_unid	Flower	花	12	MASTER 03389
+monster_unid	Bug	虫	7	MASTER 03393
+monster_unid	Fish	魚	10	MASTER 03394
+monster_unid	Flying Girl	空飛ぶ娘	2	MASTER 03401
+monster_unid	Rogue	悪党	2	MASTER 03402
+monster_unid	Beast	獣	3	MASTER 03405
+monster_unid	Hump	こぶ	1	MASTER 03408
+monster_unid	Robed Man	ローブの男	1	MASTER 03413
+monster_unid	Tree	木	2	MASTER 03414
+monster_unid	Rockman	岩男	2	MASTER 03415
+monster_unid	Cowskull	牛の頭骨	1	MASTER 03419
+monster_unid	Cloud	雲	17	MASTER 03421
+monster_unid	Turtle	亀	4	MASTER 03423
+monster_unid	Batman	蝙蝠男	1	MASTER 03427
+monster_unid	Man in Black	黒服の男	2	MASTER 03434
+monster_unid	Sick Man	病人	4	MASTER 03439
+monster_unid	Shroom	きのこ	1	MASTER 03440
+monster_unid	Bandit	野盗	1	MASTER 03442
+monster_unid	Lady	淑女	8	MASTER 03444
+monster_unid	Eyeball	目玉	1	MASTER 03453
+monster_unid	Barrower	バロワー	2	MASTER 03462
+monster_unid	Stone Man	石の男	1	MASTER 03464
+monster_unid	Light	光	8	MASTER 03466
+monster_unid	Ocean Girl	海の娘	1	MASTER 03469
+monster_unid	Lionman	獅子男	1	MASTER 03472
+monster_unid	Plant	植物	25	MASTER 03473
+monster_unid	Big Fella	でかい奴	1	MASTER 03477
+monster_unid	Seaman	船乗り	1	MASTER 03478
+monster_unid	Wizard	魔術師	28	MASTER 03480
+monster_unid	Snakeman	蛇男	5	MASTER 03482
+monster_unid	Hornman	角男	1	MASTER 03490
+monster_unid	Elf	小人	1	MASTER 03491
+monster_unid	Big Man	大男	2	MASTER 03494
+monster_unid	Hooded Man	頭巾の男	2	MASTER 03498
+monster_unid	Spirit	霊	18	MASTER 03500
+monster_unid	Spider	蜘蛛	36	MASTER 03501
+monster_unid	Crazy Man	狂人	1	MASTER 03503
+monster_unid	Floater	浮遊物	3	MASTER 03509
+monster_unid	Ratman	鼠男	2	MASTER 03516
+monster_unid	Clown	道化	2	MASTER 03525
+monster_unid	Mushroom	キノコ	2	MASTER 03528
+monster_unid	Fishgirl	魚娘	1	MASTER 03530
+monster_unid	Thin Man	痩せた男	2	MASTER 03531
+monster_unid	Slop	汚泥	2	MASTER 03547
+monster_unid	Lizardman	トカゲ男	3	MASTER 03550
+monster_unid	Dog	犬	4	MASTER 03557
+monster_unid	Dwarf	ドワーフ	1	MASTER 03558
+monster_unid	Thin Fella	痩せっぽち	1	MASTER 03561
+monster_unid	Catman	猫男	1	MASTER 03568
+monster_unid	Tall Dog	のっぽ犬	1	MASTER 03569
+monster_unid	Priestess	巫女	2	MASTER 03570
+monster_unid	Druid	ドルイド	7	MASTER 03571
+monster_unid	Ghost	幽霊	6	MASTER 03573
+monster_unid	Green Hander	緑の手団員	1	MASTER 03579
+monster_unid_pl	Squirrels	リス	1	=単数 Squirrel
+monster_unid_pl	Snakes	蛇	5	=単数 Snake
+monster_unid_pl	Rude Chaps	失礼な奴	1	=単数 Rude Chap
+monster_unid_pl	Weeds	雑草	1	=単数 Weed
+monster_unid_pl	Shrubs	低木	1	=単数 Shrub
+monster_unid_pl	Apparitions	幻影	1	=単数 Apparition
+monster_unid_pl	Soldiers	兵士	6	=単数 Soldier
+monster_unid_pl	Giant Icecubes	巨大な角氷	3	=単数 Giant Icecube
+monster_unid_pl	Insects	昆虫	4	=単数 Insect
+monster_unid_pl	Fungi	菌類	2	=単数 Fungus
+monster_unid_pl	Hummingbirds	ハチドリ	1	=単数 Hummingbird
+monster_unid_pl	Butterflies	蝶	1	=単数 Butterfly
+monster_unid_pl	Mudpies	泥団子	1	=単数 Mudpie
+monster_unid_pl	Geese	雁	1	=単数 Goose
+monster_unid_pl	Goats	山羊	1	=単数 Goat
+monster_unid_pl	Mists	霧	5	=単数 Mist
+monster_unid_pl	Ugly Birds	醜い鳥	4	=単数 Ugly Bird
+monster_unid_pl	Pale Men	青白い男	2	=単数 Pale Man
+monster_unid_pl	Worms	長虫	6	=単数 Worm
+monster_unid_pl	Strangers	よそ者	2	=単数 Stranger
+monster_unid_pl	Manbat	蝙蝠男	3	=単数 Manbat
+monster_unid_pl	Tin Men	ブリキ男	3	=単数 Tin Man
+monster_unid_pl	Batmen	蝙蝠男	2	=単数 Manbat
+monster_unid_pl	Birds	鳥	6	=単数 Bird
+monster_unid_pl	Lizards	トカゲ	5	=単数 Lizard
+monster_unid_pl	Giants	巨人	5	=単数 Giant
+monster_unid_pl	Knights	騎士	16	=単数 Knight
+monster_unid_pl	Ugly Dogs	醜い犬	2	=単数 Ugly Dog
+monster_unid_pl	Wasps	蜂	1	=単数 Wasp
+monster_unid_pl	Bigheads	でか頭	1	=単数 Bighead
+monster_unid_pl	Pirates	海賊	5	=単数 Pirate
+monster_unid_pl	Lions	獅子	2	=単数 Lion
+monster_unid_pl	Guards	衛兵	8	=単数 Guard
+monster_unid_pl	Cat Ladies	猫婦人	2	=単数 Cat Lady
+monster_unid_pl	Flowers	花	2	=単数 Flower
+monster_unid_pl	Bugs	虫	5	=単数 Bug
+monster_unid_pl	Fishes	魚	4	=単数 Fish
+monster_unid_pl	Flying Girls	空飛ぶ娘	2	=単数 Flying Girl
+monster_unid_pl	Rogues	悪党	1	=単数 Rogue
+monster_unid_pl	Beasts	獣	4	=単数 Beast
+monster_unid_pl	Humps	こぶ	1	=単数 Hump
+monster_unid_pl	Robed Men	ローブの男	1	=単数 Robed Man
+monster_unid_pl	Trees	木	2	=単数 Tree
+monster_unid_pl	Rockmen	岩男	2	=単数 Rockman
+monster_unid_pl	Cowskulls	牛の頭骨	1	=単数 Cowskull
+monster_unid_pl	Clouds	雲	2	=単数 Cloud
+monster_unid_pl	Turtles	亀	3	=単数 Turtle
+monster_unid_pl	Men in Black	黒服の男	2	=単数 Man in Black
+monster_unid_pl	Sick Men	病人	4	=単数 Sick Man
+monster_unid_pl	Shrooms	きのこ	1	=単数 Shroom
+monster_unid_pl	Bandits	野盗	1	=単数 Bandit
+monster_unid_pl	Ladies	淑女	5	=単数 Lady
+monster_unid_pl	Eyeballs	目玉	1	=単数 Eyeball
+monster_unid_pl	Barrowers	バロワー	2	=単数 Barrower
+monster_unid_pl	Stone Men	石の男	1	=単数 Stone Man
+monster_unid_pl	Lights	光	4	=単数 Light
+monster_unid_pl	Ocean Girls	海の娘	1	=単数 Ocean Girl
+monster_unid_pl	Lionmen	獅子男	1	=単数 Lionman
+monster_unid_pl	Plants	植物	9	=単数 Plant
+monster_unid_pl	Big Fellas	でかい奴	1	=単数 Big Fella
+monster_unid_pl	Seamen	船乗り	1	=単数 Seaman
+monster_unid_pl	Wizards	魔術師	6	=単数 Wizard
+monster_unid_pl	Snakemen	蛇男	5	=単数 Snakeman
+monster_unid_pl	Hornmen	角男	1	=単数 Hornman
+monster_unid_pl	Elves	小人	2	=単数 Elf
+monster_unid_pl	Big Men	大男	2	=単数 Big Man
+monster_unid_pl	Hooded Men	頭巾の男	2	=単数 Hooded Man
+monster_unid_pl	Spirits	霊	3	=単数 Spirit
+monster_unid_pl	Spiders	蜘蛛	12	=単数 Spider
+monster_unid_pl	Crazy Men	狂人	1	=単数 Crazy Man
+monster_unid_pl	Floaters	浮遊物	3	=単数 Floater
+monster_unid_pl	Ratmen	鼠男	2	=単数 Ratman
+monster_unid_pl	Clowns	道化	1	=単数 Clown
+monster_unid_pl	Mushrooms	キノコ	2	=単数 Mushroom
+monster_unid_pl	Fishgirls	魚娘	1	=単数 Fishgirl
+monster_unid_pl	Thin Men	痩せた男	2	=単数 Thin Man
+monster_unid_pl	Slop	汚泥	2	=単数 Slop
+monster_unid_pl	Lizardmen	トカゲ男	4	=単数 Lizardman
+monster_unid_pl	Dogs	犬	4	=単数 Dog
+monster_unid_pl	Dwarves	ドワーフ	1	=単数 Dwarf
+monster_unid_pl	Thin Fellas	痩せっぽち	1	=単数 Thin Fella
+monster_unid_pl	Catmen	猫男	1	=単数 Catman
+monster_unid_pl	Tall Dogs	のっぽ犬	1	=単数 Tall Dog
+monster_unid_pl	Priestesses	巫女	1	=単数 Priestess
+monster_unid_pl	Druids	ドルイド	2	=単数 Druid
+monster_unid_pl	Ghosts	幽霊	2	=単数 Ghost
+monster_unid_pl	Green Hand Gang	緑の手団	3	MASTER 03579
+monster_group	Pack ~	~の群れ	7	MASTER 03327
+monster_group	Coil ~	~のとぐろ	3	MASTER 03328
+monster_group	Band ~	~の一味	2	MASTER 03330
+monster_group	Garden ~	~の園	4	MASTER 03331
+monster_group	Host ~	~の軍勢	2	MASTER 03333
+monster_group	Troop ~	~の部隊	3	MASTER 03345
+monster_group	Squad ~	~の分隊	2	MASTER 03346
+monster_group	Colony ~	~のコロニー	10	MASTER 03349
+monster_group	Nest ~	~の巣	3	MASTER 03350
+monster_group	Scourge ~	~の災い	1	MASTER 03351
+monster_group	Hive ~	~の群体	4	MASTER 03352
+monster_group	Swarm ~	~の大群	3	MASTER 03353
+monster_group	Cluster ~	~の塊	5	MASTER 03355
+monster_group	Formation ~	~の編隊	2	MASTER 03356
+monster_group	Herd ~	~の一群	2	MASTER 03357
+monster_group	Gathering ~	~の集い	1	MASTER 03358
+monster_group	Cloud ~	~の群雲	3	MASTER 03359
+monster_group	Clutch ~	~のひと群れ	3	MASTER 03361
+monster_group	Team ~	~のチーム	1	MASTER 03365
+monster_group	Battalion ~	~の大隊	1	MASTER 03367
+monster_group	Rank ~	~の隊列	1	MASTER 03369
+monster_group	An Army ~	~の一軍	1	MASTER 03371
+monster_group	Flock ~	~の群れ	3	MASTER 03373
+monster_group	Brigade ~	~の旅団	1	MASTER 03374
+monster_group	League ~	~の連盟	1	MASTER 03378
+monster_group	Cabal ~	~の結社	6	MASTER 03383
+monster_group	Gang ~	~の徒党	6	MASTER 03384
+monster_group	Tribe ~	~の部族	5	MASTER 03385
+monster_group	Phalanx ~	~の方陣	2	MASTER 03386
+monster_group	Cordon ~	~の包囲陣	2	MASTER 03388
+monster_group	School ~	~の魚群	7	MASTER 03394
+monster_group	Pair ~	~の二人組	1	MASTER 03400
+monster_group	Fleet ~	~の艦隊	1	MASTER 03408
+monster_group	Army ~	~の軍団	4	MASTER 03409
+monster_group	Stand ~	~の木立	2	MASTER 03414
+monster_group	Gauntlet ~	~の関門	2	MASTER 03415
+monster_group	Horde ~	~の大軍	2	MASTER 03427
+monster_group	Group ~	~の一団	2	MASTER 03428
+monster_group	Web ~	~の網	3	MASTER 03432
+monster_group	Gaggle ~	~の烏合の衆	1	騒がしい群れ
+monster_group	Harem ~	~の大奥	1	ハーレム=大奥の洒落
+monster_group	Crew ~	~の連中	3	MASTER 03462
+monster_group	Vision ~	~の幻影	1	MASTER 03466
+monster_group	Coven ~	~の魔女団	5	MASTER 03467
+monster_group	Pride ~	~の一族	6	pride of lions(獅子・竜・ナーガ)
+monster_group	Thicket ~	~の茂み	2	MASTER 03473
+monster_group	Mass ~	~のミサ	1	ミサ(mass)の洒落
+monster_group	Flank ~	~の側衛隊	1	MASTER 03482
+monster_group	Den ~	~の巣窟	2	MASTER 03491
+monster_group	Party ~	~のご一行	3	オーガの『ご一行様』
+monster_group	Vale ~	~の幽谷	1	MASTER 03500
+monster_group	Mob ~	~の暴徒	1	MASTER 03505
+monster_group	Squadron ~	~の戦隊	1	戦隊もの
+monster_group	Troupe ~	~の一座	1	MASTER 03525
+monster_group	Growth ~	~の群生	1	MASTER 03528
+monster_group	Manifestation ~	~の顕現	1	MASTER 03533
+monster_group	Choke ~	~の密集	1	MASTER 03536
+monster_group	Pool ~	~の溜まり	1	MASTER 03547
+monster_group	Stem ~	~の株	1	MASTER 03549
+monster_group	Flutter ~	~の羽ばたき	1	MASTER 03556
+monster_group	Vortex ~	~の渦	1	MASTER 03564
+monster_group	Pod ~	~の群れ	2	MASTER 03565
+name?	Saint George	聖ジョージ	0	PLaMo試験で追加
+party	Knights Errant	遍歴騎士団	0	PLaMo試験で追加
+name?	Abbot	院長	1	本文翻訳で追加（0048）
+name?	Abode of the Horror	恐怖の住処	2	本文翻訳で追加（0060,0061）
+name?	Accursed Church	呪われた教会	2	本文翻訳で追加（0060,0061）
+name?	Achilles Heel	アキレスのかかと	1	本文翻訳で追加（0111）
+name?	Acme Company	ACME社	1	本文翻訳で追加（0074）
+name?	Acme Weapons Division	ACME武器部門	1	本文翻訳で追加（0074）
+name?	Admiral Tellurius Boondoggle	テルリウス・ブーンドグル提督	1	本文翻訳で追加（0128）
+name?	Aegis Office	イージス事務所	1	本文翻訳で追加（0023）
+name?	Alchemy College	錬金術学院	1	本文翻訳で追加（0040）
+name?	Alien Barracks	異星人の兵舎	2	本文翻訳で追加（0060,0081）
+name?	All Rights Reserved	全著作権所有	1	本文翻訳で追加（0061）
+name?	Ally Hootenanny	アリー・フーテナニー	1	本文翻訳で追加（0012）
+name?	Alonzo Sagursu	アロンゾ・サンガース	1	本文翻訳で追加（0012）
+name?	Ambrose Bierce	アンブローズ・ビアス	1	本文翻訳で追加（0001）
+name?	Ancient Preserved Bones	古代の保存骨	1	本文翻訳で追加（0061）
+name?	Ancients Level II	古代人の第2層	2	本文翻訳で追加（0060,0061）
+name?	Ancients Level III	古代人の第3層	2	本文翻訳で追加（0060,0061）
+name?	Ancients Level IV	古代人の第4層	2	本文翻訳で追加（0060,0061）
+name?	Andrew Greenberg	アンドリュー・グリーンバーグ	1	本文翻訳で追加（0001）
+name?	Antechamber of Orloch	オルロックの前室	1	本文翻訳で追加（0060）
+name?	Antechamber of Orlock	オルロックの前室	1	本文翻訳で追加（0060）
+name?	Apoyus Hale	アポイウス・ヘイル	1	本文翻訳で追加（0012）
+name?	Aquavia Causeway	アクアヴィアの堤道	1	本文翻訳で追加（0060）
+name?	Arbor	アーバー	1	本文翻訳で追加（0104）
+name?	Aromas of ARKADRIOM	アルカドリオムの芳香	1	本文翻訳で追加（0005）
+name?	Arthur	アーサー	1	本文翻訳で追加（0042）
+name?	Asgard	アスガルド	1	本文翻訳で追加（0033）
+name?	Astral Plane	星幽界	1	本文翻訳で追加（0045）
+name?	Aubrey Lolligagger	オーブリー・ロリガガー	1	本文翻訳で追加（0012）
+name?	AUSTRALIAN MULTIMEDIA ENTERPRISE	オーストラリア・マルチメディア・エンタープライズ	1	本文翻訳で追加（0001）
+name?	Awusell Hanfap	アウセル・ハンファプ	1	本文翻訳で追加（0012）
+name?	Axis Coliseum	枢軸の闘技場	2	本文翻訳で追加（0060,0061）
+name?	Axis Gaol	枢軸監獄	1	本文翻訳で追加（0136）
+name?	Azzor Azraelu	アゾール・アズラエル	1	本文翻訳で追加（0012）
+name?	Bahomet Megalith	バホメットの巨石	1	本文翻訳で追加（0114）
+name?	Bane of the Dead	死者の災い	1	本文翻訳で追加（0075）
+name?	Bard Kit	吟遊詩人の箱	1	本文翻訳で追加（0060）
+name?	Barrow Arbor	バロウの四阿	1	本文翻訳で追加（0060）
+name?	Barrow Caverns	バロウの洞窟	1	本文翻訳で追加（0060）
+name?	Barrow Pits	バロウの穴	1	本文翻訳で追加（0060）
+name?	Barry Brenesal	バリー・ブレネサル	1	本文翻訳で追加（0001）
+name?	Battle Roar	戦いの咆哮	1	本文翻訳で追加（0065）
+name?	Beef Jerky	ビーフジャーキー	1	本文翻訳で追加（0022）
+name?	Belfrey	鐘楼	1	本文翻訳で追加（0039）
+name?	Belfry Tower L1	鐘楼塔 第1層	2	本文翻訳で追加（0060,0061）
+name?	Belfry Tower L2	鐘楼塔 第2層	2	本文翻訳で追加（0060,0061）
+name?	Belfry Tower L3	鐘楼塔 第3層	2	本文翻訳で追加（0060,0061）
+name?	Bell Tower	鐘楼	1	本文翻訳で追加（0126）
+name?	Ben Blakemore	ベン・ブレイクモア	1	本文翻訳で追加（0061）
+name?	Benjamin	ベンジャミン	1	本文翻訳で追加（0042）
+name?	Bestiary Underground	地下の獣舎	2	本文翻訳で追加（0060,0061）
+name?	Biff Masterson	ビフ・マスターソン	1	本文翻訳で追加（0033）
+name?	Bifrost Bridge	ビフレスト橋	1	本文翻訳で追加（0081）
+name?	Bishop	司教	1	本文翻訳で追加（0089）
+name?	Bizarre Chronoworks Clock	奇妙なクロノワークスの時計	1	本文翻訳で追加（0061）
+name?	Black Seed	黒い種子	1	本文翻訳で追加（0014）
+name?	Blackspike Crag	黒棘の岩峰	2	本文翻訳で追加（0060,0061）
+name?	Blackspike Mountains	黒棘山脈	2	本文翻訳で追加（0060,0061）
+name?	Blackspike Summit	黒棘の山頂	2	本文翻訳で追加（0060,0061）
+name?	Blacky	ブラッキー	1	本文翻訳で追加（0079）
+name?	Blarney Brubble	ブラーニー・ブラブル	1	本文翻訳で追加（0012）
+name?	Book Oracle	書物の託宣者	1	本文翻訳で追加（0030）
+name?	Bootleg Hyperborean Rum	密造のハイパーボリアン・ラム	1	本文翻訳で追加（0062）
+name?	Bootman	ブーツマン	1	本文翻訳で追加（0043）
+name?	Borewyrm Tavern	ボーリワーム亭	1	本文翻訳で追加（0040）
+name?	Bowels of Samhain	サムハインの臓腑	2	本文翻訳で追加（0060,0061）
+name?	Briarpatch Woods	茨の藪の森	1	本文翻訳で追加（0060）
+name?	Burial Crypt Alcove	埋葬の地下室の窪み	1	本文翻訳で追加（0061）
+name?	Cankerstone	カンカーストーン	1	本文翻訳で追加（0040）
+name?	Canopic Chest	カノプス壺の箱	1	本文翻訳で追加（0061）
+name?	Cap'O'Rushes	キャップ・オ・ラッシュ	1	本文翻訳で追加（0075）
+name?	Cargo Teleporter Operation	貨物転送装置の操作	1	本文翻訳で追加（0035）
+name?	Carnivale	カーニバル	1	本文翻訳で追加（0023）
+name?	Carnivale Bazaar	カーニバル・バザール	2	本文翻訳で追加（0139,0140）
+name?	Castle Moravia	モラヴィア城	3	本文翻訳で追加（0060,0061,0081）
+name?	Castle of Skulheim	スカルハイム城	1	本文翻訳で追加（0136）
+name?	Castle Pit Control Room	城の竪穴管制室	1	本文翻訳で追加（0039）
+name?	Cataclysm	大災厄	2	本文翻訳で追加（0060,0061）
+name?	Catacombs	地下墓所	1	本文翻訳で追加（0089）
+name?	Catechism	教理書	1	本文翻訳で追加（0081）
+name?	Cathedral Vault	大聖堂の宝物庫	1	本文翻訳で追加（0060）
+name?	Cave of Zoroaster	ゾロアスターの洞窟	1	本文翻訳で追加（0027）
+name?	Caverns of Zandrithar	ザンドリサールの洞窟	2	本文翻訳で追加（0060,0061）
+name?	Caves of Zandrithar	ザンドリサーの洞窟	1	本文翻訳で追加（0081）
+name?	Celestial Watchtower	天界の監視塔	3	本文翻訳で追加（0060,0061,0082）
+name?	Celestian Palace	天界の宮殿	1	本文翻訳で追加（0030）
+name?	Cenotaph of the Black Lich	黒きリッチの霊廟	1	本文翻訳で追加（0060）
+name?	Cenotaph Subterran	霊廟の地下墓所	1	本文翻訳で追加（0060）
+name?	Cenotaph Vault	霊廟の宝物庫	1	本文翻訳で追加（0060）
+name?	Chamber of Regrets	後悔の間	1	本文翻訳で追加（0042）
+name?	Chamber of the Dreamless	夢なき者たちの間	1	本文翻訳で追加（0004）
+name?	Chaos Wyrm	混沌の竜	2	本文翻訳で追加（0018,0019）
+name?	CHARACTER ARTWORK	キャラクター作画	1	本文翻訳で追加（0061）
+name?	Charles	チャールズ	1	本文翻訳で追加（0042）
+name?	Chasm of the Oracle	神託の裂け目	1	本文翻訳で追加（0060）
+name?	Children of Shelach	シェラクの眷属	1	本文翻訳で追加（0089）
+name?	Children's Song Book	子供の歌集	1	本文翻訳で追加（0061）
+name?	Chronoworks of Kroondergraff	クルーンダーグラフの時計仕掛け	1	本文翻訳で追加（0062）
+name?	Chrytosphere Mount	クリトスフィア山	2	本文翻訳で追加（0060,0061）
+name?	Chuck	チャック	1	本文翻訳で追加（0042）
+name?	Cistern Zero	零号貯水槽	2	本文翻訳で追加（0060,0061）
+name?	City of Waterport	水港の街	1	本文翻訳で追加（0060）
+name?	Claire	クレア	1	本文翻訳で追加（0074）
+name?	Clairvoyant	千里眼	1	本文翻訳で追加（0030）
+name?	Cleveland M. Blakemore	クリーヴランド・M・ブレイクモア	1	本文翻訳で追加（0001）
+name?	Cleveland Mark Blakemore	クリーヴランド・マーク・ブレイクモア	1	本文翻訳で追加（0061）
+name?	CLIMB UP ROCS	ロック鳥の巣へ登る	1	本文翻訳で追加（0061）
+name?	Clock of Fate	運命の時計	2	本文翻訳で追加（0010,0157）
+name?	Clock of the Owl	梟の時計	1	本文翻訳で追加（0113）
+name?	Codex Dial	写本の文字盤	1	本文翻訳で追加（0046）
+name?	Combat Simulator	戦闘シミュレーター	1	本文翻訳で追加（0062）
+name?	COMING SOON	近日公開	1	本文翻訳で追加（0061）
+name?	CONACHUR CABIN	コナカーの小屋	1	本文翻訳で追加（0061）
+name?	Conachur's Cabin	コナカーの小屋	2	本文翻訳で追加（0060,0061）
+name?	Concord With Ahriman	アーリマンとの協約	1	本文翻訳で追加（0032）
+name?	Conqueror Worm	征服者の長虫	1	本文翻訳で追加（0163）
+name?	Cooper Blakemore	クーパー・ブレイクモア	1	本文翻訳で追加（0061）
+name?	Count Vlad	ヴラド伯爵	1	本文翻訳で追加（0039）
+name?	Crag Felspur	フェルスパー岩峰	1	本文翻訳で追加（0137）
+name?	Creature Remedies	魔獣用薬剤	1	本文翻訳で追加（0023）
+name?	Crescent Valley	三日月の谷	2	本文翻訳で追加（0060,0061）
+name?	Crescent Wilderness	三日月の荒野	1	本文翻訳で追加（0060）
+name?	Cromlech	環状列石	2	本文翻訳で追加（0032,0149）
+name?	Cromlech of the Clock	時計の環状列石	2	本文翻訳で追加（0060,0061）
+name?	Cromlech Of The Metronome Mysterium	メトロノーム・ミステリウムの環状列石	1	本文翻訳で追加（0026）
+name?	Crow's Nest	見張り台	1	本文翻訳で追加（0016）
+name?	Crow's Nest Level One	見張り台 第1層	2	本文翻訳で追加（0060,0061）
+name?	Crow's Nest Level Two	見張り台 第2層	2	本文翻訳で追加（0060,0061）
+name?	Crow's Nest Tower	見張り台の塔	2	本文翻訳で追加（0060,0061）
+name?	Crowl	クロウル	2	本文翻訳で追加（0088,0093）
+name?	Crowl Archives	クロウルの文書庫	2	本文翻訳で追加（0060,0061）
+name?	Crowl Post	クロウル駐屯地	1	本文翻訳で追加（0057）
+name?	Crowl Prison	クロウルの牢獄	2	本文翻訳で追加（0060,0061）
+name?	Crusade Temple	十字軍神殿	3	本文翻訳で追加（0081,0089,0092）
+name?	Crusader Temple	十字軍の神殿	1	本文翻訳で追加（0060）
+name?	CRYSTALS FROM THE TITAN	タイタンの水晶	1	本文翻訳で追加（0061）
+name?	Cuckoo's nest	カッコウの巣	1	本文翻訳で追加（0005）
+name?	D.W. Bradley	D.W.・ブラッドリー	1	本文翻訳で追加（0001）
+name?	Daemongate	魔神の門	2	本文翻訳で追加（0060,0061）
+name?	Dahlia	ダリア	1	本文翻訳で追加（0136）
+name?	Daisy	デイジー	1	本文翻訳で追加（0087）
+name?	Dalton	ダルトン	1	本文翻訳で追加（0042）
+name?	Dame Enlightenment	啓蒙の貴婦人	1	本文翻訳で追加（0088）
+name?	Darian	ダリアン	1	本文翻訳で追加（0024）
+name?	Dark Warren	暗がりの巣	2	本文翻訳で追加（0060,0061）
+name?	Davy Jones	デイヴィ・ジョーンズ	1	本文翻訳で追加（0111）
+name?	Dawgsnoz Protrudy	ドーグスノーズ・プロトルーディ	1	本文翻訳で追加（0012）
+name?	De Vermis Mysteriis	妖蛆の秘密	1	本文翻訳で追加（0042）
+name?	Deadly Lava Enc	溶岩（致死）遭遇	1	本文翻訳で追加（0061）
+name?	Deadly Water Enc	水辺（致死）遭遇	1	本文翻訳で追加（0061）
+name?	Dean Spencer	ディーン・スペンサー	1	本文翻訳で追加（0001）
+name?	Deep Diving Discovery	深海の発見	1	本文翻訳で追加（0061）
+name?	Deep One	深きもの	1	本文翻訳で追加（0110）
+name?	Deep Ones	深きもの	1	本文翻訳で追加（0110）
+name?	Deepfreeze	深氷結	1	本文翻訳で追加（0076）
+name?	Deepsink Project	深淵沈降計画	1	本文翻訳で追加（0060）
+name?	Delia Blakemore	デリア・ブレイクモア	1	本文翻訳で追加（0061）
+name?	Demonic Residue	悪魔の残滓	1	本文翻訳で追加（0061）
+name?	Desolation of Gideon	ギデオンの荒廃地	1	本文翻訳で追加（0060）
+name?	Diabolic Haberdashery	悪魔の小間物店	1	本文翻訳で追加（0030）
+name?	DIALOGUE EDITING	台詞編集	1	本文翻訳で追加（0061）
+name?	DIRGE	ダージ	1	本文翻訳で追加（0012）
+name?	Diving Helmet	潜水兜	1	本文翻訳で追加（0123）
+name?	Djinn	魔神	2	本文翻訳で追加（0018,0019）
+name?	Djinn Master	大魔神	1	本文翻訳で追加（0164）
+name?	Dolmen	支石墓	1	本文翻訳で追加（0096）
+name?	Domain of Grendel	グレンデルの領域	1	本文翻訳で追加（0142）
+name?	Dominion Caverns	支配者の洞窟	2	本文翻訳で追加（0060,0061）
+name?	Dominion Crevasse	大領国の亀裂	1	本文翻訳で追加（0045）
+name?	Dominion Exemplar	エグゼンプラー大領国	1	本文翻訳で追加（0137）
+name?	Dominion Mountains	大領国山脈	1	本文翻訳で追加（0137）
+name?	Don Whisketti	ドン・ウィスケッティ	1	本文翻訳で追加（0036）
+name?	Donjon of the Mandarin	官吏の天守	2	本文翻訳で追加（0060,0061）
+name?	DOWN TO FISSURE	裂け目へ降りる	1	本文翻訳で追加（0061）
+name?	DOWN TO GRENDEL	グレンデルへ降りる	1	本文翻訳で追加（0061）
+name?	Dracovar	ドラコヴァー	1	本文翻訳で追加（0105）
+name?	Dragon Cauldron	竜の大釜	1	本文翻訳で追加（0032）
+name?	Drak	ドラク	1	本文翻訳で追加（0042）
+name?	Dreamlands	夢幻界	1	本文翻訳で追加（0081）
+name?	Drink-Me Nook	「私を飲んで」の小部屋	1	本文翻訳で追加（0020）
+name?	Drinking Contest	飲み比べ	1	本文翻訳で追加（0062）
+name?	Drow Astral Vision	ドラウ霊視	1	本文翻訳で追加（0083）
+name?	Druid Caves	ドルイドの洞窟	1	本文翻訳で追加（0077）
+name?	Dupore	デュポア	1	本文翻訳で追加（0042）
+name?	Dybbuk	ディブク	1	本文翻訳で追加（0140）
+name?	Edgar Rice Burroughs	エドガー・ライス・バローズ	1	本文翻訳で追加（0001）
+name?	Edvard Toth	エドヴァルド・トート	1	本文翻訳で追加（0001）
+name?	Eerie Wastes	不気味な荒地	2	本文翻訳で追加（0060,0061）
+name?	Ejophior Krall	エジョフィオール・クラル	1	本文翻訳で追加（0012）
+name?	Elder Titan	長老の巨神	1	本文翻訳で追加（0037）
+name?	Electro Phoresis Works	エレクトロ・フォレシス工場	1	本文翻訳で追加（0015）
+name?	Electrophoresis Potentiator Tank System	エレクトロ・フォレシス増幅器システム	1	本文翻訳で追加（0015）
+name?	Electrophoresis Works	電気泳動工房	1	本文翻訳で追加（0060）
+name?	Ellsworth Hall	エルズワース・ホール	1	本文翻訳で追加（0001）
+name?	Empress Wasp Mound	女王蜂の塚	2	本文翻訳で追加（0060,0061）
+name?	Encoder Cube	暗号化キューブ	1	本文翻訳で追加（0035）
+name?	Endworld Cabin	世界の果ての小屋	1	本文翻訳で追加（0032）
+name?	Engineer's Tool Chest	技師の工具箱	1	本文翻訳で追加（0061）
+name?	Engineering	工務部	1	本文翻訳で追加（0003）
+name?	ENTER PAGODA	仏塔に入る	1	本文翻訳で追加（0061）
+name?	Eric Lemon	エリック・レモン	1	本文翻訳で追加（0001）
+name?	Evelyn Evlywahl	エブリン・エブリワール	1	本文翻訳で追加（0012）
+name?	Evil Undercroft	邪悪な地下納骨堂	2	本文翻訳で追加（0060,0061）
+name?	Exhibit Feed	展示飼料室	1	本文翻訳で追加（0010）
+name?	Eye from Space	宇宙の眼	1	本文翻訳で追加（0145）
+name?	Fabio	ファビオ	1	本文翻訳で追加（0076）
+name?	Faeries	妖精	1	本文翻訳で追加（0081）
+name?	Fancy Stitch Embroidery	派手な刺繍	1	本文翻訳で追加（0062）
+name?	Fangs of Set	セトの牙	1	本文翻訳で追加（0020）
+name?	Farulosonoth Fissure	ファルロソノスの裂け目	2	本文翻訳で追加（0060,0061）
+name?	Farulsonoth's Fissure	ファルロソノスの裂け目	2	本文翻訳で追加（0036,0037）
+name?	FASTGRAPH GRAPHICS LIBRARY	FASTGRAPHグラフィックス・ライブラリ	1	本文翻訳で追加（0061）
+name?	Filcher Fivefingers	フィルチャー・ファイブフィンガーズ	1	本文翻訳で追加（0025）
+name?	Fire Titan	炎の巨神	3	本文翻訳で追加（0035,0036,0037）
+name?	Flaming Brazier	燃える火鉢	1	本文翻訳で追加（0061）
+name?	Flash Gonzalez	フラッシュ・ゴンザレス	1	本文翻訳で追加（0037）
+name?	Flaxseed	亜麻仁	1	本文翻訳で追加（0082）
+name?	Floysius Metamoosil	フロイシウス・メタモーシル	1	本文翻訳で追加（0012）
+name?	Fortress of the Dead	死者の要塞	1	本文翻訳で追加（0060）
+name?	Fountain of Night	夜の泉	1	本文翻訳で追加（0039）
+name?	Fountain of Spirits	精霊の泉	1	本文翻訳で追加（0039）
+name?	Franco	フランコ	1	本文翻訳で追加（0042）
+name?	Freshly Minted Tokens	出来立ての硬貨	1	本文翻訳で追加（0061）
+name?	Fritz Leiber	フリッツ・ライバー	1	本文翻訳で追加（0001）
+name?	Galen Apples	ガレンの林檎	1	本文翻訳で追加（0075）
+name?	Gaol Sewers	牢獄の下水道	1	本文翻訳で追加（0060）
+name?	Garden of the Oracle	神託の庭園	1	本文翻訳で追加（0060）
+name?	Gardens of Midnight	ミッドナイトの庭	1	本文翻訳で追加（0094）
+name?	Garoof	ガルーフ	1	本文翻訳で追加（0012）
+name?	Gary Gygax	ゲイリー・ガイギャックス	1	本文翻訳で追加（0001）
+name?	Gate Access	門の通行口	1	本文翻訳で追加（0011）
+name?	Gemsack	宝石袋	1	本文翻訳で追加（0060）
+name?	Generator Room	発電室	2	本文翻訳で追加（0060,0061）
+name?	Ghost City of Gideon	幽霊都市ギデオン	1	本文翻訳で追加（0020）
+name?	Ghostly Encounter	亡霊との遭遇	1	本文翻訳で追加（0061）
+name?	Gideon Reservoir	ギデオン貯水池	2	本文翻訳で追加（0060,0061）
+name?	Glenn Kristoffersen	グレン・クリストファーセン	1	本文翻訳で追加（0001）
+name?	Glenn Kristofferson	グレン・クリストファーソン	1	本文翻訳で追加（0061）
+name?	Gnorff	グノルフ	1	本文翻訳で追加（0012）
+name?	Golden Hand	黄金の手	1	本文翻訳で追加（0089）
+name?	Great Elven Wars	大エルフ戦争	1	本文翻訳で追加（0074）
+name?	Great Hall of Samhain	サムハインの大広間	2	本文翻訳で追加（0060,0061）
+name?	Great Hall of The Past	過去の大広間	1	本文翻訳で追加（0163）
+name?	Green Quandary	緑の難問	1	本文翻訳で追加（0020）
+name?	Green Way	緑の道	1	本文翻訳で追加（0104）
+name?	Grimoire II	グリモアII	1	本文翻訳で追加（0061）
+name?	Grudrott Granary	グルドロット穀倉	1	本文翻訳で追加（0040）
+name?	GUARD BARRACKS	衛兵の兵舎	1	本文翻訳で追加（0031）
+name?	Guest Shop	来賓用の売店	1	本文翻訳で追加（0010）
+name?	H.M.S. Intrepid	H.M.S.イントレピッド号	1	本文翻訳で追加（0123）
+name?	H.P. Lovecraft	H.P.・ラヴクラフト	1	本文翻訳で追加（0001）
+name?	Hall of Commerce	商業の殿堂	1	本文翻訳で追加（0016）
+name?	Halls of Reflekshun	はんしゃの広間	1	本文翻訳で追加（0020）
+name?	Harpsichord Harmonium	ハープシコード・ハーモニウム	1	本文翻訳で追加（0062）
+name?	Harpyx Glamtroll	ハーピクス・グラムトロール	1	本文翻訳で追加（0012）
+name?	Harradan Groves	ハラダンの木立	2	本文翻訳で追加（0060,0061）
+name?	Harridan	ハリダン	1	本文翻訳で追加（0042）
+name?	Haunted Wastes	亡霊の荒地	1	本文翻訳で追加（0046）
+name?	Havoc wars	大災厄戦争	1	本文翻訳で追加（0083）
+name?	Hecatomb	生贄の間	1	本文翻訳で追加（0020）
+name?	Hecatombs of the Sphinx	スフィンクスの大焼牲場	1	本文翻訳で追加（0060）
+name?	Hedgemaze of Gideon	ギデオンの生垣迷路	2	本文翻訳で追加（0060,0061）
+name?	Hellspawn	地獄の落とし子	1	本文翻訳で追加（0081）
+name?	Hidden Wall Chest	隠し壁の箱	1	本文翻訳で追加（0061）
+name?	High Rollers Club	ハイ・ローラーズ・クラブ	1	本文翻訳で追加（0036）
+name?	HIPSTER LOUNGE	ヒップスター・ラウンジ	1	本文翻訳で追加（0035）
+name?	Hive Labyrinth	蜂の巣の迷宮	2	本文翻訳で追加（0060,0061）
+name?	Hobor the Bountiful	豊穣のホーボー	1	本文翻訳で追加（0082）
+name?	Hold of Knossos	クノッソスの砦	2	本文翻訳で追加（0060,0061）
+name?	HOLY COW	なんてこった	1	本文翻訳で追加（0061）
+name?	Holy Road	聖なる街道	3	本文翻訳で追加（0088,0092,0096）
+name?	Hopalong McWhirter	ホーパロング・マクワーター	1	本文翻訳で追加（0012）
+name?	Horatio	ホレイショ	1	本文翻訳で追加（0042）
+name?	Hornswoggler	ホーンスワグラー	1	本文翻訳で追加（0088）
+name?	HOURGLASS OF THE TITANS	タイタンの砂時計	1	本文翻訳で追加（0061）
+name?	Hyperborean Archives	ハイパーボリアの書庫	2	本文翻訳で追加（0060,0061）
+name?	Hyperboreans	ハイパーボリアの民	1	本文翻訳で追加（0019）
+name?	Iburyleus Rex	イブリレウス・レックス	1	本文翻訳で追加（0012）
+name?	Ice Titan	氷の巨神	2	本文翻訳で追加（0035,0037）
+name?	Imperial Palace	皇宮	2	本文翻訳で追加（0010,0131）
+name?	Imperial Treasure Keep	帝国宝物庫	1	本文翻訳で追加（0060）
+name?	Imperial Treasure Room	皇宮の宝物庫	1	本文翻訳で追加（0131）
+name?	Imperial Vanguard	帝国ヴァンガード	1	本文翻訳で追加（0031）
+name?	INDIEGOGO PERK TOMB	クラウドファンディング特典の墓	1	本文翻訳で追加（0061）
+name?	Inner Sanctum	至聖所	1	本文翻訳で追加（0060）
+name?	Inside the Urn	壺の中	1	本文翻訳で追加（0061）
+name?	Intrepid	イントレピッド	1	本文翻訳で追加（0016）
+name?	Intrepid Lower Berth	イントレピッドの下段寝台	1	本文翻訳で追加（0060）
+name?	Intrepid Upper Deck	イントレピッドの上甲板	1	本文翻訳で追加（0060）
+name?	Iondar	イオンダー	1	本文翻訳で追加（0105）
+name?	Iphunaxx Pyx	イフナックス・ピクス	1	本文翻訳で追加（0012）
+name?	Irius Glossius	イリウス・グロッシウス	1	本文翻訳で追加（0012）
+name?	J.R.R. Tolkien	J.R.R.・トールキン	1	本文翻訳で追加（0001）
+name?	Jack the Giant-Killer	巨人殺しのジャック	1	本文翻訳で追加（0079）
+name?	James Ryan Boer	ジェームズ・ライアン・ボーア	1	本文翻訳で追加（0001）
+name?	Jarrod Blandthorne	ジャロッド・ブランドソーン	1	本文翻訳で追加（0001）
+name?	Jasper	ジャスパー	1	本文翻訳で追加（0042）
+name?	Jebleau Fontaine	ジャブロー・フォンテーヌ	1	本文翻訳で追加（0028）
+name?	Jeff Vogel	ジェフ・ヴォーゲル	1	本文翻訳で追加（0001）
+name?	Jethro Punce	ジェスロ・パンス	1	本文翻訳で追加（0012）
+name?	Joe Hester	ジョー・ヘスター	1	本文翻訳で追加（0001）
+name?	Judgement Day	最後の審判の日	1	本文翻訳で追加（0061）
+name?	Judgement Seat	裁きの座	1	本文翻訳で追加（0060）
+name?	Jump Pad Central	ジャンプパッド中央	1	本文翻訳で追加（0028）
+name?	Juneval	ジュネヴァル	1	本文翻訳で追加（0024）
+name?	Junior Water Enc	水辺（下級）遭遇	1	本文翻訳で追加（0061）
+name?	Keeper of the Mystery	謎の守護者	1	本文翻訳で追加（0004）
+name?	Kelpy Chariot	ケルピーの馬車	1	本文翻訳で追加（0114）
+name?	Key of the Saints	聖者の鍵	1	本文翻訳で追加（0046）
+name?	King Cucharacha	キング・クカラーチャ	1	本文翻訳で追加（0036）
+name?	King Loogmar	ルーグマー王	1	本文翻訳で追加（0096）
+name?	King's Waters	王の聖水	1	本文翻訳で追加（0008）
+name?	KINGSTEP ENGINE	キングステップ・エンジン	1	本文翻訳で追加（0061）
+name?	Klark Cent	クラーク・セント	1	本文翻訳で追加（0012）
+name?	Knights Gallant	勇士騎士団	1	本文翻訳で追加（0074）
+name?	Knights Triumphant	凱旋騎士団	1	本文翻訳で追加（0075）
+name?	Knurune Fodugob	クヌルネ・フォドゥゴブ	1	本文翻訳で追加（0012）
+name?	Knyfulius Shlep	クニフリウス・シュレップ	1	本文翻訳で追加（0012）
+name?	Kroondergraf's Hollow	クルーンダーグラフの窪地	1	本文翻訳で追加（0060）
+name?	Kroondergraff's Hollow	クルーンダーグラフの窪地	1	本文翻訳で追加（0061）
+name?	Kryptonite	クリプトナイト	1	本文翻訳で追加（0111）
+name?	Kublai	クビライ	1	本文翻訳で追加（0126）
+name?	Kublai Cathedral	クビライ大聖堂	3	本文翻訳で追加（0123,0126,0128）
+name?	Kublai Naval Academy	クビライ海軍兵学校	1	本文翻訳で追加（0123）
+name?	Labyrinth of the Oracle	神託の迷宮	1	本文翻訳で追加（0060）
+name?	Lair of The White Owl	白き梟の巣窟	1	本文翻訳で追加（0027）
+name?	Laura & David Jordan	ローラ & デイヴィッド・ジョーダン	1	本文翻訳で追加（0001）
+name?	Laurel Swearengen	ローレル・スウェアリンジェン	1	本文翻訳で追加（0001）
+name?	Leon	レオン	1	本文翻訳で追加（0024）
+name?	Leon Frack	レオン・フラック	1	本文翻訳で追加（0061）
+name?	Lina Crusan	リナ・クルーサン	1	本文翻訳で追加（0061）
+name?	Lindsay Whipp	リンゼイ・ウィップ	1	本文翻訳で追加（0061）
+name?	Loch Lalain	ラレイン湖	3	本文翻訳で追加（0120,0124,0130）
+name?	Loch Titan	タイタン湖	3	本文翻訳で追加（0111,0120,0124）
+name?	Loogmarian Empire	ルーグマー帝国	1	本文翻訳で追加（0074）
+name?	Looking Glass	鏡の国	1	本文翻訳で追加（0020）
+name?	Loom Lounge	織機の談話室	1	本文翻訳で追加（0040）
+name?	Loom of Shelach	シェラクの織機	1	本文翻訳で追加（0039）
+name?	LOOMPANIZOO	LOOMPANIZOO	1	本文翻訳で追加（0029）
+name?	Lord Cagliostro	カリオストロ卿	1	本文翻訳で追加（0088）
+name?	Lower Berth of the Snark	スナークの下段寝台	1	本文翻訳で追加（0060）
+name?	Lower Tabernacle	下の殿堂	1	本文翻訳で追加（0060）
+name?	Lugh'Madre	ルー・マドレ	1	本文翻訳で追加（0075）
+name?	Luther	ルーサー	1	本文翻訳で追加（0042）
+name?	Magic Mouth	魔法の口	1	本文翻訳で追加（0077）
+name?	Magic Window	魔法の窓	1	本文翻訳で追加（0062）
+name?	Maintenance Level	整備層	1	本文翻訳で追加（0061）
+name?	Major Lava Enc	溶岩（大）遭遇	1	本文翻訳で追加（0061）
+name?	Major Loch Enc	湖（大）遭遇	1	本文翻訳で追加（0061）
+name?	Major Pool Enc	池（大）遭遇	1	本文翻訳で追加（0061）
+name?	Major Sewer Enc	下水道（大）遭遇	1	本文翻訳で追加（0061）
+name?	Major Water Enc	水辺（大）遭遇	1	本文翻訳で追加（0061）
+name?	Manaccom Software	マナコム・ソフトウェア	1	本文翻訳で追加（0061）
+name?	Marcia	マーシア	1	本文翻訳で追加（0042）
+name?	Mark Harris	マーク・ハリス	1	本文翻訳で追加（0061）
+name?	Mark James Harris	マーク・ジェームズ・ハリス	1	本文翻訳で追加（0001）
+name?	Martin Cooper	マーティン・クーパー	1	本文翻訳で追加（0001）
+name?	Mass Gainer Spa	マス・ゲイナーズ・スパ	1	本文翻訳で追加（0033）
+name?	Mass Gainers Deluxe Spa	マス・ゲイナーズ・デラックス・スパ	1	本文翻訳で追加（0042）
+name?	Mass Gainers Spa	マス・ゲイナーズ・スパ	1	本文翻訳で追加（0033）
+name?	Mass Gainz	マス・ゲインズ	1	本文翻訳で追加（0042）
+name?	Mausoleum	霊廟	1	本文翻訳で追加（0081）
+name?	Medium Lava Enc	溶岩（中）遭遇	1	本文翻訳で追加（0061）
+name?	Medium Pool Enc	池（中）遭遇	1	本文翻訳で追加（0061）
+name?	Medium Sewer Enc	下水道（中）遭遇	1	本文翻訳で追加（0061）
+name?	Medium Water Enc	水辺（中）遭遇	1	本文翻訳で追加（0061）
+name?	MEGAERA VAULT	メガイラの宝物庫	1	本文翻訳で追加（0061）
+name?	Megalith Spire	巨石の尖塔	2	本文翻訳で追加（0060,0083）
+name?	Meister Giggles	マイスター・ギグルズ	1	本文翻訳で追加（0035）
+name?	Meister Histerpott's Best Loved Tales	マイスター・ヒスターポット名作選	1	本文翻訳で追加（0004）
+name?	Melvin	メルヴィン	1	本文翻訳で追加（0012）
+name?	Memhorn Bletforne	メムホーン・ブレットフォーン	1	本文翻訳で追加（0012）
+name?	Mephistopheles	メフィストフェレス	1	本文翻訳で追加（0029）
+name?	Merchant Marines	商船隊	1	本文翻訳で追加（0107）
+name?	Metabolic Enhancement Deck	代謝増強デッキ	1	本文翻訳で追加（0011）
+name?	METAPHYSIQUE	形而上学	1	本文翻訳で追加（0022）
+name?	Michael Shamgar	マイケル・シャムガー	1	本文翻訳で追加（0001）
+name?	Mick	ミック	1	本文翻訳で追加（0042）
+name?	Miles Sound System	マイルズ・サウンド・システム	1	本文翻訳で追加（0001）
+name?	MINDSPANK	マインドスパンク	1	本文翻訳で追加（0157）
+name?	MINER AUTOMAT	鉱夫の自動販売機	1	本文翻訳で追加（0061）
+name?	Minor Lava Enc	溶岩（小）遭遇	1	本文翻訳で追加（0061）
+name?	Minor Loch Enc	湖（小）遭遇	1	本文翻訳で追加（0061）
+name?	Minor Pool Enc	池（小）遭遇	1	本文翻訳で追加（0061）
+name?	Minor Sewer Enc	下水道（小）遭遇	1	本文翻訳で追加（0061）
+name?	Minor Water Enc	水辺（小）遭遇	1	本文翻訳で追加（0061）
+name?	Moebius	メビウス	1	本文翻訳で追加（0083）
+name?	Molecule Oil	分子油	1	本文翻訳で追加（0058）
+name?	Monique MacNaughton	モニーク・マクノートン	1	本文翻訳で追加（0061）
+name?	Monique Renee MacNaughton	モニーク・レネー・マクノートン	1	本文翻訳で追加（0001）
+name?	MONSTER BAIT FROM THE TITAN	タイタンからの魔物の餌	1	本文翻訳で追加（0061）
+name?	Moon Abyss	月の深淵	1	本文翻訳で追加（0042）
+name?	Moon Crystal	月の水晶	1	本文翻訳で追加（0045）
+name?	Morgatu	モルガトゥ	1	本文翻訳で追加（0006）
+name?	Morne Poptaht	モルン・ポップタート	1	本文翻訳で追加（0012）
+name?	Mortimer	モーティマー	1	本文翻訳で追加（0042）
+name?	Morty	モーティ	1	本文翻訳で追加（0149）
+name?	Morty's Law	モーティの法則	1	本文翻訳で追加（0149）
+name?	Mount Periwinkle	蔓日々草山	2	本文翻訳で追加（0034,0036）
+name?	Mountain Plateau	山岳台地	2	本文翻訳で追加（0060,0061）
+name?	Murphy	マーフィー	1	本文翻訳で追加（0149）
+name?	Muse	ムーサ	1	本文翻訳で追加（0019）
+name?	Museum of Magic	魔法博物館	2	本文翻訳で追加（0088,0094）
+name?	Mystic Forge of the Owl	梟の神秘の鍛冶場	2	本文翻訳で追加（0060,0061）
+name?	N-Space Containment Grid	N空間封じ込め格子	1	本文翻訳で追加（0028）
+name?	N-Space Grid	N空間格子	2	本文翻訳で追加（0060,0061）
+name?	Nantucket	ナンタケット	1	本文翻訳で追加（0111）
+name?	Nautilus Mosaic Buttons	オウムガイのモザイクボタン	1	本文翻訳で追加（0062）
+name?	Navigation Computer	航法コンピュータ	1	本文翻訳で追加（0010）
+name?	Neanderthal	ネアンデルタール	1	本文翻訳で追加（0009）
+name?	Necropolix	ネクロポリクス	1	本文翻訳で追加（0060）
+name?	Nefarge	ネファージュ	1	本文翻訳で追加（0135）
+name?	Nerukruel Burial Dolmen	ネルクルエルの埋葬支石墓	1	本文翻訳で追加（0083）
+name?	Nerukruel Pyramid	ネルクルエルのピラミッド	1	本文翻訳で追加（0060）
+name?	Nerukzan Woodlands	ネルクザンの森	1	本文翻訳で追加（0131）
+name?	Nether Passage	冥界の通路	2	本文翻訳で追加（0060,0061）
+name?	Nether Titan	冥界の巨神	3	本文翻訳で追加（0035,0036,0038）
+name?	Nick Taylor	ニック・テイラー	1	本文翻訳で追加（0001）
+name?	Nirigian Horde	ニリギアンの大軍	1	本文翻訳で追加（0074）
+name?	Nora	ノラ	1	本文翻訳で追加（0042）
+name?	Northern Marshes	北の沼沢地	1	本文翻訳で追加（0137）
+name?	Null Space	ヌル空間	1	本文翻訳で追加（0159）
+name?	Null-Space	ヌルスペース	2	本文翻訳で追加（0018,0019）
+name?	Oakey Doakey	オーキー・ドーキー	1	本文翻訳で追加（0012）
+name?	Observatory of Knossos	クノッソスの天文台	2	本文翻訳で追加（0060,0061）
+name?	Oh-toh-yog-soggoth	オー・トー・ヨグ・ソゴス	1	本文翻訳で追加（0017）
+name?	Oliver	オリヴァー	1	本文翻訳で追加（0042）
+name?	Opydor Opining	オピドール・オピニング	1	本文翻訳で追加（0012）
+name?	Orb of Nerukzan	ネルクザンの宝珠	1	本文翻訳で追加（0142）
+name?	Orchestral Collonade	管弦楽の列柱	1	本文翻訳で追加（0060）
+name?	Ordeal Of The Dragon Cauldron	竜の大釜の試練	1	本文翻訳で追加（0032）
+name?	Order Of The Golden Hand	黄金の手の教団	1	本文翻訳で追加（0089）
+name?	Orloch's Vault	オルロックの宝物庫	1	本文翻訳で追加（0060）
+name?	ORLOCHS' GROTTO	オルロックの洞窟	1	本文翻訳で追加（0039）
+name?	Orlock's Vault	オルロックの宝物庫	1	本文翻訳で追加（0060）
+name?	Outworld Realms	外界の領域	2	本文翻訳で追加（0060,0061）
+name?	Owl Chest	梟の宝箱	1	本文翻訳で追加（0062）
+name?	Owl seal	梟の封印	2	本文翻訳で追加（0157,0158）
+name?	Oxodus Oxbeater	オクソドゥス・オクスビーター	1	本文翻訳で追加（0012）
+name?	Pageant of Euphonics	音響の祭典	1	本文翻訳で追加（0024）
+name?	Parlor of the Green Mandarin	緑の官吏の客間	1	本文翻訳で追加（0031）
+name?	Parlour of the Mandarin	官吏の応接間	1	本文翻訳で追加（0060）
+name?	Pasquack Fondue	パスクアック・フォンデュ	1	本文翻訳で追加（0012）
+name?	Passage to the Paragon	パラゴンへの通路	1	本文翻訳で追加（0042）
+name?	Path of the Elders	長老の道	1	本文翻訳で追加（0023）
+name?	Patrik Hansson	パトリック・ハンソン	1	本文翻訳で追加（0001）
+name?	Pendulum Hall	振り子の間	1	本文翻訳で追加（0046）
+name?	Pepe	ペペ	1	本文翻訳で追加（0042）
+name?	Percy Mintz Jr.	パーシー・ミンツ・ジュニア	1	本文翻訳で追加（0012）
+name?	Percy Shelley	パーシー・シェリー	1	本文翻訳で追加（0012）
+name?	Periwinkle Blacksmith	蔓日々草の鍛冶屋	2	本文翻訳で追加（0060,0061）
+name?	Periwinkle Chapel	蔓日々草の礼拝堂	2	本文翻訳で追加（0060,0061）
+name?	Periwinkle Hostel	蔓日々草の宿	2	本文翻訳で追加（0060,0061）
+name?	Periwinkle Kitchen	蔓日々草の厨房	2	本文翻訳で追加（0060,0061）
+name?	Periwinkle Library	蔓日々草の図書館	2	本文翻訳で追加（0060,0061）
+name?	Periwinkle Mining Company	蔓日々草採掘会社	1	本文翻訳で追加（0036）
+name?	Periwinkle Village	蔓日々草村	2	本文翻訳で追加（0060,0061）
+name?	PERK TOMB	特典の墓	1	本文翻訳で追加（0012）
+name?	Permafrost Crystal	永久凍土の水晶	1	本文翻訳で追加（0037）
+name?	Pestle Hammer	杵槌	1	本文翻訳で追加（0009）
+name?	Petre	ペトレ	1	本文翻訳で追加（0042）
+name?	Phan-Fang-Zoom	ファン・ファング・ズーム	1	本文翻訳で追加（0042）
+name?	Phoenix Cage	不死鳥の檻	1	本文翻訳で追加（0062）
+name?	Phoresis	フォレシス	1	本文翻訳で追加（0016）
+name?	Phoresis Generator	フォレシス発生器	1	本文翻訳で追加（0016）
+name?	Pierre	ピエール	1	本文翻訳で追加（0016）
+name?	Piers Anthony	ピアーズ・アンソニー	1	本文翻訳で追加（0001）
+name?	Pillars of the Owl	梟の柱	2	本文翻訳で追加（0060,0061）
+name?	Pimp Slapping Contest	ビンタ対決	1	本文翻訳で追加（0062）
+name?	Pindar	ピンダロス	1	本文翻訳で追加（0019）
+name?	PIRATE CHEST	海賊の箱	1	本文翻訳で追加（0061）
+name?	Pit of Bahomet	バホメットの穴	2	本文翻訳で追加（0060,0061）
+name?	Pit of Hobknob	ホブノブの穴	1	本文翻訳で追加（0060）
+name?	Pits of Skulheim	スカルハイムの穴	1	本文翻訳で追加（0060）
+name?	Potentiator Lab	増幅器研究室	3	本文翻訳で追加（0060,0061,0077）
+name?	PROPAGATOR	伝播器	1	本文翻訳で追加（0058）
+name?	Prophesy Pitfall	予言の落とし穴	1	本文翻訳で追加（0060）
+name?	Pyewacket	ピエワケット	1	本文翻訳で追加（0023）
+name?	Pyewacket's Chili Sardine Barbeque	ピエワケットのチリ・サーディン・バーベキュー	1	本文翻訳で追加（0023）
+name?	Pyramid Apex	ピラミッドの頂	1	本文翻訳で追加（0060）
+name?	QUALITY ASSURANCE	品質保証	1	本文翻訳で追加（0061）
+name?	QuarterMaster	物資管理係	1	本文翻訳で追加（0003）
+name?	Queen Mother	女王母	2	本文翻訳で追加（0039,0143）
+name?	Queen's Dinner Meal	女王の晩餐	1	本文翻訳で追加（0011）
+name?	Quentin	クエンティン	1	本文翻訳で追加（0042）
+name?	Quiddick Harbor	クィディック港	2	本文翻訳で追加（0060,0061）
+name?	Quiver	矢筒	1	本文翻訳で追加（0060）
+name?	Ramparts of Moravia	モラヴィアの城壁	2	本文翻訳で追加（0060,0061）
+name?	Raptor Grotto	猛禽の岩窟	1	本文翻訳で追加（0060）
+name?	Ratfink Hideaway	ラットフィンクの隠れ家	2	本文翻訳で追加（0060,0061）
+name?	Raven Wildes	鴉の荒野	1	本文翻訳で追加（0046）
+name?	Raymond Hal Bonnin	レイモンド・ハル・ボナン	1	本文翻訳で追加（0001）
+name?	Reality Hijinx	リアリティ・ハイジンクス	1	本文翻訳で追加（0033）
+name?	Reality Hijinx Crate	現実のいたずら箱	1	本文翻訳で追加（0062）
+name?	REALITY HIJINX DELIVERY PAD	リアリティ・ハイジンクス配送パッド	1	本文翻訳で追加（0034）
+name?	Reality Hijinx Jump Pad	リアリティ・ハイジンクス・ジャンプパッド	1	本文翻訳で追加（0010）
+name?	REALITY HIJINX LOST AND FOUND BARREL	リアリティ・ハイジンクス遺失物の樽	1	本文翻訳で追加（0035）
+name?	Reference Section	参考資料室	1	本文翻訳で追加（0010）
+name?	Refuge of the Ancients	古代人の避難所	1	本文翻訳で追加（0144）
+name?	Reliquary of the Catechism	教理書の聖遺物庫	1	本文翻訳で追加（0008）
+name?	Remote Viewing Glass	遠隔視の鏡	1	本文翻訳で追加（0010）
+name?	Restore Mana	魔力回復	1	本文翻訳で追加（0081）
+name?	Rhattu Mafia	ラットゥ・マフィア	1	本文翻訳で追加（0131）
+name?	Richard Garriott	リチャード・ギャリオット	1	本文翻訳で追加（0001）
+name?	Ripe Fruit	熟れた果実	1	本文翻訳で追加（0061）
+name?	River of Time	時の川	2	本文翻訳で追加（0060,0061）
+name?	Rixysior Soltra	リクシシオール・ソルトラ	1	本文翻訳で追加（0012）
+name?	Roach Races	ゴキブリ競走	1	本文翻訳で追加（0062）
+name?	Roaring Rings of RAMA	ラーマの轟く輪	1	本文翻訳で追加（0005）
+name?	Robert E. Howard	ロバート・E・ハワード	1	本文翻訳で追加（0001）
+name?	Rodney R. Smith	ロドニー・R・スミス	1	本文翻訳で追加（0001）
+name?	Roger Browne	ロジャー・ブラウン	1	本文翻訳で追加（0001）
+name?	Ronald	ロナルド	1	本文翻訳で追加（0042）
+name?	Rorshach	ロールシャッハ	1	本文翻訳で追加（0024）
+name?	Royal Aviary Park	王立鳥舎公園	1	本文翻訳で追加（0126）
+name?	Royal Bestiary	王立動物園	1	本文翻訳で追加（0023）
+name?	Royal Carnivale	王家のカーニバル	1	本文翻訳で追加（0030）
+name?	Royal Garden	王家の庭園	1	本文翻訳で追加（0030）
+name?	Royal Library	王立図書館	2	本文翻訳で追加（0030,0131）
+name?	Royal Throneroom	王の玉座の間	2	本文翻訳で追加（0060,0061）
+name?	Royal Treasury	王家の宝物庫	1	本文翻訳で追加（0030）
+name?	Rozzie Rozzano	ロジー・ロザーノ	1	本文翻訳で追加（0012）
+name?	Ruins of Gideon	ギデオンの遺跡	2	本文翻訳で追加（0060,0061）
+name?	Russell Suereth	ラッセル・スエレス	1	本文翻訳で追加（0001）
+name?	Sacred Grove	聖なる森	1	本文翻訳で追加（0104）
+name?	Sacred Pool of Baptismal Waters	洗礼の聖水の聖池	1	本文翻訳で追加（0008）
+name?	Sacred Pools	聖なる池	2	本文翻訳で追加（0060,0061）
+name?	Saltwyrm Caves	塩竜の洞窟	1	本文翻訳で追加（0060）
+name?	Samhain	サムハイン	2	本文翻訳で追加（0093,0096）
+name?	Samhain Chasm	サムハイン峡谷	1	本文翻訳で追加（0096）
+name?	Samhain Mausoleum	サムハインの大廟	2	本文翻訳で追加（0060,0061）
+name?	Samhain Underworld	サムハインの冥界	2	本文翻訳で追加（0060,0061）
+name?	Sarcophagus Of The Sovereign Supreme	至高の君主の石棺	1	本文翻訳で追加（0028）
+name?	Sargasso	サルガッソー	1	本文翻訳で追加（0016）
+name?	Sargasso of the Kraken	クラーケンの藻海	1	本文翻訳で追加（0060）
+name?	Scrollcase	巻物入れ	1	本文翻訳で追加（0060）
+name?	Scrying Chest	遠見の宝箱	1	本文翻訳で追加（0062）
+name?	SEAL of the HORROR	恐怖の封印	2	本文翻訳で追加（0005,0093）
+name?	Seat of the Prophetess	女預言者の座所	2	本文翻訳で追加（0060,0061）
+name?	Secret School	秘密の学院	1	本文翻訳で追加（0024）
+name?	Sepdat Zibozzle	セプダット・ジボズル	1	本文翻訳で追加（0012）
+name?	Sepulchre of Shades	亡霊の墓所	1	本文翻訳で追加（0039）
+name?	Serpent Oracle	蛇の託宣者	1	本文翻訳で追加（0023）
+name?	Set	セト	1	本文翻訳で追加（0020）
+name?	Seven Miracles of Antiquity	古代の七不思議	1	本文翻訳で追加（0088）
+name?	Shades	亡霊の墓所	1	本文翻訳で追加（0081）
+name?	Shadowwulfe	シャドウウルフェ	1	本文翻訳で追加（0012）
+name?	Shelach's Website	シェラクのホームページ	1	本文翻訳で追加（0060）
+name?	Sheol	冥府	1	本文翻訳で追加（0042）
+name?	Shigeru Myamoto	宮本茂（原文 MYAMOTO の綴り誤り）	1	本文翻訳で追加（0001）
+name?	SHOCK TROOPS	突撃隊	1	本文翻訳で追加（0031）
+name?	SHOCK TROOPS INDUCTION CENTER	突撃隊入隊所	1	本文翻訳で追加（0031）
+name?	Shrine of Havoc	災厄の祠	1	本文翻訳で追加（0027）
+name?	Shrine of the Psychopomp	サイコポンプの祠	1	本文翻訳で追加（0060）
+name?	Shrine of the Raptor	猛禽の祠	1	本文翻訳で追加（0060）
+name?	Shrine Subterranea	地下の祠	2	本文翻訳で追加（0060,0061）
+name?	Silver Leaf	銀葉	1	本文翻訳で追加（0113）
+name?	Silver Leaf Order	銀葉騎士団	1	本文翻訳で追加（0113）
+name?	Skald Maestro	スカルド・マエストロ	1	本文翻訳で追加（0024）
+name?	Skulheim	スカルハイム	2	本文翻訳で追加（0130,0136）
+name?	Skulheim Catering Service	スカルハイム仕出し業	1	本文翻訳で追加（0011）
+name?	Skull Belfry	髑髏の鐘楼	1	本文翻訳で追加（0060）
+name?	Skull Wilderness	髑髏荒野	3	本文翻訳で追加（0036,0037,0038）
+name?	Sky Barge	空飛ぶ艀	1	本文翻訳で追加（0062）
+name?	Smither's Supply Shop	スミザーズの補給店	1	本文翻訳で追加（0096）
+name?	Spam	スパム	1	本文翻訳で追加（0022）
+name?	SPECIAL THANKS	特別な感謝	1	本文翻訳で追加（0061）
+name?	Specialty Parts	特殊部品	1	本文翻訳で追加（0003）
+name?	Spectrum Publishing	スペクトラム・パブリッシング	1	本文翻訳で追加（0001）
+name?	Spider Horde	蜘蛛の大群	1	本文翻訳で追加（0137）
+name?	Spider Queen	蜘蛛の女王	2	本文翻訳で追加（0128,0130）
+name?	Spiderweb Software	スパイダーウェブ・ソフトウェア	1	本文翻訳で追加（0001）
+name?	Spiral Deathtrap	螺旋の死の罠	2	本文翻訳で追加（0060,0061）
+name?	Spire	尖塔	1	本文翻訳で追加（0081）
+name?	Spirit Caves	霊の洞窟	1	本文翻訳で追加（0060）
+name?	Spirit Jar	霊封じの壺	2	本文翻訳で追加（0125,0126）
+name?	Spore Productions	スポア・プロダクションズ	1	本文翻訳で追加（0001）
+name?	Spring of EverLife	永生の泉	2	本文翻訳で追加（0060,0061）
+name?	Stack of Slugs	ナメクジの山	1	本文翻訳で追加（0061）
+name?	Steve Jackson	スティーヴ・ジャクソン	1	本文翻訳で追加（0001）
+name?	Steve Page	スティーヴ・ペイジ	1	本文翻訳で追加（0001）
+name?	Stone Titan	石の巨神	2	本文翻訳で追加（0035,0038）
+name?	STONES FOR THE ABYSS	深淵のための石	1	本文翻訳で追加（0061）
+name?	Straine Woskhurl	ストレイン・ウォスクハール	1	本文翻訳で追加（0012）
+name?	Strange Flower	奇妙な花	1	本文翻訳で追加（0061）
+name?	Swamp Shack	沼地の小屋	2	本文翻訳で追加（0060,0061）
+name?	Tabernacle of Music	音楽の殿堂	1	本文翻訳で追加（0046）
+name?	Tattletale Circus	タトルテイル・サーカス	1	本文翻訳で追加（0131）
+name?	Ted Gruber	テッド・グルーバー	1	本文翻訳で追加（0001）
+name?	Temple Archives	神殿の文書庫	1	本文翻訳で追加（0089）
+name?	Temple of Hathor-Sogg	ハトホル・ソッグの神殿	2	本文翻訳で追加（0060,0061）
+name?	Teresa	テレサ	1	本文翻訳で追加（0042）
+name?	The Armory	武器庫	2	本文翻訳で追加（0060,0061）
+name?	THE END	おわり	1	本文翻訳で追加（0061）
+name?	The Eyrie	鷲の巣	1	本文翻訳で追加（0060）
+name?	THE FLYING SAUCER EXPRESS ENDING	空飛ぶ円盤急行のエンディング	1	本文翻訳で追加（0061）
+name?	The Grand Refuge of the Ancients	古代人の大避難所	1	本文翻訳で追加（0010）
+name?	THE GREEN WAY	緑の道	1	本文翻訳で追加（0061）
+name?	The Grove	木立の洞	1	本文翻訳で追加（0023）
+name?	THE HAVOC SEED	災厄の種	1	本文翻訳で追加（0061）
+name?	THE INFINITY SLUMBER ENDING	無限の眠りのエンディング	1	本文翻訳で追加（0061）
+name?	THE KHAN'S PAWN TICKET	ハーンの質札	1	本文翻訳で追加（0061）
+name?	THE KING OF ROACHES	ゴキブリの王	1	本文翻訳で追加（0061）
+name?	The King of Serpents	蛇の王	1	本文翻訳で追加（0023）
+name?	The King's Seal	王の印章	1	本文翻訳で追加（0008）
+name?	THE LOST AND FOUND BARREL ENDING	遺失物の樽のエンディング	1	本文翻訳で追加（0061）
+name?	THE MOON ABYSS DELIVERY CRATE ENDING	月の深淵の配達箱エンディング	1	本文翻訳で追加（0061）
+name?	The Seven Virtues of a Knight	騎士の七つの美徳	1	本文翻訳で追加（0062）
+name?	THE VISION OF THE ABOMINATIONS	忌まわしき者たちの幻視	1	本文翻訳で追加（0061）
+name?	THE VISION OF THE ARCHANGEL	大天使の幻視	1	本文翻訳で追加（0061）
+name?	THE VISION OF THE ASTROLABE	アストロラーベの幻視	1	本文翻訳で追加（0061）
+name?	THE VISION OF THE CELESTIAL HORROR	天界の恐怖の幻視	1	本文翻訳で追加（0061）
+name?	THE VISION OF THE CHAOS WYRM	混沌の竜の幻視	1	本文翻訳で追加（0061）
+name?	THE VISION OF THE DEEP WATCHER	深淵の監視者の幻視	1	本文翻訳で追加（0061）
+name?	THE VISION OF THE PATRON ARGENT	守護者アージェントの幻視	1	本文翻訳で追加（0061）
+name?	THE VISION OF THE PLAIN OF DESOLATION	荒廃の平原の幻視	1	本文翻訳で追加（0061）
+name?	THE VISION OF THE PROTEANS	変幻者の幻視	1	本文翻訳で追加（0061）
+name?	THE VISION OF THE REAPER HARVEST	死神の収穫の幻視	1	本文翻訳で追加（0061）
+name?	THE VISION OF THE SECRET PHOENIX	秘密の不死鳥の幻視	1	本文翻訳で追加（0061）
+name?	THE VISION OF THE TWO PORTALS	二つの門の幻視	1	本文翻訳で追加（0061）
+name?	The Wizard's Sky Barge	魔術師の空中船	1	本文翻訳で追加（0060）
+name?	The Wrath Of The Entity	エンティティの怒り	1	本文翻訳で追加（0061）
+name?	THE XENOZOID DIPLOMATIC ENDING	異星外交のエンディング	1	本文翻訳で追加（0061）
+name?	Theosophists	神智学者	1	本文翻訳で追加（0042）
+name?	Theosophy	神智学	1	本文翻訳で追加（0042）
+name?	Theosophy Lodge	神智学会館	2	本文翻訳で追加（0040,0042）
+name?	Thorny Nest of Serpents	棘だらけの蛇の巣	1	本文翻訳で追加（0062）
+name?	Throne of the Skald Maestro	スカルド・マエストロの玉座	1	本文翻訳で追加（0060）
+name?	Throne Room	玉座の間	1	本文翻訳で追加（0030）
+name?	THUNDERBOLT MOON STAR	サンダーボルト・ムーンスター	1	本文翻訳で追加（0058）
+name?	Tidal Pumps Station	潮汐ポンプ場	2	本文翻訳で追加（0060,0061）
+name?	Time Warp	時間の歪み	1	本文翻訳で追加（0077）
+name?	Timeless Lessons of the Winged Exemplar	翼あるエグゼンプラーの不朽の教え	1	本文翻訳で追加（0004）
+name?	Titan Mines	タイタン鉱山	1	本文翻訳で追加（0036）
+name?	TITAN MINEWORKS	タイタン採掘所	1	本文翻訳で追加（0034）
+name?	Titan Pedestal	タイタンの台座	1	本文翻訳で追加（0062）
+name?	Titan Underground Lake	タイタンの地底湖	2	本文翻訳で追加（0060,0061）
+name?	Tomb of Doom	滅びの墓所	1	本文翻訳で追加（0040）
+name?	Tomb of Saint George	聖ジョージの墓所	1	本文翻訳で追加（0096）
+name?	TORTURE CHAMBER	拷問室	1	本文翻訳で追加（0039）
+name?	Tower of Knossos	クノッソスの塔	2	本文翻訳で追加（0060,0061）
+name?	Transylvania	トランシルヴァニア	1	本文翻訳で追加（0039）
+name?	Trebor	トレボー	1	本文翻訳で追加（0002）
+name?	Trial Of Many Sticks	多くの棒きれの試練	1	本文翻訳で追加（0032）
+name?	Trog	トログ	1	本文翻訳で追加（0018）
+name?	Trogs	トログ	1	本文翻訳で追加（0111）
+name?	Udipius Polonar	ウディピウス・ポロナー	1	本文翻訳で追加（0012）
+name?	Ukluk Mining Company	ウクルク鉱山会社	1	本文翻訳で追加（0096）
+name?	Ukluk Mining Deepsink Project	ウクルク鉱山 深底掘削計画	1	本文翻訳で追加（0006）
+name?	Underground Cages	地下の檻	1	本文翻訳で追加（0010）
+name?	Unearthed After Digging	掘り出された品	1	本文翻訳で追加（0061）
+name?	Unicorn Statuette	一角獣の小像	1	本文翻訳で追加（0040）
+name?	Union Local 514	労働組合514支部	1	本文翻訳で追加（0022）
+name?	Upper Deck of the Snark	スナークの上甲板	1	本文翻訳で追加（0060）
+name?	Upper Pyramid	上部ピラミッド	1	本文翻訳で追加（0060）
+name?	Ur-Kraken	原初クラーケン	1	本文翻訳で追加（0123）
+name?	USER ACCEPTANCE	ユーザー受け入れ試験	1	本文翻訳で追加（0061）
+name?	Uther	ユーサー	1	本文翻訳で追加（0042）
+name?	Valhalla	ヴァルハラ	1	本文翻訳で追加（0033）
+name?	Vamphryi	ヴァンピル	1	本文翻訳で追加（0046）
+name?	Vamphyri	ヴァンピル	1	本文翻訳で追加（0046）
+name?	Vanguard	ヴァンガード	1	本文翻訳で追加（0094）
+name?	Vanguard Academy	ヴァンガード士官学校	2	本文翻訳で追加（0057,0107）
+name?	Vanguard Marine Academy	ヴァンガード海兵学院	1	本文翻訳で追加（0094）
+name?	Vault of Terror	恐怖の宝庫	1	本文翻訳で追加（0042）
+name?	Vault of the Exemplar	エグゼンプラーの宝物庫	1	本文翻訳で追加（0060）
+name?	Victor	ヴィクター	1	本文翻訳で追加（0042）
+name?	Victory Circle	勝利の輪	1	本文翻訳で追加（0031）
+name?	Village of Crowl	クロウル村	1	本文翻訳で追加（0096）
+name?	Walt Disney	ウォルト・ディズニー	1	本文翻訳で追加（0001）
+name?	Walter	ウォルター	1	本文翻訳で追加（0042）
+name?	Wayfarer's Inn	旅人の宿	1	本文翻訳で追加（0093）
+name?	Weird Slugs	奇妙なナメクジ	1	本文翻訳で追加（0061）
+name?	Well of Reflekshun	反省の井戸	1	本文翻訳で追加（0060）
+name?	Westfront	ウェストフロント	1	本文翻訳で追加（0009）
+name?	White Cliffs	白亜の断崖	1	本文翻訳で追加（0099）
+name?	Wildes of Bahomet	バホメットの荒野	1	本文翻訳で追加（0060）
+name?	Will Crowther	ウィル・クロウザー	1	本文翻訳で追加（0001）
+name?	William Bruce	ウィリアム・ブルース	1	本文翻訳で追加（0001）
+name?	Winged Exemplar	翼あるエグゼンプラー	1	本文翻訳で追加（0155）
+name?	Womb of Shelach	シェラクの胎	1	本文翻訳で追加（0060）
+name?	Wrist Rocket	リスト・ロケット	1	本文翻訳で追加（0075）
+name?	You Found Something	何かを見つけた	1	本文翻訳で追加（0061）
+name?	YOU HAVE SUCCESSFULLY	見事に	1	本文翻訳で追加（0061）
+name?	Zadu	ザドゥ	1	本文翻訳で追加（0042）
+name?	Zephyr Isles	ゼファー諸島	1	本文翻訳で追加（0120）
+name?	Ziggurat	ジッグラト	1	本文翻訳で追加（0008）
+name?	Ziggurat Nexus	ジッグラト・ネクサス	1	本文翻訳で追加（0142）
+name?	Zoroaster	ゾロアスター	1	本文翻訳で追加（0027）
+name?	Grand Refuge of the Ancients	古代人の大避難所	1	本文翻訳で追加（The なしの形）

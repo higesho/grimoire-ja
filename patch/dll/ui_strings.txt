@@ -1,0 +1,201 @@
+# Grimoire 日本語化: exe に直接書かれた文字列の置き換え表
+#   英語<TAB>日本語                 描画される文字列全体が完全一致したときに置き換える
+#   ~パターン<TAB>訳                 * = 任意の文字列、# = 数字の並び（どちらも訳の同じ記号の位置に順番に入る）
+# 高さ6px以下の極小フォントで描かれる文字列には適用しない（英語のまま）。
+# 未確認の画面のものも含む。表示を見て調整すること。
+
+# ---- 起動・メインメニュー
+LOADING	読み込み中
+Initializing GUI	初期化中
+Load Game From File	ファイルからロード
+Enter party name	パーティ名を入力
+QUICKSTART	クイックスタート
+PARTY #	パーティ #
+LIBRARY INDEX	名簿番号
+SAVE GAME TO FILE	ゲームを保存
+
+# ---- 設定画面（項目名はウィジェット用フォント）
+Configuration	設定
+ACCEPT	決定
+DEFAULT	初期値
+CANCEL	取消
+SCREEN MODE	画面モード
+FULLSCREEN	フルスクリーン
+SCALE WINDOW	ウィンドウ拡大
+GAME START	開始地点
+2.5D MOVEMENT	2.5D移動
+SHUFFLE MENU SCREEN	メニュー画面の切替
+INTERFACE THEME	画面テーマ
+AUTOLOAD SAVED GAME	自動ロード
+DIFFICULTY LEVEL	難易度
+WANDERING MONSTERS	うろつく魔物
+CRITICAL ITEM LOCK	重要アイテム保護
+JOURNAL HINTS	日誌のヒント
+HIGHLIGHT KEYWORDS	キーワード強調
+TABLET ROBBERS	石板泥棒
+MENU SCREEN	メニュー画面
+CUSTOM WIDGET SET	独自ウィジェット
+SOUND EFFECTS	効果音
+MUSIC	音楽
+MOUSE SPEED	マウス速度
+1 TO 20, 0 = DEFAULT	1～20、0=初期値
+ON	オン
+OFF	オフ
+NO SCALING	拡大しない
+SCALE TO FIT	画面に合わせる
+SERAPHIM	熾天使
+SYLVAN	森の民
+THE SHRINE	祠
+WILDERNESS	荒野
+EERIE WASTES	不気味な荒地
+IMPRISONED	囚われ
+SINGLE STEP	1マスずつ
+SMOOTH	なめらか
+SUPERSMOOTH	よりなめらか
+ULTRASMOOTH	最もなめらか
+ALWAYS	常に
+NONE	なし
+STATIC	固定
+SHUFFLE	ランダム
+GOTHIC	ゴシック
+PRIMEVAL	太古
+CLASSIC	クラシック
+MAIN MENU	メニュー
+RESTORE	再開
+NOVICE	初心者
+VETERAN	熟練者
+ADVANCED	上級者
+MASTER	達人
+NEVER?	出ない?
+RARE	まれ
+FREQUENT	頻繁
+ONSLAUGHT	猛攻
+ADAPTIVE	適応
+OFF (120% EXP)	オフ（経験値120%）
+ON (100% EXP)	オン（経験値100%）
+INACTIVE	無効
+ACTIVE	有効
+ORIGINAL SCROLLS	古の巻物
+CLASSIC TOME	古典の書
+DUNGEON JOURNEY	迷宮の旅
+MYSTERY CAVERNS	神秘の洞窟
+BATTLE ROYALE	バトルロイヤル
+THE QUEST	探索の旅
+OPEN	開く
+ABORT	中止
+
+# ---- ステータス画面・名簿
+ARMOR	防具
+SPELLS	呪文
+SKILL	技能
+BASE	基本
+ATT	能力
+VAL	値
+N/A	－
+ BONUS	 ボーナス
+ BONUS =	 ボーナス =
+~ BONUS = #	 ボーナス = #
+~BONUS = #	ボーナス = #
+~# of #lbs	#/#ポンド
+~# of #	#/#
+lbs	ポンド
+EXIT	閉じる
+~Select Portrait for *	*の肖像を選択
+NO SKILL REQUIRED	技能不要
+EMPTY SLOT	空き
+
+# ---- 物語・ヘルプ
+TOP	最初
+BACK	戻る
+NEXT	次へ
+PREV	前へ
+GRIMOIRE HELP	グリモア ヘルプ
+
+# ---- 日誌
+Quest Notes	クエスト記録
+Source of Information	情報源
+Area	地域
+Map%	地図%
+Notes	記録
+Locations	場所
+Encounters	遭遇
+Items	アイテム
+Zoom	拡大
+ZOOM	拡大
+
+# ---- 戦闘
+* REMAINING *	* 残り *
+Combat Orders	戦闘指示
+Name	名前
+Voc	職
+Order	指示
+With	使用
+Op	相手
+St	状態
+Cast Spell	呪文を唱える
+BERSERK!	狂戦士化！
+
+# ---- アイテム・宝箱・店
+TAKE ITEM	取る
+LEAVE ITEM	置く
+TAKE ALL ITEMS	全部取る
+~# GOLD	# ゴールド
+BUY ITEM	買う
+EXIT BUY	買物を終える
+BUY/SELL	売買
+PULL KNOB	ノブを引く
+REFUND	払い戻し
+EXIT VENDING	販売機を離れる
+CONTINUE	続ける
+~CREDIT = #	クレジット = #
+ITEM NOT EQUIPPED	未装備
+INDESTRUCTIBLE!	壊れない！
+FRAGILE!	壊れやすい！
+MERGED	合成済
+ORIGINAL ISSUE	初期品
+* (CONTAINER) *	* (容器) *
+* CRITICAL *	* 重要 *
+*CRITICAL*	*重要*
+*MAGICAL*	*魔法*
+*LETHAL*	*致命*
+*STACKABLE	*重ねられる
+These are bones of:	これは次の者の骨だ：
+FORGE	鍛造
+ENCHANT	付呪
+POISON	毒塗り
+SHARPEN	研ぐ
+Your Party	あなたのパーティ
+My Party	私のパーティ
+
+# ---- 追加（全画面の洗い出しで見つかったもの）
+OK	OK
+YES	はい
+NO	いいえ
+NEW	新規
+SAVE	保存
+LOAD	ロード
+CHOOSE SPELL	呪文を選択
+QUICKSAVE	クイックセーブ
+~Saved Game *	セーブしました：*
+~# ITEMS / # IDED	# 個 / 鑑定済 #
+~CHG *	回数 *
+~QTY *	数量 *
+~CARRY #*	所持 #*
+~COST *	価格 *
+~* LBS	* ポンド
+~CURSED *	呪い *
+~EQUIP TO *	装備先 *
+~AC *	AC *
+~RANGE *	射程 *
+~DMG *	ダメージ *
+~POWER *	威力 *
+~HITVS *	命中対 *
+~TOHIT *	命中 *
+~VS *	対 *
+~CHARGES# *	回数# *
+~QUANTITY (*	数量 (*
+* SUPER ID *	* 完全鑑定 *
+
+# ---- キャラクター作成（名前入力）
+Type Character Name	名前を入力
+Suggest	おまかせ

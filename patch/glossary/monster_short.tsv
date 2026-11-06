@@ -1,0 +1,58 @@
+# Short monster names for MASTER.TXT @MONSTERS (applied by tools/build_patch.py after glossary apply).
+# The game copies a monster's name into a fixed buffer, cut to 20 bytes (identified) or 14 bytes
+# (unidentified, shown as ?name?). UTF-8 Japanese = 3 bytes per character, so identified names
+# must be at most 6 characters and unidentified names at most 4.
+# Every name field of a monster line that equals the long name is replaced. The long name stays
+# the glossary translation used in dialogue and descriptions.
+# long	short	note
+トカゲサウルス	トカゲ竜	Skinkasaur
+リトル・ロージー	ロージー	Little Rosy
+シヴァ・ハン・ゴロム	シヴァ	Shiva-Han-Goromu (also the unidentified name)
+ジュンガ・ディン	ジュンガ	Junga Din
+コファーガス卿	コファーガス	Sir Coffergus
+ヴァンガード兵	前衛兵	Vanguard Soldier
+ヴァンガード海兵	前衛海兵	Vanguard Marine
+ヴァンガード弓兵	前衛弓兵	Vanguard Bowman
+アメーバスライム	アメーバ	Amoebic Slime
+ブーンドグル提督	ブーンドグル	Admiral Boondoggle
+ザイリンクス氏	ザイリンクス	Mr. Zyrinx
+バルダーダッシュ	バルダー	Balderdash
+バンダースナッチ	バンダスナチ	Bandersnatch
+ブラック・ピエール	黒ピエール	Black Pierre
+キメラスフィンクス	キメラ人面獅	ChimeraSphinx
+竜スフィンクス	竜人面獅	DracoSphinx
+オルロック伯爵	オルロック	Count Orloch
+闇のレンジャー	闇レンジャー	Dark Ranger
+ドラク・セラト	ドラクセラト	Drak Serat
+イライアス・コナカー	イライアス	Elias Conachur
+コロッソケリス	コロソケリス	Colossochely
+ガーゴイル術師	魔ガーゴイル	Gargoyle Mage
+ガルガンチュア	大巨人	Gargantua
+ヒルのグリーチ	グリーチ	Greech the Leech
+ジャバウォック	ジャバウォク	Jabberwocky
+ジャック・ネファージュ	ネファージュ	Jaqque Nefarge
+ジャガーノート	ジャガノート	Juggernaut
+ノック・ノック	ノックノック	Knok-Knok
+ノルロス・クノッソス	ノルロス	Knorlos Knossos
+シュライク中尉	シュライク	Lieutenant Shrike
+リトル・デイジー	デイジー	Little Daisy
+狂ったレオナー	狂レオナー	Insane Leonar
+モルガン・ル・フェ	モルガン	Morgana LeFey
+ナーガの屍漁り	屍漁りナーガ	Naga Scavenger
+ノスフェラトゥ	ノスフェラト	Nosferatu
+オラフ・ギガンダ	オラフ	Olaf Gigunda
+レンフィールド	レンフィルド	Renfeeld
+ラットゥレンジャー	ラットゥ狩人	Rhattu Ranger
+ローヤルゼリー	女王ゼリー	Royal Jelly
+サムハインの恐怖	サムハイン鬼	Samhain Horror
+トログロダイト	穴居人	Troglodyte
+恩知らずの死者	恩知らず死者	Ungrateful Dead
+ウィッカー教徒	ウィッカ教徒	Wicker Cultist
+ドルイド大導師	ドルイド導師	Druid Archmage
+ウォーフェア~魔術師	ウォーフェア	Wizard ~ Worrfair (no ~: the game's glyph for ~ is unclear)
+ウィッカーマン	ウィッカマン	Wicker Man (field has a '| ' prefix: 2 + 18 bytes)
+クルーンダーグラフ	クルーン	Kroondergraf
+巨大な角氷	巨大角氷	Giant Icecube (unidentified)
+ローブの男	ローブ男	Robed Man (unidentified)
+痩せっぽち	痩せ男	Thin Fella (unidentified)
+緑の手団員	緑手団員	Green Hander (unidentified)

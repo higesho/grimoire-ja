@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="client-nojs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wine ガイド - Grimoire Wiki 日本語訳</title>
+<meta name="description" content="Wine ガイド（Wine Guide）。Grimoire ファン Wiki の日本語訳。">
+<link rel="stylesheet" href="wiki.css">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject skin-vector action-view">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+<a id="top"></a>
+<h1 id="firstHeading" class="firstHeading" lang="ja">Wine ガイド <span class="en">Wine Guide</span></h1>
+<div id="bodyContent" class="mw-body-content">
+<div id="siteSub">出典: Grimoire : Heralds of the Winged Exemplar Wiki</div>
+<div id="contentSub"></div>
+<div id="mw-content-text" lang="ja" dir="ltr" class="mw-content-ltr">
+<div class="jp-note">Grimoire ファン Wiki の記事「<a href="https://grimoirewiki.neocities.org/index.php/Wine_Guide.html">Wine Guide</a>」の日本語訳です。原文は 2019 年ごろの版（V2）について書かれていて、今の版（3.0）とは違うところがあるかもしれません。</div>
+<h3><span class="mw-headline" id="Linux">Linux</span></h3>
+<ol><li>新しいプレフィックスを作る</li></ol>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="nv">WINEARCH</span><span class="o">=</span>win32 <span class="nv">WINEPREFIX</span><span class="o">=</span>/path/to/prefix winecfg
+</pre></div>
+<p>設定のウィンドウが開くので、閉じる。
+</p><p><br />
+</p>
+<ol><li>Grimoire に必要なライブラリを入れる。</li></ol>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span>env <span class="nv">WINEPREFIX</span><span class="o">=</span>/path/to/prefix winetricks directmusic gmdls
+</pre></div>
+<p>エラーには気をつけること。サーバーが見つからないことがあるので、そのときは winetricks が欲しがっているファイルを Google で探してダウンロードし、~/.cache/winetricks/&lt;libraryname&gt; に置いてから、もう一度コマンドを実行してインストールする。
+</p><p><br />
+</p>
+<ol><li>Windows 版の Steam を入れる。</li></ol>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span>env <span class="nv">WINEPREFIX</span><span class="o">=</span>/path/to/prefix winetricks steam
+</pre></div>
+<p>Steam のログイン画面が出るので、設定を済ませて Grimoire をインストールする。あとは 1992 年に戻ったような黄金の輝きに浸るだけだ。
+</p><p>次からは、Steam のパスを指定して wine で起動し、そこから Grimoire を立ち上げる。
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="nv">WINEPREFIX</span><span class="o">=</span>/path/to/prefix wine <span class="s2">&quot;C:\Program Files\Steam\Steam.exe&quot;</span>
+</pre></div>
+<p>本当に気が利く人なら、これを全部やって Grimoire まで起動してくれる bash スクリプトを書いて、デスクトップに置いておくだろう。
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="ch">#!/bin/sh</span>
+<span class="nb">export</span> <span class="nv">WINEPREFIX</span><span class="o">=</span>/path/to/prefix
+<span class="nv">WINE</span><span class="o">=</span>/bin/wine
+<span class="nv">$WINE</span> <span class="s2">&quot;C:\Program Files\Steam\Steam.exe&quot;</span> -applaunch <span class="m">650670</span>
+</pre></div>
+<p>`chmod +x` でスクリプトを実行可能にする。プロパティで実行可能に設定してもよい。
+</p><p><a rel="nofollow" class="external text" href="http://steamcommunity.com/sharedfiles/filedetails/?id=1102734940">Steam のガイド</a>
+</p>
+<h3><span class="mw-headline" id="Mac">Mac</span></h3>
+
+</div>
+<div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>案内</h2>
+<div id="mw-head">
+<div id="left-navigation">
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+<h3>名前空間</h3>
+<ul><li id="ca-nstab-main" class="selected"><span><a href="#top">ページ</a></span></li></ul>
+</div>
+</div>
+<div id="right-navigation">
+<div id="p-views" role="navigation" class="vectorTabs">
+<h3>表示</h3>
+<ul><li id="ca-view" class="selected"><span><a href="#top">閲覧</a></span></li><li id="ca-orig"><span><a href="https://grimoirewiki.neocities.org/index.php/Wine_Guide.html">英語版</a></span></li></ul>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="index.html" title="メインページ"></a></div>
+<div class="portal" role="navigation" id="p-navigation">
+<h3>案内</h3>
+<div class="body"><ul>
+<li><a href="index.html">メインページ</a></li>
+<li><a href="all.html">記事一覧</a></li>
+<li><a href="../index.html">日本語化パッチ</a></li>
+<li><a href="https://grimoirewiki.neocities.org/index.php/Main_Page.html">元の英語版 Wiki</a></li>
+</ul></div>
+</div>
+<div class="portal" role="navigation" id="p-tb">
+<h3>ツール</h3>
+<div class="body"><ul>
+<li><a href="https://grimoirewiki.neocities.org/index.php/Wine_Guide.html">この記事の英語版</a></li><li><a href="license.html">ライセンス</a></li>
+</ul></div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod">元の記事の最終更新: 2017-08-16</li>
+<li id="footer-info-copyright">Grimoire ファン Wiki の記事の日本語訳です。内容は <a class="external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja">クリエイティブ・コモンズ 表示-非営利-継承</a>（CC BY-NC-SA 4.0）で利用できます。ゲームの用語は日本語化パッチの訳語に合わせました。</li>
+<li>非公式のファン翻訳です。Grimoire: Heralds of the Winged Exemplar &copy; Cleveland Mark Blakemore / Golden Era Enterprise。記事の画像は元の Wiki のものを表示しています。</li>
+</ul>
+<ul id="footer-places">
+<li><a href="license.html">ライセンス</a></li>
+<li><a href="../index.html">日本語化パッチ</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="CC BY-NC-SA 4.0" width="88" height="31"></a></li>
+</ul>
+<div style="clear:both"></div>
+</div>
+</body>
+</html>

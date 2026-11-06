@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>日本語化パッチ &mdash; Grimoire 日本語化</title>
+<meta name="description" content="Grimoire: Heralds of the Winged Exemplar の非公式日本語化パッチと、ファン Wiki の日本語訳。">
+<link rel="stylesheet" href="grimoire.css">
+</head>
+<body>
+<header class="top"><div class="band">
+  <a class="brand" href="index.html">Grimoire 日本語化</a>
+  <nav><a href="index.html" class=here>日本語化パッチ</a><a href="wiki/index.html" class=here>Wiki 翻訳</a><a href="wiki/all.html">記事一覧</a></nav>
+</div></header>
+<main class="band">
+<section class="hero">
+<h1>Grimoire: Heralds of the Winged Exemplar 日本語化パッチ</h1>
+<p class="tag">Steam 版 Grimoire（3.0.0.0-R）を日本語で遊べるようにする、非公式のファンメイドパッチです。
+ゲームのフォルダにファイルを置くだけで日本語になり、消せば英語に戻ります。</p>
+<p><a class="dl" href="https://github.com/higesho/grimoire-ja/releases/latest">ダウンロード（GitHub）</a><a class="dl sub" href="wiki/index.html">Wiki 翻訳を読む</a></p>
+</section>
+<div class="manual">
+<h2>入れ方</h2>
+<ol>
+<li>Steam のライブラリでゲームを右クリックし、「管理」→「ローカルファイルを閲覧」でゲームのフォルダ（Grimoire.exe があるフォルダ）を開きます。</li>
+<li>ダウンロードした zip の中身（<code>version.dll</code>、<code>grimjp.ini</code>、<code>grimjp</code> フォルダ）を、ゲームのフォルダにそのままコピーします。</li>
+<li>ゲームを起動します。初めての起動のときだけ、日本語版のデータ（約 80MB）を <code>grimjp\cache</code> に作ります。数秒かかることがあります。</li>
+</ol>
+<p>元のゲームのファイル（Grimoire.exe や BUNDLE-Z.RSF）は書き換えません。配布物に原作のデータは入っていません。</p>
+<h2>外し方</h2>
+<p>ゲームのフォルダから <code>version.dll</code>、<code>grimjp.ini</code>、<code>grimjp.log</code>、<code>grimjp</code> フォルダを消すと、英語版に戻ります。</p>
+<h2>遊ぶときの注意</h2>
+<ul>
+<li>NPC への質問は、原作どおり英単語で打ち込みます。会話の中では「黒の魔導士（LICH）」のように、尋ねられる英単語を添えています。</li>
+<li>一部の狭い一覧（状態異常・耐性の小さな文字）は、日本語が入りきらないため英語のままです。</li>
+<li>戦闘で出る魔物の名前は、ゲームの文字数の制限に合わせて短くしたものがあります（例：ヴァンガード兵 → 前衛兵）。</li>
+<li>「日本語化データを使えませんでした」と出たときは、ゲームの版が違うかファイルが壊れています。英語のまま起動するので、Steam で「ゲームファイルの整合性を確認」をしてから試してください。</li>
+</ul>
+<h2>画面</h2>
+</div>
+<div class="shots">
+<figure><img src="img/ingame_start_jp.png" alt="ゲームの始まりの画面（日本語化後）" loading="lazy"><figcaption>ゲームの始まり</figcaption></figure><figure><img src="img/ui_charsheet_jp.png" alt="キャラクターの画面の画面（日本語化後）" loading="lazy"><figcaption>キャラクターの画面</figcaption></figure><figure><img src="img/combat_group_name.png" alt="戦闘の画面（日本語化後）" loading="lazy"><figcaption>戦闘</figcaption></figure><figure><img src="img/img_replace_ingame.png" alt="日本語に描き直した画像の画面（日本語化後）" loading="lazy"><figcaption>日本語に描き直した画像</figcaption></figure>
+</div>
+<div class="manual">
+<h2>翻訳について</h2>
+<p>本文の翻訳には AI（Anthropic 社の Claude）を使い、約 3,700 語の用語集で名前や用語を揃えています。
+誤訳や不自然な訳が残っているかもしれません。気づいたことは <a href="https://github.com/higesho/grimoire-ja/issues">GitHub の Issues</a> で教えてください。</p>
+<h2>ライセンス・クレジット</h2>
+<ul>
+<li>小さい文字の表示に美咲フォント（Copyright &copy; 2002-2021 Num Kadoma）を使っています。そのほかの文字は Windows の MS ゴシックで表示します。</li>
+<li>Wiki 翻訳は、Grimoire ファン Wiki の記事の日本語訳で、CC BY-NC-SA 4.0 で公開しています。</li>
+<li>このパッチの使用は自己責任でお願いします。</li>
+</ul>
+</div>
+</main>
+<footer class="foot"><div class="band">
+  <p>非公式のファン翻訳です。Grimoire: Heralds of the Winged Exemplar &copy; Cleveland Mark Blakemore / Golden Era Enterprise。開発元とは関係ありません。</p>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<h3><span class="mw-headline" id="Linux">Linux</span></h3>
+<ol><li>新しいプレフィックスを作る</li></ol>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="nv">WINEARCH</span><span class="o">=</span>win32 <span class="nv">WINEPREFIX</span><span class="o">=</span>/path/to/prefix winecfg
+</pre></div>
+<p>設定のウィンドウが開くので、閉じる。
+</p><p><br />
+</p>
+<ol><li>Grimoire に必要なライブラリを入れる。</li></ol>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span>env <span class="nv">WINEPREFIX</span><span class="o">=</span>/path/to/prefix winetricks directmusic gmdls
+</pre></div>
+<p>エラーには気をつけること。サーバーが見つからないことがあるので、そのときは winetricks が欲しがっているファイルを Google で探してダウンロードし、~/.cache/winetricks/&lt;libraryname&gt; に置いてから、もう一度コマンドを実行してインストールする。
+</p><p><br />
+</p>
+<ol><li>Windows 版の Steam を入れる。</li></ol>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span>env <span class="nv">WINEPREFIX</span><span class="o">=</span>/path/to/prefix winetricks steam
+</pre></div>
+<p>Steam のログイン画面が出るので、設定を済ませて Grimoire をインストールする。あとは 1992 年に戻ったような黄金の輝きに浸るだけだ。
+</p><p>次からは、Steam のパスを指定して wine で起動し、そこから Grimoire を立ち上げる。
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="nv">WINEPREFIX</span><span class="o">=</span>/path/to/prefix wine <span class="s2">&quot;C:\Program Files\Steam\Steam.exe&quot;</span>
+</pre></div>
+<p>本当に気が利く人なら、これを全部やって Grimoire まで起動してくれる bash スクリプトを書いて、デスクトップに置いておくだろう。
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="ch">#!/bin/sh</span>
+<span class="nb">export</span> <span class="nv">WINEPREFIX</span><span class="o">=</span>/path/to/prefix
+<span class="nv">WINE</span><span class="o">=</span>/bin/wine
+<span class="nv">$WINE</span> <span class="s2">&quot;C:\Program Files\Steam\Steam.exe&quot;</span> -applaunch <span class="m">650670</span>
+</pre></div>
+<p>`chmod +x` でスクリプトを実行可能にする。プロパティで実行可能に設定してもよい。
+</p><p><a rel="nofollow" class="external text" href="http://steamcommunity.com/sharedfiles/filedetails/?id=1102734940">Steam のガイド</a>
+</p>
+<h3><span class="mw-headline" id="Mac">Mac</span></h3>
