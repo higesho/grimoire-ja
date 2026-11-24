@@ -91,7 +91,13 @@ static void logf(const char* fmt, ...) {
 // ---------------------------------------------------------------- settings
 static wchar_t g_face[64] = L"MS Gothic";
 static int g_size_adjust = 0;     // added to the computed glyph pixel height
+// 調査用の記録（grimjp.ini の [debug] log / trace_* / collect_ascii など）は試験版（GRIMJP_TEST）でだけ使う。
+// 配布版では 0 の定数にして、記録の処理をまるごと外す。
+#ifdef GRIMJP_TEST
 static int g_debug = 0;
+#else
+enum { g_debug = 0 };
+#endif
 static char g_ini_path[MAX_PATH];
 static int g_small_max = 9;       // fonts with cell height <= this use the 8x8 bitmap font
 static int g_fallback_max = 6;    // fonts with cell height <= this use the English fallback table
@@ -351,9 +357,11 @@ static const std::string* find_fallback(const uint8_t* s, int n) {
 static std::unordered_map<std::string, std::string> g_ui_exact;
 static std::vector<std::pair<std::string, std::string>> g_ui_glob;
 static std::string g_ui_out;
+#ifdef GRIMJP_TEST
 static int g_collect = 0;
 static FILE* g_collect_f;
 static std::unordered_map<std::string, int> g_collected;
+#endif
 
 static std::string unescape(const char* p) {
     std::string o;
@@ -412,6 +420,8 @@ static bool glob(const char* pat, const char* s, const char* e, std::vector<std:
     return s < e && *pat == *s && glob(pat + 1, s + 1, e, caps);
 }
 
+#ifdef GRIMJP_TEST
+// 試験版だけ: 描いた英語だけの文字列を grimjp/collected_ascii.txt に集める（訳し漏れの洗い出し用）
 static void collect(const uint8_t* s, int n) {
     if (!g_collect || n <= 0 || needs_jp(s, n)) return;
     std::string k((const char*)s, (size_t)n);
@@ -428,11 +438,14 @@ static void collect(const uint8_t* s, int n) {
     }
     fputc('\n', g_collect_f); fflush(g_collect_f);
 }
+#endif
 
 // returns replacement for an exe/UI string, or nullptr
 static bool g_ui_off;   // set when the Japanese archive cannot be used: keep the whole game English
 static const std::string* find_ui(const uint8_t* s, int n, bool fastgraph = true) {
+#ifdef GRIMJP_TEST
     collect(s, n);
+#endif
     if (g_ui_off || n <= 0 || (g_ui_exact.empty() && g_ui_glob.empty())) return nullptr;
     if (fastgraph && font_cell_height() <= g_fallback_max) return nullptr;   // tiny 5px lists: keep English
     std::string k((const char*)s, (size_t)n);
@@ -463,12 +476,16 @@ static const std::string* find_ui(const uint8_t* s, int n, bool fastgraph = true
 // boundary. String object: +4 = char*, +0xC = length.
 typedef void*(__fastcall* mid_fn)(void* self, void* edx, void* out, uint32_t a, uint32_t b);
 static mid_fn g_mid_tramp;
-static int g_mid_logged, g_mid_all, g_debug_mid, g_trace_broken;
+static int g_mid_logged;
+#ifdef GRIMJP_TEST
+static int g_mid_all, g_debug_mid, g_trace_broken;
+#endif
 static void* __fastcall hk_mid(void* self, void* edx, void* out, uint32_t a, uint32_t b) {
     __try {
         const uint8_t* s = *(const uint8_t**)((uint8_t*)self + 4);
         uint32_t len = *(uint32_t*)((uint8_t*)self + 0xC);
         uint32_t lo = a < b ? a : b, hi = a < b ? b : a;
+#ifdef GRIMJP_TEST
         if (g_debug_mid && s && g_mid_all < 400) {
             bool hb = false;
             for (uint32_t i = 0; i < len && !hb; i++) hb = s[i] >= 0x80;
@@ -478,6 +495,7 @@ static void* __fastcall hk_mid(void* self, void* edx, void* out, uint32_t a, uin
                      (unsigned)((uintptr_t)_ReturnAddress() - g_base + 0x400000), (int)len, (const char*)s);
             }
         }
+#endif
         if (s && hi < len) {
             uint32_t h0 = hi;
             while (hi > lo && (s[hi] & 0xC0) == 0x80) hi--;
@@ -512,6 +530,8 @@ static bool hook_mid() {
     return true;
 }
 
+#ifdef GRIMJP_TEST
+// 試験版だけ: 壊れた UTF-8 を描こうとした文字列と、呼び出し元を記録に書く
 // log (once per string) the game call stack of a drawn string with a broken UTF-8 sequence
 static std::unordered_map<std::string, int> g_broken_seen;
 static void trace_broken(const uint8_t* s, int n) {
@@ -565,6 +585,7 @@ static void dump_tilde() {
         }
     }
 }
+#endif
 
 // ---------------------------------------------------------------- monster group names
 // 0x5CC050 builds a group name as  group + " " + plural  from the @MONSTERS fields, e.g.
@@ -573,7 +594,11 @@ static void dump_tilde() {
 // "~<group> <name>" (group starting with a non-ASCII character) is reordered to "<name><group>":
 // "~の部隊 前衛兵" -> "前衛兵の部隊". The name ends at the end of the string or at the first
 // byte that is not part of a UTF-8 character (e.g. the cp1252 '×' before a count).
+#ifdef GRIMJP_TEST
 static int g_trace_tilde;
+#else
+enum { g_trace_tilde = 0 };
+#endif
 static std::string g_group_out;
 static int utf8_len(const uint8_t* s, int i, int n) {      // length of a valid UTF-8 character at i, else 0
     uint8_t c = s[i];
@@ -613,8 +638,10 @@ static int dispatch(int h, const uint8_t* s, int n) {
     EnterCriticalSection(&g_cs);
     int r;
     __try {
+#ifdef GRIMJP_TEST
         if (g_trace_broken) trace_broken(s, n);
         if (g_trace_tilde) dump_tilde();
+#endif
         const std::string* grp = fix_group(s, n);
         if (grp) { s = (const uint8_t*)grp->data(); n = (int)grp->size(); }
         const std::string* ui = find_ui(s, n);
@@ -669,6 +696,8 @@ static void set_nearest_color(uint32_t rgb) {
         long d = dr * dr + dg * dg + db * db;
         if (d < bestd) { bestd = d; best = i; }
     }
+#ifdef GRIMJP_TEST
+    // 試験版だけ: パレットの中身を一度だけ記録に書く
     static bool dumped = false;
     if (!dumped) {
         dumped = true;
@@ -676,6 +705,7 @@ static void set_nearest_color(uint32_t rgb) {
         for (int i = 0; i < 256; i++) logf(" %08X", ((const uint32_t*)tab)[i]);
         logf("\n");
     }
+#endif
     uint32_t col = best;
     if (bpp > 16) col = _byteswap_ulong(((const uint32_t*)tab)[best]);
     else if (bpp > 8) col = ((const uint16_t*)tab)[best];
@@ -832,6 +862,8 @@ static void patch_exe_strings(const char* path) {
     logf("exe strings patched: %d ok, %d skipped\n", ok, bad);
 }
 
+#ifdef GRIMJP_TEST
+// 試験版だけ（調査用）: toupper が 0x80 以上の文字をどう変えるかを記録に書く。ゲームの動きには使わない。
 // debug: after the game has set its locale, record what its CRT toupper (0x6312D7) does to
 // bytes >= 0x80 (the game upper-cases names byte by byte with sign extension)
 static DWORD WINAPI toupper_probe(LPVOID) {
@@ -848,6 +880,7 @@ static DWORD WINAPI toupper_probe(LPVOID) {
     logf(" (%d changed)\n", changed);
     return 0;
 }
+#endif
 
 // ---------------------------------------------------------------- monster name length limits
 // 0x5CC050 builds a monster name for display: mode 0 is copied into a fixed buffer of the
@@ -874,6 +907,8 @@ static void patch_name_limits() {
     logf("name limits patched: %d\n", ok);
 }
 
+#ifdef GRIMJP_TEST
+// 試験版だけ: 魔物をすべて識別済みとして名前を出す（画面での確かめ用）
 // debug: make the monster name builder (0x5CC050) treat every monster as identified, so that
 // identified names and group names can be checked on screen early in the game
 static void force_identified() {
@@ -887,6 +922,7 @@ static void force_identified() {
     FlushInstructionCache(GetCurrentProcess(), a, 4);
     logf("force_identified: on\n");
 }
+#endif
 
 // ---------------------------------------------------------------- Japanese archive (drop-in install)
 // The original BUNDLE-Z.RSF is never modified. grimjp/jp_bundle.pat (tools/make_dist.py) holds the
@@ -1118,13 +1154,19 @@ static bool install_hooks() {
     }
     patch_ctype_calls();
     hook_create_file();
+#ifdef GRIMJP_TEST
     g_debug_mid = GetPrivateProfileIntA("debug", "trace_mid", 0, g_ini_path);
     g_trace_broken = GetPrivateProfileIntA("debug", "trace_broken", 0, g_ini_path);
     g_trace_tilde = GetPrivateProfileIntA("debug", "trace_tilde", 0, g_ini_path);
+#endif
     patch_name_limits();
+#ifdef GRIMJP_TEST
     if (GetPrivateProfileIntA("debug", "force_identified", 0, g_ini_path)) force_identified();
+#endif
     hook_mid();
+#ifdef GRIMJP_TEST
     if (GetPrivateProfileIntA("debug", "toupper_probe", 0, g_ini_path)) CreateThread(nullptr, 0, toupper_probe, nullptr, 0, nullptr);
+#endif
     g_wdraw_tramp = (wdraw_fn)g_hooks[H_WDRAW].tramp;
     g_wmeasure_tramp = (wmeasure_fn)g_hooks[H_WMEASURE].tramp;
     logf("hooks installed, image base %08X\n", (unsigned)g_base);
@@ -1142,7 +1184,9 @@ static void load_settings(HMODULE self) {
     wchar_t wini[MAX_PATH]; MultiByteToWideChar(CP_ACP, 0, ini, -1, wini, MAX_PATH);
     GetPrivateProfileStringW(L"font", L"face", L"MS Gothic", g_face, 64, wini);
     g_size_adjust = GetPrivateProfileIntW(L"font", L"size_adjust", 0, wini);
+#ifdef GRIMJP_TEST
     g_debug = GetPrivateProfileIntW(L"debug", L"log", 0, wini);
+#endif
     g_small_max = GetPrivateProfileIntW(L"font", L"small_max_cell", 9, wini);
     if (GetPrivateProfileIntW(L"debug", L"enable_log", 1, wini)) g_log = _fsopen(logp, "w", _SH_DENYNO);
     char smallp[MAX_PATH]; strcpy_s(smallp, logp);
@@ -1155,16 +1199,22 @@ static void load_settings(HMODULE self) {
     load_fallback(fbp);
     char uip[MAX_PATH]; strcpy_s(uip, fbp);
     char* s3 = strrchr(uip, '\\'); if (s3) s3[1] = 0;
+#ifdef GRIMJP_TEST
     char colp[MAX_PATH]; strcpy_s(colp, uip);
+#endif
     strcat_s(uip, "ui_strings.txt");
     load_ui(uip);
     wchar_t wc[16];
     GetPrivateProfileStringW(L"font", L"widget_color", L"C8A0FF", wc, 16, wini);
     g_widget_rgb = wcstoul(wc, nullptr, 16);
     g_widget_index = GetPrivateProfileIntW(L"font", L"widget_color_index", 49, wini);
+#ifdef GRIMJP_TEST
     g_collect = GetPrivateProfileIntW(L"debug", L"collect_ascii", 0, wini);
     if (g_collect) { strcat_s(colp, "collected_ascii.txt"); g_collect_f = _fsopen(colp, "a", _SH_DENYNO); }
     logf("ui strings: %u exact, %u patterns, collect=%d\n", (unsigned)g_ui_exact.size(), (unsigned)g_ui_glob.size(), g_collect);
+#else
+    logf("ui strings: %u exact, %u patterns\n", (unsigned)g_ui_exact.size(), (unsigned)g_ui_glob.size());
+#endif
     logf("grimjp loaded. face=%ls size_adjust=%d small_font=%u glyphs (<= %d px) fallback=%u (<= %d px)\n",
          g_face, g_size_adjust, (unsigned)g_small.size(), g_small_max, (unsigned)g_fallback.size(), g_fallback_max);
 }

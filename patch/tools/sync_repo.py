@@ -18,7 +18,7 @@ import os, shutil, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 
-DLL = ['grimjp.cpp', 'version.def', 'build.bat', 'grimjp.ini', 'ui_strings.txt', 'exe_strings.txt']
+DLL = ['grimjp.cpp', 'grimjp.rc', 'version.def', 'build.bat', 'grimjp.ini', 'ui_strings.txt', 'exe_strings.txt']
 FONTS = ['misaki8.bin', 'misaki_LICENSE.txt']
 TOOLS = ['grimtool.py', 'dbtext.py', 'jptext.py', 'policy.py', 'glossary.py', 'chunks.py', 'build_patch.py',
          'make_images.py', 'make_images_small.py', 'make_flyers.py', 'pixfont.py', 'retitle.py', 'imgtool.py',

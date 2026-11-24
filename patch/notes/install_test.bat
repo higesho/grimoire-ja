@@ -12,7 +12,9 @@ rem the game folder keeps the original archive
 fc /b backup\BUNDLE-Z.RSF.orig ..\BUNDLE-Z.RSF >nul 2>&1 || copy /y backup\BUNDLE-Z.RSF.orig ..\BUNDLE-Z.RSF >nul
 if not exist ..\grimjp mkdir ..\grimjp
 python -I tools\make_dist.py backup\BUNDLE-Z.RSF.orig dist_work\BUNDLE-Z.RSF ..\grimjp\jp_bundle.pat || exit /b 1
-copy /y dll\version.dll ..\ >nul
+rem test DLL (dll\build.bat test): keeps the [debug] trace/collect options of grimjp.ini
+if not exist dll\test\version.dll (echo dll\test\version.dll not found - run dll\build.bat test & exit /b 1)
+copy /y dll\test\version.dll ..\ >nul
 copy /y dll\grimjp.ini ..\ >nul
 copy /y dll\fonts\misaki8.bin ..\grimjp\ >nul
 copy /y dll\fonts\misaki_LICENSE.txt ..\grimjp\ >nul
