@@ -155,8 +155,14 @@ struct Glyph { int w, h; std::vector<uint8_t> bits; };  // rows top->bottom, (w+
 static std::unordered_map<uint64_t, Glyph> g_cache;
 static CRITICAL_SECTION g_cs;
 
+// Private-use characters U+E000.. stand for the characters in g_pua (see school_label).
+// They never match the English fallback table, and are drawn as the character they stand for.
+static uint32_t g_pua[64];
+static int g_pua_n;
+
 // px < 0 : use the 8x8 bitmap font, -px = number of rows to keep (7 or 8)
 static const Glyph& get_glyph(uint32_t cp, int px) {
+    if (cp >= 0xE000 && cp < 0xE000u + (uint32_t)g_pua_n) cp = g_pua[cp - 0xE000];
     uint64_t key = ((uint64_t)(uint32_t)px << 32) | cp;
     auto it = g_cache.find(key);
     if (it != g_cache.end()) return it->second;
@@ -480,7 +486,45 @@ static int g_mid_logged;
 #ifdef GRIMJP_TEST
 static int g_mid_all, g_debug_mid, g_trace_broken;
 #endif
+// Spell-school buttons of the spell selection screen (issue #1).
+// 0x60B786 makes each button's label with Left(5) of the school name (@PAGES) and the
+// button draws it in the 5px font, where the English fallback table applies. Labels that are
+// also resistance names (火炎, 風, 水, 大地, 精神) were then drawn in English.
+// The one-character label made at that call is replaced by a private-use character (same
+// 3 bytes) that stands for the label character, so it is drawn in Japanese.
+// 大地 and 地獄 would both be 地: Earth is shown as 地 and Hell as 獄.
+static const uint32_t SCHOOL_LEFT_RET = 0x60B78B;   // return address of that Left() call
+static void school_label(void* out) {
+    uint8_t* p = *(uint8_t**)((uint8_t*)out + 4);
+    uint32_t n = *(uint32_t*)((uint8_t*)out + 0xC);
+    uint32_t cp;
+    if (!p || n != 3 || utf8_decode(p, 3, &cp) != 3 || (cp >= 0xE000 && cp < 0xF900)) return;
+    void* fr[8];
+    USHORT nf = RtlCaptureStackBackTrace(0, 8, fr, nullptr);
+    bool hit = false;
+    for (USHORT i = 0; i < nf && !hit; i++) hit = (uintptr_t)fr[i] == VA(SCHOOL_LEFT_RET);
+#ifdef GRIMJP_TEST
+    if (g_debug_mid) {
+        logf("school? hit=%d '%.3s' stack:", hit, (const char*)p);
+        for (USHORT i = 0; i < nf; i++) logf(" %08X", (unsigned)((uintptr_t)fr[i] - g_base + 0x400000));
+        logf("\n");
+    }
+#endif
+    if (!hit) return;
+    if (cp == 0x5927) cp = 0x5730;        // 大(地) -> 地
+    else if (cp == 0x5730) cp = 0x7344;   // 地(獄) -> 獄
+    int k = 0;
+    while (k < g_pua_n && g_pua[k] != cp) k++;
+    if (k == g_pua_n) {
+        if (g_pua_n >= 64) return;
+        g_pua[g_pua_n++] = cp;
+    }
+    uint32_t u = 0xE000 + (uint32_t)k;
+    p[0] = 0xEE; p[1] = (uint8_t)(0x80 | ((u >> 6) & 0x3F)); p[2] = (uint8_t)(0x80 | (u & 0x3F));
+}
+
 static void* __fastcall hk_mid(void* self, void* edx, void* out, uint32_t a, uint32_t b) {
+    bool school = false;
     __try {
         const uint8_t* s = *(const uint8_t**)((uint8_t*)self + 4);
         uint32_t len = *(uint32_t*)((uint8_t*)self + 0xC);
@@ -508,8 +552,15 @@ static void* __fastcall hk_mid(void* self, void* edx, void* out, uint32_t a, uin
                 a = lo; b = hi;
             }
         }
+        school = s && lo == 0 && len > 0 && s[0] >= 0x80;   // Japanese text cut from the start
     } __except (EXCEPTION_EXECUTE_HANDLER) {}
-    return g_mid_tramp(self, edx, out, a, b);
+    void* r = g_mid_tramp(self, edx, out, a, b);
+    if (school) {
+        EnterCriticalSection(&g_cs);
+        __try { school_label(out); } __except (EXCEPTION_EXECUTE_HANDLER) {}
+        LeaveCriticalSection(&g_cs);
+    }
+    return r;
 }
 
 static bool hook_mid() {
@@ -559,6 +610,22 @@ static void trace_broken(const uint8_t* s, int n) {
         if (a >= lo && a < hi) logf(" %08X", (unsigned)(a - g_base + 0x400000));
     }
     logf("\n");
+}
+
+// 試験版だけ: 英語に戻した文字列と、ゲーム側の呼び出し元を記録に書く（grimjp.ini の [debug] trace_fallback=1）
+static int g_trace_fallback;
+static std::unordered_map<std::string, int> g_fb_seen;
+static void trace_fallback(const uint8_t* s, int n, const std::string& en) {
+    void* fr[24]; USHORT nf = RtlCaptureStackBackTrace(0, 24, fr, nullptr);
+    std::string key((const char*)s, (size_t)n);
+    uintptr_t lo = g_base, hi = g_base + 0x2C8000;
+    for (USHORT i = 0; i < nf; i++) {
+        uintptr_t a = (uintptr_t)fr[i];
+        if (a >= lo && a < hi) { char b[16]; sprintf_s(b, " %08X", (unsigned)(a - g_base + 0x400000)); key += b; }
+    }
+    if (g_fb_seen.count(key) || g_fb_seen.size() > 500) return;
+    g_fb_seen[key] = 1;
+    logf("fallback font=%d '%.*s' -> '%s' stack:%s\n", FONT_ID, n, (const char*)s, en.c_str(), key.c_str() + n);
 }
 
 // debug: draw each font's glyph for '~' (0x7E) into the log, once per font id
@@ -647,6 +714,9 @@ static int dispatch(int h, const uint8_t* s, int n) {
         const std::string* ui = find_ui(s, n);
         if (ui) { s = (const uint8_t*)ui->data(); n = (int)ui->size(); }
         const std::string* fb = find_fallback(s, n);
+#ifdef GRIMJP_TEST
+        if (fb && g_trace_fallback && (h == H_PRINT_A || h == H_PRINT_B)) trace_fallback(s, n, *fb);
+#endif
         if (fb) r = g_hooks[h].tramp((const uint8_t*)fb->data(), (int)fb->size());
         else if (prepare(s, n)) r = call_swapped(g_hooks[h].tramp);
         else r = g_hooks[h].tramp(s, n);
@@ -1158,6 +1228,7 @@ static bool install_hooks() {
     g_debug_mid = GetPrivateProfileIntA("debug", "trace_mid", 0, g_ini_path);
     g_trace_broken = GetPrivateProfileIntA("debug", "trace_broken", 0, g_ini_path);
     g_trace_tilde = GetPrivateProfileIntA("debug", "trace_tilde", 0, g_ini_path);
+    g_trace_fallback = GetPrivateProfileIntA("debug", "trace_fallback", 0, g_ini_path);
 #endif
     patch_name_limits();
 #ifdef GRIMJP_TEST

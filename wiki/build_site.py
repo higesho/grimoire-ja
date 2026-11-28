@@ -61,10 +61,8 @@ def page(title, desc, body, here, depth, extra_class=''):
 <link rel="stylesheet" href="{up}grimoire.css">
 </head>
 <body>
-<header class="top"><div class="band">
-  <a class="brand" href="{up}index.html">Grimoire 日本語化</a>
-  <nav>{links}</nav>
-</div></header>
+<header class="jpn" id="jpn"><div class="jpn-band"><a class="jpn-home" href="https://higesho.github.io/ja/">日本語化プロジェクト</a></div></header>
+<script src="https://higesho.github.io/ja/nav.js"></script>
 <main class="band{extra_class}">
 {body}
 </main>
@@ -93,6 +91,8 @@ def wiki_page(title, en, body, edited='', orig=''):
 <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
 </head>
 <body class="mediawiki ltr sitedir-ltr ns-0 ns-subject skin-vector action-view">
+<header class="jpn" id="jpn"><div class="jpn-band"><a class="jpn-home" href="https://higesho.github.io/ja/">日本語化プロジェクト</a></div></header>
+<script src="https://higesho.github.io/ja/nav.js"></script>
 <div id="mw-page-base" class="noprint"></div>
 <div id="mw-head-base" class="noprint"></div>
 <div id="content" class="mw-body" role="main">
@@ -273,6 +273,7 @@ def top_page(repo):
 <div class="manual">
 <h2>更新履歴</h2>
 <ul>
+<li>v1.2（2026-11-29）: 呪文選択画面の系統ボタンで、火・風・水・地・精の5つが英語で出ていたのを直しました（Issue #1）。ボタンの1文字が重ならないよう、大地は「地」、地獄は「獄」と表示します。</li>
 <li>v1.1（2026-11-24）: ウイルス対策ソフトに誤検知されにくいよう、配布版に不要だった試験用のコードを外し、DLL にバージョン情報を入れました。訳文は前の版と同じです。</li>
 <li>v1.0（2026-11-06）: 最初の版</li>
 </ul>
